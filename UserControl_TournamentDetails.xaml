@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="PoolCreator.UserControl_TournamentDetails"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PoolCreator"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.ColumnSpan="3" Content="File Settings" HorizontalAlignment="Stretch" Background="LightSteelBlue" HorizontalContentAlignment="Center"/>
+        <Label Grid.Row="1" Content="Pool Creator Save File:"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Name="SaveFilenameTextBox" Text="{Binding SaveFilename}" VerticalContentAlignment="Center"/>
+        <Button Grid.Row="1" Grid.Column="2" Content="Browse"/>
+
+        <Grid Grid.Row="2" Grid.ColumnSpan="3" Background="Gray" Margin="0, 3, 0, 3"/>
+
+        <Label Grid.Row="3" Grid.ColumnSpan="3" Content="Tournament Details" HorizontalAlignment="Stretch" Background="LightSteelBlue" HorizontalContentAlignment="Center"/>
+
+        <Grid Grid.Row="4" Grid.ColumnSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.RowSpan="2" Name="TournamentDetailsGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Content="Tournament Name"/>
+                <TextBox Grid.Column="1" Text="{Binding TournamentName, UpdateSourceTrigger=PropertyChanged}" VerticalContentAlignment="Center"/>
+                <Label Grid.Row="1" Content="Subtitle (Tournament Location)"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding TournamentSubtitle, UpdateSourceTrigger=PropertyChanged}" VerticalContentAlignment="Center"/>
+            </Grid>
+
+            <local:UserControl_DivisionDetails Grid.Row="2" x:Name="WomenDetails" Margin="0, 0, 5, 0" DivisionName="Women"/>
+            <local:UserControl_DivisionDetails Grid.Column="1" x:Name="OpenDetails" Margin="0, 0, 0, 5" DivisionName="Open"/>
+            <local:UserControl_DivisionDetails Grid.Row="1" Grid.Column="1" x:Name="MixedDetails" Margin="0, 0, 0, 5" DivisionName="Mixed"/>
+            <local:UserControl_DivisionDetails Grid.Row="2" Grid.Column="1" x:Name="CoopDetails" DivisionName="Coop"/>
+        </Grid>
+    </Grid>
+</UserControl>

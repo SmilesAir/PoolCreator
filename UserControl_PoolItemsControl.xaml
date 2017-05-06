@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="PoolCreator.UserControl_PoolItemsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PoolCreator"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <Grid Margin="5,5,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border BorderThickness="1,1,1,1" BorderBrush="Gray">
+            <Label Name="PoolNameLabel" Content="Pool Name" HorizontalContentAlignment="Center" Background="LightSteelBlue"/>
+        </Border>
+
+        <Border Grid.Row="1" BorderThickness="1,0,1,1" BorderBrush="Gray">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <ItemsControl Name="PoolItemsControl" Background="LightBlue" ItemsSource="{Binding}" HorizontalContentAlignment="Stretch" MouseEnter="PoolItemsControl_MouseEnter" MouseLeave="PoolItemsControl_MouseLeave" MouseMove="PoolItemsControl_MouseMove" PreviewMouseLeftButtonUp="PoolItemsControl_PreviewMouseLeftButtonUp">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Border Margin="2" BorderThickness="1" BorderBrush="{Binding BorderColor}" CornerRadius="3" MouseLeftButtonDown="PoolItemsControl_MouseLeftButtonDown" Tag="{Binding}">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Content="{Binding PlayerNames}" Foreground="{Binding TextColor}"/>
+                                        <Label Grid.Column="1" Content="{Binding TeamRankingPoints}" Foreground="{Binding TextColor}"/>
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+
+                <ItemsControl Grid.Column="1" Name="PoolRankItemsControl" Background="LightBlue" ItemsSource="{Binding}" HorizontalContentAlignment="Stretch">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Border Margin="2" BorderThickness="1">
+                                    <Label Content="{Binding}"/>
+                                </Border>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="Pick Rank" Background="LightCyan" Click="PickRank_Click"/>
+            <Button Grid.Column="1" Content="Clear Rank" Background="LightCyan" Click="ClearRank_Click"/>
+            <Button Grid.Column="2" Content="Clear Teams" Background="LightCyan" Click="ClearTeams_Click"/>
+        </Grid>
+    </Grid>
+</UserControl>

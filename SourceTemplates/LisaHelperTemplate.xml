@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TournamentRootData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AllDivisions>
+    <DivisionData>
+      <Rounds>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+      </Rounds>
+    </DivisionData>
+    <DivisionData>
+      <Rounds>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+      </Rounds>
+    </DivisionData>
+    <DivisionData>
+      <Rounds>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+      </Rounds>
+    </DivisionData>
+    <DivisionData>
+      <Rounds>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+        <RoundData>
+          <Pools />
+          <RoutineLengthMinutes>4</RoutineLengthMinutes>
+        </RoundData>
+      </Rounds>
+    </DivisionData>
+  </AllDivisions>
+</TournamentRootData>

@@ -1,0 +1,99 @@
+﻿<UserControl x:Class="PoolCreator.UserControl_JudgeInventory"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PoolCreator"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+    <Grid Name="TopLevelGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Step 1 - Judge Roster" HorizontalAlignment="Stretch" Background="LightSteelBlue" HorizontalContentAlignment="Center"/>
+        <ComboBox Grid.Row="1" Name="DivisionComboBox" SelectedItem="{Binding SelectedDivision}"/>
+        <ComboBox Grid.Row="2" Name="RoundComboBox" SelectedItem="{Binding SelectedRound}"/>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Filter:"/>
+            <TextBox Grid.Column="1" AcceptsReturn="False" Text="{Binding FilterText, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+
+        <ScrollViewer Grid.Row="5" VerticalScrollBarVisibility="Auto">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Background="LightGray">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width=".75*"/>
+                        <ColumnDefinition Width=".75*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width=".75*"/>
+                        <ColumnDefinition Width="120"/>
+                        <ColumnDefinition Width="120"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Judge Name" Background="LightBlue" HorizontalAlignment="Stretch" Margin="0,0,4,0" />
+                    <Label Grid.Column="1" Content="#" Background="LightBlue" HorizontalAlignment="Stretch" Margin="0,0,4,0" HorizontalContentAlignment="Center"/>
+                    <Label Grid.Column="2" Content="Rank" Background="LightBlue" HorizontalAlignment="Stretch" Margin="0,0,4,0" HorizontalContentAlignment="Center"/>
+                    <Label Grid.Column="3" Content="Compete in" Background="LightBlue" HorizontalAlignment="Stretch" Margin="0,0,4,0" HorizontalContentAlignment="Center"/>
+                    <Label Grid.Column="4" Content="Country" Background="LightBlue" HorizontalAlignment="Stretch" Margin="0,0,4,0" HorizontalContentAlignment="Center"/>
+                    <Label Grid.Column="5" Content="Judge Pool 1" Background="LightBlue" HorizontalAlignment="Stretch" Margin="0,0,4,0" HorizontalContentAlignment="Center"/>
+                    <Label Grid.Column="6" Content="Judge Pool 2" Background="LightBlue" HorizontalAlignment="Stretch" Margin="0,0,4,0" HorizontalContentAlignment="Center"/>
+                </Grid>
+                
+                <ItemsControl Grid.Row="1" ItemsSource="{Binding JudgeInventoryItems}" HorizontalContentAlignment="Stretch">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Border Margin="2" BorderThickness="1" BorderBrush="{Binding BorderColor}">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="2*"/>
+                                            <ColumnDefinition Width=".75*"/>
+                                            <ColumnDefinition Width=".75*"/>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width=".75*"/>
+                                            <ColumnDefinition Width="40"/>
+                                            <ColumnDefinition Width="40"/>
+                                            <ColumnDefinition Width="40"/>
+                                            <ColumnDefinition Width="40"/>
+                                            <ColumnDefinition Width="40"/>
+                                            <ColumnDefinition Width="40"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Label Content="{Binding PlayerName}"/>
+                                        <Label Grid.Column="1" Content="{Binding TimesJudged}" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"/>
+                                        <Label Grid.Column="2" Content="{Binding Rank}" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"/>
+                                        <Label Grid.Column="3" Content="{Binding TimeToNextCompete}" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"/>
+                                        <Label Grid.Column="4" Content="{Binding CountryOfOrigin}" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"/>
+
+                                        <Button Grid.Column="5" Content="Ex" IsEnabled="{Binding ButtonAEnabled}" Tag="{Binding}" Click="AddJudgePool1_Click"/>
+                                        <Button Grid.Column="6" Content="Ai" IsEnabled="{Binding ButtonAEnabled}" Tag="{Binding}" Click="AddJudgePool1_Click"/>
+                                        <Button Grid.Column="7" Content="Diff" IsEnabled="{Binding ButtonAEnabled}" Tag="{Binding}" Margin="0,0,2,0" Click="AddJudgePool1_Click"/>
+                                        <Button Grid.Column="8" Content="Ex" IsEnabled="{Binding ButtonBEnabled}" Tag="{Binding}" Margin="2,0,0,0" Click="AddJudgePool2_Click"/>
+                                        <Button Grid.Column="9" Content="Ai" IsEnabled="{Binding ButtonBEnabled}" Tag="{Binding}" Click="AddJudgePool2_Click"/>
+                                        <Button Grid.Column="10" Content="Diff" IsEnabled="{Binding ButtonBEnabled}" Tag="{Binding}" Click="AddJudgePool2_Click"/>
+                                    </Grid>
+                                </Border>
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</UserControl>
