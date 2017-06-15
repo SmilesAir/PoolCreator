@@ -746,6 +746,8 @@
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
                         <Grid>
@@ -781,6 +783,19 @@
                             <Label Content="Step 3b - Export to Ryan Young's Electronic Judging" HorizontalAlignment="Stretch" Background="PaleTurquoise" HorizontalContentAlignment="Center"/>
 
                             <Button Grid.Row="1" Content="Export" Click="ExportToLisaHelper_Click"/>
+                        </Grid>
+
+                        <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch" Background="Gainsboro"/>
+
+                        <Grid Grid.Column="4">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Content="Step 3c - Export to Ryan Young's Potlatch Judging" HorizontalAlignment="Stretch" Background="PaleTurquoise" HorizontalContentAlignment="Center"/>
+
+                            <Button Grid.Row="1" Content="Export" Click="ExportToPotlatch_Click"/>
                         </Grid>
                     </Grid>
 

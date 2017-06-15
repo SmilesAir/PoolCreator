@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
+using System.Text;
 using System.Windows;
 using System.Windows.Threading;
 using System.Xml.Serialization;
@@ -24,7 +25,7 @@ namespace PoolCreator
 				OnPropertyChanged("ExportOutputTextBox");
 			}
 		}
-		
+
 		public string ExportPath
 		{
 			get { return tournamentData.exportPath; }
@@ -34,7 +35,7 @@ namespace PoolCreator
 				OnPropertyChanged("ExportPath");
 			}
 		}
-		
+
 		public string ExcelTemplatePath
 		{
 			get { return tournamentData.excelTemplatePath; }
@@ -166,7 +167,7 @@ namespace PoolCreator
 		{
 			excelApp.Quit();
 		}
-		
+
 		private void ExportExcel_Click(object sender, RoutedEventArgs e)
 		{
 			ExportOutputTextBox = "";
@@ -184,7 +185,7 @@ namespace PoolCreator
 		private void ExportExcelAll()
 		{
 			InvokeAppendOutputLine("Starting Export");
-			
+
 			for (int divisionIndex = 0; divisionIndex < 4; ++divisionIndex)
 			{
 				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.A));
@@ -299,7 +300,7 @@ namespace PoolCreator
 			settingsSheet.Cells[3, 2] = tournamentData.TournamentName;
 			settingsSheet.Cells[4, 2] = tournamentData.TournamentSubtitle;
 		}
-		
+
 		private void BrowseExportPath_Click(object sender, RoutedEventArgs e)
 		{
 			var dialog = new System.Windows.Forms.FolderBrowserDialog();
@@ -317,34 +318,58 @@ namespace PoolCreator
 				ExcelTemplatePath = dialog.FileName;
 			}
 		}
-		
+
+		private LisaHelperClasses.NameDatabase FillImportedNamesForExport()
+		{
+			LisaHelperClasses.NameDatabase newDatabase = new LisaHelperClasses.NameDatabase(tournamentData);
+
+			TournamentData.importedNames.Clear();
+
+			foreach (LisaHelperClasses.NameData nd in newDatabase.AllNames)
+			{
+				TournamentData.importedNames.Add(new ImportedName(nd.Id, nd.FirstName, nd.LastName));
+			}
+
+			return newDatabase;
+		}
+
 		private void ExportToLisaHelper_Click(object sender, RoutedEventArgs e)
 		{
 			try
 			{
-				string namesXmlFilename = ExportPath + @"\names.xml";
-				if (TryImportNames(namesXmlFilename))
+				XmlSerializer namesSerializer = new XmlSerializer(typeof(LisaHelperClasses.NameDatabase));
+				using (StringWriter newString = new StringWriter())
 				{
-					XmlSerializer serializer = new XmlSerializer(typeof(LisaHelperClasses.TournamentRootData));
-					using (StringWriter newString = new StringWriter())
+					LisaHelperClasses.NameDatabase nameDatabase = FillImportedNamesForExport();
+
+					namesSerializer.Serialize(newString, nameDatabase);
+
+					string outXml = newString.ToString();
+
+					using (StreamWriter saveFile = new StreamWriter(ExportPath + @"\names.xml",
+						false, System.Text.Encoding.Unicode))
 					{
-						LisaHelperClasses.TournamentRootData testData = new LisaHelperClasses.TournamentRootData(tournamentData);
-
-						serializer.Serialize(newString, testData);
-
-						string outXml = newString.ToString();
-
-						using (StreamWriter saveFile = new StreamWriter(ExportPath + @"\save.xml",
-							false, System.Text.Encoding.Unicode))
-						{
-							saveFile.Write(outXml);
-						}
+						saveFile.Write(outXml);
 					}
 				}
-				else
+
+				XmlSerializer saveSerializer = new XmlSerializer(typeof(LisaHelperClasses.TournamentRootData));
+				using (StringWriter newString = new StringWriter())
 				{
-					InvokeAppendOutputLine("Failed to Import Names: " + namesXmlFilename);
+					LisaHelperClasses.TournamentRootData testData = new LisaHelperClasses.TournamentRootData(tournamentData);
+
+					saveSerializer.Serialize(newString, testData);
+
+					string outXml = newString.ToString();
+
+					using (StreamWriter saveFile = new StreamWriter(ExportPath + @"\save.xml",
+						false, System.Text.Encoding.Unicode))
+					{
+						saveFile.Write(outXml);
+					}
 				}
+
+				InvokeAppendOutputLine("Finished Exporting to Lisa Helper");
 			}
 			catch (Exception exception)
 			{
@@ -352,15 +377,35 @@ namespace PoolCreator
 			}
 		}
 
-		//private void FillPoolData(out LisaHelperClasses.TemplatePools outPools, RoundData roundData)
-		//{
-		//	outPools = new LisaHelperClasses.TemplatePools();
+		private void ExportToPotlatch_Click(object sender, RoutedEventArgs e)
+		{
+			string saveFilename = ExportPath + @"\PotlatchJudgerNames.txt";
+			try
+			{
+				using (StreamWriter saveFile = new StreamWriter(saveFilename))
+				{
+					ExportPotlatchPool(saveFile, new PoolKey(EDivision.Coop, ERound.Finals, EPool.A));
+				}
+			}
+			catch (Exception exception)
+			{
+				InvokeAppendOutputLine("Error Exporting to Potlatch Judger: " + exception.Message);
+			}
+		}
 
-		//	foreach (PoolData pd in roundData.pools)
-		//	{
-		//		LisaHelperClasses.PoolData newPoolData = new LisaHelperClasses.PoolData();
-		//		outPools.Pools
-		//}
+		private void ExportPotlatchPool(StreamWriter stream, PoolKey poolKey)
+		{
+			stream.WriteLine("Division: " + poolKey.division + " Round: " + poolKey.round + " Pool: " + poolKey.pool);
+
+			PoolData pd = tournamentData.GetPool(poolKey);
+			for (int teamIndex = 0; teamIndex < 10 && teamIndex < pd.teamList.teams.Count; ++teamIndex)
+			{
+				TeamData td = pd.teamList.teams[teamIndex];
+				stream.WriteLine(td.PlayerNames);
+			}
+
+			stream.WriteLine();
+		}
 	}
 }
 
@@ -522,11 +567,14 @@ namespace LisaHelperClasses
 	public class RoundData
 	{
 		public List<PoolData> Pools = new List<PoolData>();
+		public float RoutineLengthMinutes = 4f;
 
 		public RoundData() { }
 
 		public RoundData(List<JudgeData> judgeList, PoolCreator.PoolKey poolKey, PoolCreator.RoundData roundData)
 		{
+			RoutineLengthMinutes = roundData.routineLength;
+
 			foreach (PoolCreator.PoolData pd in roundData.pools)
 			{
 				Pools.Add(new PoolData(judgeList, poolKey, pd));
@@ -609,6 +657,77 @@ namespace LisaHelperClasses
 			{
 				AllDivisions.Add(new DivisionData(JudgeList, dd));
 			}
+		}
+	}
+
+	public class NameData
+	{
+		public int Id = -1;
+		public string FirstName;
+		public string LastName;
+		public List<string> FirstAliases = new List<string>();
+		public List<string> LastAliases = new List<string>();
+
+		public NameData()
+		{
+			FirstName = "None";
+			LastName = "None";
+
+			Id = NameDatabase.GetNextNameId();
+		}
+
+		public NameData(string InFirstName, string InLastName)
+		{
+			FirstName = InFirstName;
+			if (FirstName.Length > 0)
+			{
+				StringBuilder FormattedFirstName = new StringBuilder();
+				FormattedFirstName.Append(FirstName.Substring(0, 1).ToUpper());
+				FormattedFirstName.Append(FirstName.Substring(1).ToLower());
+				FirstName = FormattedFirstName.ToString();
+			}
+			LastName = InLastName;
+			if (LastName.Length > 0)
+			{
+				StringBuilder FormattedLastName = new StringBuilder();
+				FormattedLastName.Append(LastName.Substring(0, 1).ToUpper());
+				FormattedLastName.Append(LastName.Substring(1).ToLower());
+				LastName = FormattedLastName.ToString();
+			}
+
+			FirstAliases.Add(InFirstName);
+			LastAliases.Add(InLastName);
+
+			Id = NameDatabase.GetNextNameId();
+		}
+	}
+
+	public class NameDatabase
+	{
+		public List<NameData> AllNames = new List<NameData>();
+
+		public List<NameData> AllJudges = new List<NameData>();
+
+		private static int NextNameId = 0;
+
+		public NameDatabase()
+		{
+			NextNameId = 0;
+		}
+
+		public NameDatabase(PoolCreator.TournamentData tournamentData)
+		{
+			NextNameId = 0;
+
+			foreach (PoolCreator.RegisteredPlayer rp in tournamentData.registeredPlayers)
+			{
+				AllNames.Add(new NameData(rp.firstName, rp.lastName));
+			}
+		}
+
+		public static int GetNextNameId()
+		{
+			return NextNameId++;
 		}
 	}
 }

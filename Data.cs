@@ -238,7 +238,18 @@ namespace PoolCreator
 		public int Id;
 		public string FirstName;
 		public string LastName;
-	};
+
+        public ImportedName()
+        {
+        }
+
+        public ImportedName(int inId, string inFirstName, string inLastName)
+        {
+            Id = inId;
+            FirstName = inFirstName;
+            LastName = inLastName;
+        }
+    };
 
 	[XmlRoot("TournamentData")]
 	public class TournamentData
@@ -515,9 +526,9 @@ namespace PoolCreator
 
 		public void CreateData()
 		{
-			rounds.Add(new RoundData(division, ERound.Quarterfinals));
-			rounds.Add(new RoundData(division, ERound.Semifinals));
 			rounds.Add(new RoundData(division, ERound.Finals));
+			rounds.Add(new RoundData(division, ERound.Semifinals));
+			rounds.Add(new RoundData(division, ERound.Quarterfinals));
 
 			foreach (RoundData rd in rounds)
 			{
