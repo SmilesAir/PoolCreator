@@ -1949,7 +1949,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
           <round>Semifinals</round>
@@ -2136,7 +2135,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
           <round>Quarterfinals</round>
@@ -2367,7 +2365,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
           <round>Max</round>
@@ -2580,7 +2577,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
       </rounds>
     </DivisionData>
@@ -3003,7 +2999,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>6</maxTeams>
         </RoundData>
         <RoundData>
           <round>Semifinals</round>
@@ -3202,7 +3197,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
           <round>Quarterfinals</round>
@@ -3210,7 +3204,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
           <round>Max</round>
@@ -3218,7 +3211,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
       </rounds>
     </DivisionData>
@@ -3717,7 +3709,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>6</maxTeams>
         </RoundData>
         <RoundData>
           <round>Semifinals</round>
@@ -3908,7 +3899,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
           <round>Quarterfinals</round>
@@ -3916,7 +3906,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
           <round>Max</round>
@@ -3924,7 +3913,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
       </rounds>
     </DivisionData>
@@ -4183,7 +4171,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>6</maxTeams>
         </RoundData>
         <RoundData>
           <round>Semifinals</round>
@@ -4281,7 +4268,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
           <round>Quarterfinals</round>
@@ -4289,7 +4275,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
           <round>Max</round>
@@ -4297,7 +4282,6 @@
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
           <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
         </RoundData>
       </rounds>
     </DivisionData>
