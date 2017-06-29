@@ -245,7 +245,7 @@ namespace PoolCreator
 					TeamData td = pd.teamList.teams[teamIndex];
 					for (int playerIndex = 0; playerIndex < 3 && playerIndex < td.players.Count; ++playerIndex)
 					{
-						starterSheet.Cells[13 + teamIndex, 2 + playerIndex] = td.players[playerIndex].FullName;
+						starterSheet.Cells[13 + teamIndex, 2 + 2 * playerIndex] = td.players[playerIndex].FullName;
 					}
 				}
 			}
@@ -259,17 +259,17 @@ namespace PoolCreator
 			{
 				for (int exIndex = 0; exIndex < 3 && exIndex < pd.judgesData.judgesEx.Count; ++exIndex)
 				{
-					starterSheet.Cells[14 + exIndex, 7] = pd.judgesData.judgesEx[exIndex].FullName;
+					starterSheet.Cells[13 + exIndex, 10] = pd.judgesData.judgesEx[exIndex].FullName;
 				}
 
 				for (int aiIndex = 0; aiIndex < 3 && aiIndex < pd.judgesData.judgesAi.Count; ++aiIndex)
 				{
-					starterSheet.Cells[17 + aiIndex, 7] = pd.judgesData.judgesAi[aiIndex].FullName;
+					starterSheet.Cells[16 + aiIndex, 10] = pd.judgesData.judgesAi[aiIndex].FullName;
 				}
 
 				for (int diffIndex = 0; diffIndex < 3 && diffIndex < pd.judgesData.judgesDiff.Count; ++diffIndex)
 				{
-					starterSheet.Cells[20 + diffIndex, 7] = pd.judgesData.judgesDiff[diffIndex].FullName;
+					starterSheet.Cells[19 + diffIndex, 10] = pd.judgesData.judgesDiff[diffIndex].FullName;
 				}
 			}
 		}
@@ -282,15 +282,15 @@ namespace PoolCreator
 			if (dd != null && rd != null && starterSheet != null)
 			{
 				starterSheet.Cells[4, 2] = poolKey.division.ToString();
-				starterSheet.Cells[4, 3] = poolKey.round.ToString();
-				starterSheet.Cells[4, 4] = poolKey.pool.ToString();
+				starterSheet.Cells[4, 4] = poolKey.round.ToString();
+				starterSheet.Cells[4, 6] = poolKey.pool.ToString();
 
-				starterSheet.Cells[3, 7] = rd.scheduleTime.ToShortDateString();
-				starterSheet.Cells[4, 7] = rd.scheduleTime.ToShortTimeString();
-				starterSheet.Cells[5, 7] = rd.routineLength;
-				starterSheet.Cells[6, 7] = dd.headJudge;
-				starterSheet.Cells[7, 7] = dd.directors;
-				starterSheet.Range["G9:G10"].Value = dd.committee;
+				starterSheet.Cells[3, 10] = rd.scheduleTime.ToShortDateString();
+				starterSheet.Cells[4, 10] = rd.scheduleTime.ToShortTimeString();
+				starterSheet.Cells[5, 10] = rd.routineLength;
+				starterSheet.Cells[6, 10] = dd.headJudge;
+				starterSheet.Cells[7, 10] = dd.directors;
+				starterSheet.Range["J9:J10"].Value = dd.committee;
 			}
 		}
 

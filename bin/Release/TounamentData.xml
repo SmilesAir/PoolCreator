@@ -1058,7 +1058,7 @@
           </pools>
           <scheduleTime>2017-03-12T09:00:17.959-07:00</scheduleTime>
           <routineLength>3</routineLength>
-          <shouldExport>true</shouldExport>
+          <shouldExport>false</shouldExport>
           <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
@@ -1570,8 +1570,8 @@
             </PoolData>
           </pools>
           <scheduleTime>2017-03-11T08:00:45.672-08:00</scheduleTime>
-          <routineLength>2.5</routineLength>
-          <shouldExport>false</shouldExport>
+          <routineLength>3</routineLength>
+          <shouldExport>true</shouldExport>
           <maxTeams>8</maxTeams>
         </RoundData>
       </rounds>
@@ -1936,6 +1936,6 @@
   </divisions>
   <TournamentName>Jam Canaria</TournamentName>
   <TournamentSubtitle>Las Palmas, ES</TournamentSubtitle>
-  <exportPath>C:\Users\ryan\AppData\LocalLow\Smiles\FPA Helper</exportPath>
-  <excelTemplatePath>C:\Users\Ryan\Desktop\PoolCreator\Export\Scoresheets_2.10.xlsm</excelTemplatePath>
+  <exportPath>C:\Users\Ryan\Desktop\PoolCreator\Export</exportPath>
+  <excelTemplatePath>C:\Users\Ryan\Desktop\PoolCreator\Export\DM2017-Scoresheets.xlsm</excelTemplatePath>
 </TournamentData>
