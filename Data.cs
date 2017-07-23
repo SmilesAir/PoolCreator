@@ -114,9 +114,13 @@ namespace PoolCreator
 		{
 			switch (roundDisplay)
 			{
-				case ERoundJudgeDisplay.QuaterfinalsAC:
+				case ERoundJudgeDisplay.PrelimsAC:
+					return ERound.Prelims;
+				case ERoundJudgeDisplay.PrelimsBD:
+					return ERound.Prelims;
+				case ERoundJudgeDisplay.QuarterfinalsAC:
 					return ERound.Quarterfinals;
-				case ERoundJudgeDisplay.QuaterfinalsBD:
+				case ERoundJudgeDisplay.QuarterfinalsBD:
 					return ERound.Quarterfinals;
 				case ERoundJudgeDisplay.Semifinals:
 					return ERound.Semifinals;
@@ -137,11 +141,19 @@ namespace PoolCreator
 			{
 				return controlIndex == 0 ? EPool.A : EPool.B;
 			}
-			else if (round == ERoundJudgeDisplay.QuaterfinalsAC)
+			else if (round == ERoundJudgeDisplay.QuarterfinalsAC)
 			{
 				return controlIndex == 0 ? EPool.A : EPool.C;
 			}
-			else if (round == ERoundJudgeDisplay.QuaterfinalsBD)
+			else if (round == ERoundJudgeDisplay.QuarterfinalsBD)
+			{
+				return controlIndex == 0 ? EPool.B : EPool.D;
+			}
+			else if (round == ERoundJudgeDisplay.PrelimsAC)
+			{
+				return controlIndex == 0 ? EPool.A : EPool.C;
+			}
+			else if (round == ERoundJudgeDisplay.PrelimsBD)
 			{
 				return controlIndex == 0 ? EPool.B : EPool.D;
 			}
@@ -192,6 +204,7 @@ namespace PoolCreator
 		Finals,
 		Semifinals,
 		Quarterfinals,
+		Prelims,
 		Max,
 		None
 	}
@@ -200,7 +213,8 @@ namespace PoolCreator
 	{
 		Finals,
 		Semifinals,
-		Quaterfinals,
+		Quarterfinals,
+		Prelims,
 		None
 	}
 
@@ -208,8 +222,10 @@ namespace PoolCreator
 	{
 		Finals,
 		Semifinals,
-		QuaterfinalsAC,
-		QuaterfinalsBD,
+		QuarterfinalsAC,
+		QuarterfinalsBD,
+		PrelimsAC,
+		PrelimsBD,
 		None
 	}
 
@@ -304,7 +320,7 @@ namespace PoolCreator
 					ERound round = ERound.Finals;
 					foreach (RoundData rd in dd.rounds)
 					{
-						if (rd.round == ERound.None)
+						if (rd.round == ERound.None || rd.round == ERound.Max)
 						{
 							rd.round = round;
 						}
@@ -429,13 +445,16 @@ namespace PoolCreator
 			}
 			else if (round != ERoundJudgeDisplay.None)
 			{
+				// If round is Quarter or Prelim
 				int divisionIndex = (int)division;
 				if (divisionIndex >= 0 && divisionIndex < (int)EDivision.Max)
 				{
 					int roundIndex = (int)EnumConverter.ConvertRoundValue(round);
 					if (roundIndex >= 0 && roundIndex < (int)ERoundJudgeDisplay.None)
 					{
-						int PoolIndex = controlIndex + round == ERoundJudgeDisplay.QuaterfinalsAC ? 0 : 2;
+						int PoolIndex = 2 * controlIndex +
+							(round == ERoundJudgeDisplay.QuarterfinalsBD ? 1 : 0) +
+							(round == ERoundJudgeDisplay.PrelimsBD ? 1 : 0);
 						if (PoolIndex >= 0 && PoolIndex < divisions[divisionIndex].rounds[roundIndex].pools.Count)
 						{
 							return divisions[divisionIndex].rounds[roundIndex].pools[PoolIndex];
@@ -529,6 +548,7 @@ namespace PoolCreator
 			rounds.Add(new RoundData(division, ERound.Finals));
 			rounds.Add(new RoundData(division, ERound.Semifinals));
 			rounds.Add(new RoundData(division, ERound.Quarterfinals));
+			rounds.Add(new RoundData(division, ERound.Prelims));
 
 			foreach (RoundData rd in rounds)
 			{

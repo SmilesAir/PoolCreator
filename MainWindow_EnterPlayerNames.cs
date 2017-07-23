@@ -128,6 +128,18 @@ namespace PoolCreator
 			PotentialPlayer player = (sender as Button).Tag as PotentialPlayer;
 			AddNameFromRegisteredPlayersEnterTextBox(player);
 		}
+
+		private void AddNewName_Click(object sender, RoutedEventArgs e)
+		{
+			PlayerRanking pr = new PlayerRanking();
+			pr.firstName = FixBoxFirstName;
+			pr.lastName = FixBoxLastName;
+			pr.points = 0;
+			pr.rank = 0;
+			pr.IsRegistered = true;
+
+			AddRegisteredPlayer(pr);
+		}
 	}
 
 	public class PotentialPlayer

@@ -379,6 +379,13 @@
       <rank>30</rank>
       <totalJudgingCount>0</totalJudgingCount>
     </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>a</firstName>
+      <lastName>b</lastName>
+      <points>0</points>
+      <rank>0</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+    </RegisteredPlayer>
   </registeredPlayers>
   <divisions>
     <DivisionData>
@@ -1698,7 +1705,34 @@
     <DivisionData>
       <division>Coop</division>
       <teamList>
-        <teams />
+        <teams>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>a</firstName>
+                <lastName>b</lastName>
+                <points>0</points>
+                <rank>0</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Ryan</firstName>
+                <lastName>Young</lastName>
+                <points>975.25</points>
+                <rank>18</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>James</firstName>
+                <lastName>Wiseman</lastName>
+                <points>1176.25</points>
+                <rank>11</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+          </TeamData>
+        </teams>
       </teamList>
       <rounds>
         <RoundData>

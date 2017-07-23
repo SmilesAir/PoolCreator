@@ -46,13 +46,22 @@ namespace PoolCreator
 			}
 		}
 
-		public bool ShouldExportWomensQuarter
+		public bool ShouldExportWomensPrelims
+		{
+			get { return tournamentData.GetRound(EDivision.Women, ERound.Prelims).shouldExport; }
+			set
+			{
+				tournamentData.GetRound(EDivision.Women, ERound.Prelims).shouldExport = value;
+				OnPropertyChanged("ShouldExportWomensPrelims");
+			}
+		}
+		public bool ShouldExportWomensQuarters
 		{
 			get { return tournamentData.GetRound(EDivision.Women, ERound.Quarterfinals).shouldExport; }
 			set
 			{
 				tournamentData.GetRound(EDivision.Women, ERound.Quarterfinals).shouldExport = value;
-				OnPropertyChanged("ShouldExportWomensQuarter");
+				OnPropertyChanged("ShouldExportWomensQuarters");
 			}
 		}
 		public bool ShouldExportWomensSemis
@@ -73,13 +82,22 @@ namespace PoolCreator
 				OnPropertyChanged("ShouldExportWomensFinals");
 			}
 		}
-		public bool ShouldExportOpenQuarter
+		public bool ShouldExportOpenPrelims
+		{
+			get { return tournamentData.GetRound(EDivision.Open, ERound.Prelims).shouldExport; }
+			set
+			{
+				tournamentData.GetRound(EDivision.Open, ERound.Prelims).shouldExport = value;
+				OnPropertyChanged("ShouldExportOpenPrelims");
+			}
+		}
+		public bool ShouldExportOpenQuarters
 		{
 			get { return tournamentData.GetRound(EDivision.Open, ERound.Quarterfinals).shouldExport; }
 			set
 			{
 				tournamentData.GetRound(EDivision.Open, ERound.Quarterfinals).shouldExport = value;
-				OnPropertyChanged("ShouldExportOpenQuarter");
+				OnPropertyChanged("ShouldExportOpenQuarters");
 			}
 		}
 		public bool ShouldExportOpenSemis
@@ -100,13 +118,22 @@ namespace PoolCreator
 				OnPropertyChanged("ShouldExportOpenFinals");
 			}
 		}
-		public bool ShouldExportMixedQuarter
+		public bool ShouldExportMixedPrelims
+		{
+			get { return tournamentData.GetRound(EDivision.Mixed, ERound.Prelims).shouldExport; }
+			set
+			{
+				tournamentData.GetRound(EDivision.Mixed, ERound.Prelims).shouldExport = value;
+				OnPropertyChanged("ShouldExportMixedPrelims");
+			}
+		}
+		public bool ShouldExportMixedQuarters
 		{
 			get { return tournamentData.GetRound(EDivision.Mixed, ERound.Quarterfinals).shouldExport; }
 			set
 			{
 				tournamentData.GetRound(EDivision.Mixed, ERound.Quarterfinals).shouldExport = value;
-				OnPropertyChanged("ShouldExportMixedQuarter");
+				OnPropertyChanged("ShouldExportMixedQuarters");
 			}
 		}
 		public bool ShouldExportMixedSemis
@@ -127,13 +154,22 @@ namespace PoolCreator
 				OnPropertyChanged("ShouldExportMixedFinals");
 			}
 		}
-		public bool ShouldExportCoopQuarter
+		public bool ShouldExportCoopPrelims
+		{
+			get { return tournamentData.GetRound(EDivision.Coop, ERound.Prelims).shouldExport; }
+			set
+			{
+				tournamentData.GetRound(EDivision.Coop, ERound.Prelims).shouldExport = value;
+				OnPropertyChanged("ShouldExportCoopPrelims");
+			}
+		}
+		public bool ShouldExportCoopQuarters
 		{
 			get { return tournamentData.GetRound(EDivision.Coop, ERound.Quarterfinals).shouldExport; }
 			set
 			{
 				tournamentData.GetRound(EDivision.Coop, ERound.Quarterfinals).shouldExport = value;
-				OnPropertyChanged("ShouldExportCoopQuarter");
+				OnPropertyChanged("ShouldExportCoopQuarters");
 			}
 		}
 		public bool ShouldExportCoopSemis
@@ -188,6 +224,10 @@ namespace PoolCreator
 
 			for (int divisionIndex = 0; divisionIndex < 4; ++divisionIndex)
 			{
+				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.A));
+				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.B));
+				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.C));
+				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.D));
 				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.A));
 				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.B));
 				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.C));
@@ -623,6 +663,9 @@ namespace LisaHelperClasses
 					break;
 				case PoolCreator.ERound.Quarterfinals:
 					Round = "Quaterfinals";
+					break;
+				case PoolCreator.ERound.Prelims:
+					Round = "Prelims";
 					break;
 			}
 			Pool = (int)poolKey.pool;

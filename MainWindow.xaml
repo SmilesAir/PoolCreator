@@ -226,7 +226,7 @@
                                     </Style>
                                 </TextBox.Style>
                             </TextBox>
-                            <Button Grid.Row="1" Grid.ColumnSpan="2" Content="Add New Name"/>
+                            <Button Grid.Row="1" Grid.ColumnSpan="2" Content="Add New Name" Click="AddNewName_Click"/>
 
                             <ScrollViewer Grid.Row="2" Grid.ColumnSpan="2" VerticalScrollBarVisibility="Auto" Margin="0, 5">
                                 <ItemsControl Name="PartialNameMatchItemsControl" ItemsSource="{Binding}" HorizontalContentAlignment="Stretch">
@@ -489,7 +489,7 @@
                     </Grid>
                 </Grid>
             </TabItem>
-            <TabItem Header="Pools">
+            <TabItem Header="Pools" GotFocus="PoolsTab_GotFocus">
                 <Grid MouseMove="OverlayCanvas_MouseMove" MouseLeftButtonDown="OverlayCanvas_MouseLeftButtonDown" MouseLeftButtonUp="OverlayCanvas_MouseLeftButtonUp">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"/>
@@ -528,12 +528,13 @@
                         <Button Grid.Row="4" Content="Seed Round" Click="PoolsSeedRound_Click"/>
                     </Grid>
                     
-                    <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+                    <ScrollViewer Grid.Column="1" Name="PoolsScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
                         <Grid>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*" MinWidth="360"/>
+                                <ColumnDefinition Width="*" MinWidth="360"/>
+                                <ColumnDefinition Width="*" MinWidth="360"/>
+                                <ColumnDefinition Width="*" MinWidth="360"/>
                             </Grid.ColumnDefinitions>
 
                             <Grid.RowDefinitions>
@@ -541,7 +542,7 @@
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
 
-                            <Grid Grid.Column="2" Margin="5,0,5,0">
+                            <Grid Grid.Column="3" Margin="5,0,5,0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
@@ -553,9 +554,9 @@
                                 <TextBox Grid.Column="2" Text="{Binding FinalTeamCount, UpdateSourceTrigger=PropertyChanged}"  AcceptsReturn="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
                             </Grid>
 
-                            <local:UserControl_PoolItemsControl x:Name="FinalsPoolItemsControl" Grid.Column="2" Grid.Row="1" PoolName="Finals"/>
+                            <local:UserControl_PoolItemsControl x:Name="FinalsPoolItemsControl" Grid.Column="3" Grid.Row="1" PoolName="Finals"/>
 
-                            <Grid Grid.Column="1" Margin="5,0,5,0">
+                            <Grid Grid.Column="2" Margin="5,0,5,0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
@@ -567,7 +568,7 @@
                                 <TextBox Grid.Column="2" Text="{Binding SemiTeamCount, UpdateSourceTrigger=PropertyChanged}"  AcceptsReturn="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
                             </Grid>
                             
-                            <Grid Grid.Column="1" Grid.Row="1">
+                            <Grid Grid.Column="2" Grid.Row="1">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*"/>
                                     <RowDefinition Height="*"/>
@@ -577,7 +578,7 @@
                                 <local:UserControl_PoolItemsControl x:Name="SemiBPoolItemsControl" Grid.Row="1" PoolName="Semifinal B"/>
                             </Grid>
 
-                            <Grid Margin="5,0,5,0">
+                            <Grid Grid.Column="1" Margin="5,0,5,0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
@@ -585,6 +586,32 @@
                                 </Grid.ColumnDefinitions>
 
                                 <Button Content="Seed from Prelim" Click="PoolsQuarterSeed_Click"/>
+                                <Label Grid.Column="1" Content="Number of Teams:"/>
+                                <TextBox Grid.Column="2" Text="{Binding QuarterTeamCount, UpdateSourceTrigger=PropertyChanged}"  AcceptsReturn="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
+                            </Grid>
+
+                            <Grid Grid.Column="1" Grid.Row="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <local:UserControl_PoolItemsControl x:Name="QuarterAPoolItemsControl" PoolName="Quarterfinal A"/>
+                                <local:UserControl_PoolItemsControl x:Name="QuarterBPoolItemsControl" Grid.Row="1" PoolName="Quarterfinal B"/>
+                                <local:UserControl_PoolItemsControl x:Name="QuarterCPoolItemsControl" Grid.Row="2" PoolName="Quarterfinal C"/>
+                                <local:UserControl_PoolItemsControl x:Name="QuarterDPoolItemsControl" Grid.Row="3" PoolName="Quarterfinal D"/>
+                            </Grid>
+
+                            <Grid Grid.Column="0" Margin="5,0,5,0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto" MinWidth="20"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Button Content="Seed from Prelim"/>
                                 <Label Grid.Column="1" Content="Number of Teams:"/>
                                 <TextBox Grid.Column="2" Text="{Binding QuarterTeamCount, UpdateSourceTrigger=PropertyChanged}"  AcceptsReturn="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
                             </Grid>
@@ -597,10 +624,10 @@
                                     <RowDefinition Height="*"/>
                                 </Grid.RowDefinitions>
 
-                                <local:UserControl_PoolItemsControl x:Name="QuarterAPoolItemsControl" PoolName="Quarterfinal A"/>
-                                <local:UserControl_PoolItemsControl x:Name="QuarterBPoolItemsControl" Grid.Row="1" PoolName="Quarterfinal B"/>
-                                <local:UserControl_PoolItemsControl x:Name="QuarterCPoolItemsControl" Grid.Row="2" PoolName="Quarterfinal C"/>
-                                <local:UserControl_PoolItemsControl x:Name="QuarterDPoolItemsControl" Grid.Row="3" PoolName="Quarterfinal D"/>
+                                <local:UserControl_PoolItemsControl x:Name="PrelimAPoolItemsControl" PoolName="Prelim A"/>
+                                <local:UserControl_PoolItemsControl x:Name="PrelimBPoolItemsControl" Grid.Row="1" PoolName="Prelim B"/>
+                                <local:UserControl_PoolItemsControl x:Name="PrelimCPoolItemsControl" Grid.Row="2" PoolName="Prelim C"/>
+                                <local:UserControl_PoolItemsControl x:Name="PrelimDPoolItemsControl" Grid.Row="3" PoolName="Prelim D"/>
                             </Grid>
                         </Grid>
                     </ScrollViewer>
@@ -710,33 +737,33 @@
                         <Label Grid.ColumnSpan="15" Content="Step 2 - Rounds to Export" HorizontalAlignment="Stretch" Background="SkyBlue" HorizontalContentAlignment="Center"/>
 
                         <Label Grid.Row="1" Content="Womens" Grid.ColumnSpan="2"/>
-                        <CheckBox Grid.Row="2" Content="Prelim" IsEnabled="False"/>
-                        <CheckBox Grid.Row="2" Grid.Column="1" Content="Quarter" IsChecked="{Binding ShouldExportWomensQuarter}"/>
+                        <CheckBox Grid.Row="2" Content="Prelims" IsChecked="{Binding ShouldExportWomensPrelims}"/>
+                        <CheckBox Grid.Row="2" Grid.Column="1" Content="Quarters" IsChecked="{Binding ShouldExportWomensQuarters}"/>
                         <CheckBox Grid.Row="3" Content="Semis" IsChecked="{Binding ShouldExportWomensSemis}"/>
                         <CheckBox Grid.Row="3" Grid.Column="1" Content="Finals" IsChecked="{Binding ShouldExportWomensFinals}"/>
 
                         <Grid Grid.Row="1" Grid.RowSpan="3" Grid.Column="2" Background="gray" Margin="2"/>
 
                         <Label Grid.Row="1" Grid.Column="3" Content="Open" Grid.ColumnSpan="2"/>
-                        <CheckBox Grid.Row="2" Grid.Column="3"  Content="Prelim" IsEnabled="False"/>
-                        <CheckBox Grid.Row="2" Grid.Column="4" Content="Quarter" IsChecked="{Binding ShouldExportOpenQuarter}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="3" Content="Semi" IsChecked="{Binding ShouldExportOpenSemis}"/>
+                        <CheckBox Grid.Row="2" Grid.Column="3"  Content="Prelims" IsChecked="{Binding ShouldExportOpenPrelims}"/>
+                        <CheckBox Grid.Row="2" Grid.Column="4" Content="Quarters" IsChecked="{Binding ShouldExportOpenQuarters}"/>
+                        <CheckBox Grid.Row="3" Grid.Column="3" Content="Semis" IsChecked="{Binding ShouldExportOpenSemis}"/>
                         <CheckBox Grid.Row="3" Grid.Column="4" Content="Finals" IsChecked="{Binding ShouldExportOpenFinals}"/>
 
                         <Grid Grid.Row="1" Grid.RowSpan="3" Grid.Column="5" Background="gray" Margin="2"/>
 
                         <Label Grid.Row="1" Grid.Column="6" Content="Mixed" Grid.ColumnSpan="2"/>
-                        <CheckBox Grid.Row="2" Grid.Column="6"  Content="Prelim" IsEnabled="False"/>
-                        <CheckBox Grid.Row="2" Grid.Column="7" Content="Quarter" IsChecked="{Binding ShouldExportMixedQuarter}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="6" Content="Semi" IsChecked="{Binding ShouldExportMixedSemis}"/>
+                        <CheckBox Grid.Row="2" Grid.Column="6"  Content="Prelims" IsChecked="{Binding ShouldExportMixedPrelims}"/>
+                        <CheckBox Grid.Row="2" Grid.Column="7" Content="Quarters" IsChecked="{Binding ShouldExportMixedQuarters}"/>
+                        <CheckBox Grid.Row="3" Grid.Column="6" Content="Semis" IsChecked="{Binding ShouldExportMixedSemis}"/>
                         <CheckBox Grid.Row="3" Grid.Column="7" Content="Finals" IsChecked="{Binding ShouldExportMixedFinals}"/>
 
                         <Grid Grid.Row="1" Grid.RowSpan="3" Grid.Column="8" Background="gray" Margin="2"/>
 
                         <Label Grid.Row="1" Grid.Column="9" Content="Coop" Grid.ColumnSpan="2"/>
-                        <CheckBox Grid.Row="2" Grid.Column="9"  Content="Prelim" IsEnabled="False"/>
-                        <CheckBox Grid.Row="2" Grid.Column="10" Content="Quarter" IsChecked="{Binding ShouldExportCoopQuarter}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="9" Content="Semi" IsChecked="{Binding ShouldExportCoopSemis}"/>
+                        <CheckBox Grid.Row="2" Grid.Column="9"  Content="Prelims" IsChecked="{Binding ShouldExportCoopPrelims}"/>
+                        <CheckBox Grid.Row="2" Grid.Column="10" Content="Quarters" IsChecked="{Binding ShouldExportCoopQuarters}"/>
+                        <CheckBox Grid.Row="3" Grid.Column="9" Content="Semis" IsChecked="{Binding ShouldExportCoopSemis}"/>
                         <CheckBox Grid.Row="3" Grid.Column="10" Content="Finals" IsChecked="{Binding ShouldExportCoopFinals}"/>
 
                     </Grid>

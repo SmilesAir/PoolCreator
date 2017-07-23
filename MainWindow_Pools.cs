@@ -140,22 +140,17 @@ namespace PoolCreator
 			QuarterBPoolItemsControl.Init(this, ERound.Quarterfinals, EPool.B);
 			QuarterCPoolItemsControl.Init(this, ERound.Quarterfinals, EPool.C);
 			QuarterDPoolItemsControl.Init(this, ERound.Quarterfinals, EPool.D);
+			PrelimAPoolItemsControl.Init(this, ERound.Prelims, EPool.A);
+			PrelimBPoolItemsControl.Init(this, ERound.Prelims, EPool.B);
+			PrelimCPoolItemsControl.Init(this, ERound.Prelims, EPool.C);
+			PrelimDPoolItemsControl.Init(this, ERound.Prelims, EPool.D);
 
 			SetPoolItemsSources();
 
 			// Try to generate any future pools
 			GenerateFuturePools();
 
-			//TeamData td = new TeamData();
-			//td.players.Add(new RegisteredPlayer("Ryan", "Young", 0, 0));
-			//td.players.Add(new RegisteredPlayer("Randy", "Silvey", 0, 0));
-
-			//TeamData td2 = new TeamData();
-			//td2.players.Add(new RegisteredPlayer("James", "Wiseman", 0, 0));
-			//td2.players.Add(new RegisteredPlayer("Marco", "Prati", 0, 0));
-
-			//tournamentData.GetPool(EDivision.Open, ERound.Semifinals, EPool.B).teamList.teams.Add(td);
-			//tournamentData.GetPool(EDivision.Open, ERound.Semifinals, EPool.B).teamList.teams.Add(td2);
+			PoolsScrollViewer.ScrollToRightEnd();
 		}
 
 		public void GenerateFuturePools()
@@ -181,6 +176,11 @@ namespace PoolCreator
 			QuarterBPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Quarterfinals, EPool.B));
 			QuarterCPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Quarterfinals, EPool.C));
 			QuarterDPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Quarterfinals, EPool.D));
+
+			PrelimAPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Prelims, EPool.A));
+			PrelimBPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Prelims, EPool.B));
+			PrelimCPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Prelims, EPool.C));
+			PrelimDPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Prelims, EPool.D));
 		}
 
 		public void OverlayCanvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -210,7 +210,7 @@ namespace PoolCreator
 
 		private void PoolsUpdateBindings()
 		{
-			poolsAllTeamsForDivision = tournamentData.GetAllTeams(poolsDivision);
+			PoolsUpdateTeamList();
 			PoolsTeamsItemsControl.ItemsSource = poolsAllTeamsForDivision;
 
 			OnPropertyChanged("FinalTeamCount");
@@ -220,51 +220,130 @@ namespace PoolCreator
 			SetPoolItemsSources();
 		}
 
+		private void PoolsUpdateTeamList()
+		{
+			poolsAllTeamsForDivision = tournamentData.GetAllTeams(poolsDivision);
+
+			poolsAllTeamsForDivision = new ObservableCollection<TeamData>(poolsAllTeamsForDivision.OrderByDescending(td => td.TeamRankingPoints));
+		}
+
+		private void PoolsTab_GotFocus(object sender, RoutedEventArgs e)
+		{
+			PoolsUpdateTeamList();
+		}
+
+		private void SeedPrelimPools(EDivision division, int numPools)
+		{
+			RoundData rd = tournamentData.GetRound(division, ERound.Prelims);
+			rd.pools.Clear();
+			for (int i = 0; i < numPools; ++i)
+			{
+				rd.pools.Add(new PoolData());
+			}
+
+			List<TeamData> teams = new List<TeamData>();
+			for (int i = 25; i < poolsAllTeamsForDivision.Count(); ++i)
+			{
+				teams.Add(poolsAllTeamsForDivision[i]);
+			}
+			
+			PrelimAPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Prelims, EPool.A));
+
+			if (numPools > 1)
+			{
+				PrelimBPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Prelims, EPool.B));
+			}
+			if (numPools > 2)
+			{
+				PrelimCPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Prelims, EPool.C));
+			}
+			if (numPools > 3)
+			{
+				PrelimDPoolItemsControl.SetItemsSource(tournamentData.GetPool(poolsDivision, ERound.Prelims, EPool.D));
+			}
+
+
+			FillPoolTeams(poolsDivision, poolsRound, teams);
+		}
+
 		private void PoolsSeedRound_Click(object sender, RoutedEventArgs e)
 		{
 			if (poolsDivision != EDivision.None && poolsRound != ERound.None)
 			{
-				int rawPoolIndex = 0;
-				int adjustedPoolIndex = 0;
-				bool bReversePoolAssignmentDirection = false;
-				int maxPoolCount = tournamentData.GetRound(poolsDivision, poolsRound).pools.Count;
-				for (int poolIndex = 0; poolIndex < maxPoolCount; ++poolIndex)
+				int teamCount = poolsAllTeamsForDivision.Count();
+				if (poolsRound == ERound.Prelims && teamCount >= 33)
 				{
-					PoolData pd = tournamentData.GetPool(poolsDivision, poolsRound, (EPool)poolIndex);
-					pd.teamList.teams.Clear();
-				}
-
-				for (int teamIndex = 0; teamIndex < poolsAllTeamsForDivision.Count; ++teamIndex)
-				{
-					if (rawPoolIndex >= maxPoolCount)
+					if (teamCount == 33)
 					{
-						bReversePoolAssignmentDirection = !bReversePoolAssignmentDirection;
-						rawPoolIndex = 0;
-
-						if (bReversePoolAssignmentDirection)
-						{
-							adjustedPoolIndex = maxPoolCount - 1;
-						}
-						else
-						{
-							adjustedPoolIndex = 0;
-						}
+						SeedPrelimPools(poolsDivision, 1);
 					}
+					else if (teamCount <= 40)
+					{
+						SeedPrelimPools(poolsDivision, 2);
+					}
+					else if (teamCount <= 48)
+					{
+						SeedPrelimPools(poolsDivision, 4);
+					}
+				}
+				else
+				{
+					FillPoolTeams(poolsDivision, poolsRound, poolsAllTeamsForDivision.ToList());
+				}
+			}
+		}
 
-					PoolData pd = tournamentData.GetPool(poolsDivision, poolsRound, (EPool)adjustedPoolIndex);
-					pd.teamList.teams.Add(poolsAllTeamsForDivision[teamIndex]);
+		private void FillPoolTeams(EDivision division, ERound round, List<TeamData> teams)
+		{
+			int rawPoolIndex = 0;
+			int adjustedPoolIndex = 0;
+			bool bReversePoolAssignmentDirection = false;
+			RoundData rd = tournamentData.GetRound(division, round);
+			int maxPoolCount = rd.pools.Count;
+			for (int poolIndex = 0; poolIndex < maxPoolCount; ++poolIndex)
+			{
+				PoolData pd = tournamentData.GetPool(division, round, (EPool)poolIndex);
+				pd.teamList.teams.Clear();
+			}
+
+			for (int teamIndex = 0; teamIndex < teams.Count; ++teamIndex)
+			{
+				if (rawPoolIndex >= maxPoolCount)
+				{
+					bReversePoolAssignmentDirection = !bReversePoolAssignmentDirection;
+					rawPoolIndex = 0;
 
 					if (bReversePoolAssignmentDirection)
 					{
-						--adjustedPoolIndex;
+						adjustedPoolIndex = maxPoolCount - 1;
 					}
 					else
 					{
-						++adjustedPoolIndex;
+						adjustedPoolIndex = 0;
 					}
-					++rawPoolIndex;
 				}
+
+				PoolData pd = tournamentData.GetPool(division, round, (EPool)adjustedPoolIndex);
+				pd.teamList.teams.Add(teams[teamIndex]);
+
+				if (bReversePoolAssignmentDirection)
+				{
+					--adjustedPoolIndex;
+				}
+				else
+				{
+					++adjustedPoolIndex;
+				}
+				++rawPoolIndex;
 			}
+
+			// Reverse the teams in the pool so first play is at the top
+			foreach (PoolData pd in rd.pools)
+			{
+				pd.teamList.teams = new ObservableCollection<TeamData>(pd.teamList.teams.Reverse());
+			}
+
+			PoolsUpdateBindings();
 		}
 
 		public void RemoveTeamDataFromPools(TeamData removeTeam)

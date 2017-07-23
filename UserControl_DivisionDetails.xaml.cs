@@ -67,10 +67,10 @@ namespace PoolCreator
 		}
 		public ERoutineLength PrelimSelectedTime
 		{
-			get { return GetRoutineLength(ERound.None); }
+			get { return GetRoutineLength(ERound.Prelims); }
 			set
 			{
-				SetRoutineLength(ERound.None, value);
+				SetRoutineLength(ERound.Prelims, value);
 
 				OnPropertyChanged("PrelimSelectedTime");
 			}
