@@ -395,6 +395,18 @@
           <TeamData>
             <players>
               <RegisteredPlayer>
+                <firstName>a</firstName>
+                <lastName>b</lastName>
+                <points>0</points>
+                <rank>0</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
                 <firstName>Amir</firstName>
                 <lastName>Hoshen</lastName>
                 <points>0</points>

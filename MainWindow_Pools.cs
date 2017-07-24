@@ -238,7 +238,7 @@ namespace PoolCreator
 			rd.pools.Clear();
 			for (int i = 0; i < numPools; ++i)
 			{
-				rd.pools.Add(new PoolData());
+				rd.pools.Add(new PoolData((EPool)i));
 			}
 
 			List<TeamData> teams = new List<TeamData>();
