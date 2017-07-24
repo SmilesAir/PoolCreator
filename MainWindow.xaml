@@ -581,13 +581,15 @@
                             <Grid Grid.Column="1" Margin="5,0,5,0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                     <ColumnDefinition Width="Auto" MinWidth="20"/>
                                 </Grid.ColumnDefinitions>
 
-                                <Button Content="Seed from Prelim" Click="PoolsQuarterSeed_Click"/>
-                                <Label Grid.Column="1" Content="Number of Teams:"/>
-                                <TextBox Grid.Column="2" Text="{Binding QuarterTeamCount, UpdateSourceTrigger=PropertyChanged}"  AcceptsReturn="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
+                                <Button Content="Randomize Play Order" Click="Button_Click"/>
+                                <Button Grid.Column="1"  Content="Seed from Prelim" Click="PoolsQuarterSeed_Click"/>
+                                <Label Grid.Column="2" Content="Number of Teams:"/>
+                                <TextBox Grid.Column="3" Text="{Binding QuarterTeamCount, UpdateSourceTrigger=PropertyChanged}"  AcceptsReturn="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
                             </Grid>
 
                             <Grid Grid.Column="1" Grid.Row="1">
@@ -607,13 +609,9 @@
                             <Grid Grid.Column="0" Margin="5,0,5,0">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
-                                    <ColumnDefinition Width="Auto"/>
-                                    <ColumnDefinition Width="Auto" MinWidth="20"/>
                                 </Grid.ColumnDefinitions>
 
-                                <Button Content="Seed from Prelim"/>
-                                <Label Grid.Column="1" Content="Number of Teams:"/>
-                                <TextBox Grid.Column="2" Text="{Binding QuarterTeamCount, UpdateSourceTrigger=PropertyChanged}"  AcceptsReturn="False" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
+                                <Button Content="Randomize Play Order" Click="PoolsPrelimRandomizePlayOrder_Click"/>
                             </Grid>
 
                             <Grid Grid.Column="0" Grid.Row="1">

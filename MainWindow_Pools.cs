@@ -242,7 +242,7 @@ namespace PoolCreator
 			}
 
 			List<TeamData> teams = new List<TeamData>();
-			for (int i = 25; i < poolsAllTeamsForDivision.Count(); ++i)
+			for (int i = 24; i < poolsAllTeamsForDivision.Count(); ++i)
 			{
 				teams.Add(poolsAllTeamsForDivision[i]);
 			}
@@ -295,15 +295,24 @@ namespace PoolCreator
 
 		private void FillPoolTeams(EDivision division, ERound round, List<TeamData> teams)
 		{
+			FillPoolTeams(division, round, teams, true);
+		}
+
+		private void FillPoolTeams(EDivision division, ERound round, List<TeamData> teams, bool bClearPreviousTeams)
+		{
 			int rawPoolIndex = 0;
 			int adjustedPoolIndex = 0;
 			bool bReversePoolAssignmentDirection = false;
 			RoundData rd = tournamentData.GetRound(division, round);
 			int maxPoolCount = rd.pools.Count;
-			for (int poolIndex = 0; poolIndex < maxPoolCount; ++poolIndex)
+
+			if (bClearPreviousTeams)
 			{
-				PoolData pd = tournamentData.GetPool(division, round, (EPool)poolIndex);
-				pd.teamList.teams.Clear();
+				for (int poolIndex = 0; poolIndex < maxPoolCount; ++poolIndex)
+				{
+					PoolData pd = tournamentData.GetPool(division, round, (EPool)poolIndex);
+					pd.teamList.teams.Clear();
+				}
 			}
 
 			for (int teamIndex = 0; teamIndex < teams.Count; ++teamIndex)
@@ -512,7 +521,88 @@ namespace PoolCreator
 
 		private void PoolsQuarterSeed_Click(object sender, RoutedEventArgs e)
 		{
+			// Don't do anything if there are already data
+			RoundData rd = tournamentData.GetRound(poolsDivision, ERound.Quarterfinals);
+			foreach (PoolData pd in rd.pools)
+			{
+				if (pd.teamList.teams.Count > 0)
+				{
+					return;
+				}
+			}
 
+			// Seed the first 24 teams like normal
+			List<TeamData> byeTeams = new List<TeamData>();
+			for (int i = 0; i < poolsAllTeamsForDivision.Count() && i < 24; ++i)
+			{
+				byeTeams.Add(poolsAllTeamsForDivision[i]);
+			}
+			FillPoolTeams(poolsDivision, ERound.Quarterfinals, byeTeams);
+
+			// Take the top 8 from prelims
+			List<TeamData> prelimMadeCutTeams = new List<TeamData>();
+			RoundData prelimData = tournamentData.GetRound(poolsDivision, ERound.Prelims);
+			int prelimPoolIndex = 0;
+			int prelimRank = 1;
+			for (int teamCount = 0; teamCount < 8; ++teamCount)
+			{
+				if (prelimPoolIndex >= prelimData.pools.Count)
+				{
+					// Error, something is wrong
+					break;
+				}
+
+				int teamIndex = GetRankTeamIndex(prelimData.pools[prelimPoolIndex].resultRank, prelimRank);
+				if (teamIndex < 0)
+				{
+					// Ran out of prelim teams
+					break;
+				}
+
+				prelimMadeCutTeams.Add(prelimData.pools[prelimPoolIndex].teamList.teams[teamIndex]);
+
+				if (prelimPoolIndex + 1 < prelimData.pools.Count)
+				{
+					++prelimPoolIndex;
+				}
+				else
+				{
+					prelimPoolIndex = 0;
+					++prelimRank;
+				}
+			}
+
+			FillPoolTeams(poolsDivision, ERound.Quarterfinals, prelimMadeCutTeams, false);
+		}
+
+		private void PoolsPrelimRandomizePlayOrder_Click(object sender, RoutedEventArgs e)
+		{
+			PoolsRandomizePlayOrder(poolsDivision, ERound.Prelims);
+		}
+
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+			PoolsRandomizePlayOrder(poolsDivision, ERound.Quarterfinals);
+		}
+
+		private void PoolsRandomizePlayOrder(EDivision division, ERound round)
+		{
+			RoundData rd = tournamentData.GetRound(poolsDivision, round);
+			foreach (PoolData pd in rd.pools)
+			{
+				ObservableCollection<TeamData> teams = pd.teamList.teams;
+				ObservableCollection<TeamData> newTeamList = new ObservableCollection<TeamData>();
+				while (teams.Count > 0)
+				{
+					int pickIndex = random.Next(0, teams.Count());
+					newTeamList.Add(teams[pickIndex]);
+					teams.RemoveAt(pickIndex);
+				}
+
+				pd.teamList.teams = newTeamList;
+			}
+
+			PoolsUpdateBindings();
 		}
 	}
 }

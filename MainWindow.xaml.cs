@@ -24,6 +24,8 @@ namespace PoolCreator
 	/// </summary>
 	public partial class MainWindow : Window, INotifyPropertyChanged
 	{
+		Random random = new Random();
+
 		public event PropertyChangedEventHandler PropertyChanged;
 
 		public MainWindow()
