@@ -287,7 +287,7 @@
 
                     <GridSplitter Grid.Column="1" Grid.RowSpan="3" Width="5" HorizontalAlignment="Stretch" Background="Gainsboro"/>
                     
-                    <Label Grid.Column="2" Grid.Row="0" Content="Step 3 - Enter Teams" HorizontalAlignment="Stretch" Background="SkyBlue" HorizontalContentAlignment="Center"/>
+                    <Label Grid.Column="2" Grid.Row="0" Content="Step 3 - Enter Teams. Use a dash - between player names" HorizontalAlignment="Stretch" Background="SkyBlue" HorizontalContentAlignment="Center"/>
                     <Grid Grid.Column="2" Grid.Row="1">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>

@@ -257,7 +257,10 @@ namespace PoolCreator
 				WriteTeams(poolKey, worksheets);
 				WriteJudges(poolKey, worksheets);
 
-				string newFilename = Path.GetFullPath(ExportPath + @"\" + poolKey.division.ToString() + "-" + poolKey.round.ToString() + "-" + poolKey.pool.ToString() + ".xlsm");
+				string newFilename = Path.GetFullPath(ExportPath + @"\" + poolKey.division.ToString() +
+					"-" + GetScoresheetRoundName(poolKey.round) +
+					(poolKey.round != ERound.Finals ? "-" + poolKey.pool.ToString() : "") +
+					".xlsm");
 				File.Delete(newFilename);
 				workbook.SaveAs(newFilename);
 
@@ -314,6 +317,33 @@ namespace PoolCreator
 			}
 		}
 
+		private string GetScoresheetDivisionName(EDivision division)
+		{
+			switch (division)
+			{
+				case EDivision.Open:
+					return "Open Pairs";
+				case EDivision.Mixed:
+					return "Mixed Pairs";
+				case EDivision.Coop:
+					return "Open Coop";
+				case EDivision.Women:
+					return "Women Pairs";
+			}
+
+			return "No Division Name";
+		}
+
+		private string GetScoresheetRoundName(ERound round)
+		{
+			if (round == ERound.Finals)
+			{
+				return "Final";
+			}
+
+			return round.ToString();
+		}
+
 		private void WritePoolDetails(PoolKey poolKey, Excel.Sheets worksheets)
 		{
 			Excel.Worksheet starterSheet = worksheets.get_Item("StarterList");
@@ -321,8 +351,8 @@ namespace PoolCreator
 			RoundData rd = tournamentData.GetRound(poolKey.division, poolKey.round);
 			if (dd != null && rd != null && starterSheet != null)
 			{
-				starterSheet.Cells[4, 2] = poolKey.division.ToString();
-				starterSheet.Cells[4, 4] = poolKey.round.ToString();
+				starterSheet.Cells[4, 2] = GetScoresheetDivisionName(poolKey.division);
+				starterSheet.Cells[4, 4] = GetScoresheetRoundName(poolKey.round);
 				starterSheet.Cells[4, 6] = poolKey.pool.ToString();
 
 				starterSheet.Cells[3, 10] = rd.scheduleTime.ToShortDateString();

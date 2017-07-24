@@ -721,7 +721,7 @@
           </pools>
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
-          <shouldExport>false</shouldExport>
+          <shouldExport>true</shouldExport>
           <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
@@ -1331,7 +1331,7 @@
           </pools>
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
           <routineLength>0</routineLength>
-          <shouldExport>true</shouldExport>
+          <shouldExport>false</shouldExport>
           <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
