@@ -147,6 +147,7 @@ namespace PoolCreator
 		public string firstName { get; set; }
 		public string lastName { get; set; }
 		public float points { get; set; }
+		public float womenPoints { get; set; }
 		public int rank { get; set; }
 		public bool bExactMatch { get; set; }
 		public bool bImperfectMatch { get { return !bExactMatch; } }
@@ -164,6 +165,7 @@ namespace PoolCreator
 			firstName = pr.firstName;
 			lastName = pr.lastName;
 			points = pr.points;
+			womenPoints = pr.womenPoints;
 			rank = pr.rank;
 			bExactMatch = inbExactMatch;
 		}
@@ -172,6 +174,7 @@ namespace PoolCreator
 			firstName = rp.firstName;
 			lastName = rp.lastName;
 			points = rp.points;
+			womenPoints = rp.womenPoints;
 			rank = rp.rank;
 			bExactMatch = inbExactMatch;
 		}

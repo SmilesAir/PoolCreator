@@ -224,7 +224,14 @@ namespace PoolCreator
 		{
 			poolsAllTeamsForDivision = tournamentData.GetAllTeams(poolsDivision);
 
-			poolsAllTeamsForDivision = new ObservableCollection<TeamData>(poolsAllTeamsForDivision.OrderByDescending(td => td.TeamRankingPoints));
+			if (poolsDivision == EDivision.Women)
+			{
+				poolsAllTeamsForDivision = new ObservableCollection<TeamData>(poolsAllTeamsForDivision.OrderByDescending(td => td.TeamWomenRankingPoints));
+			}
+			else
+			{
+				poolsAllTeamsForDivision = new ObservableCollection<TeamData>(poolsAllTeamsForDivision.OrderByDescending(td => td.TeamRankingPoints));
+			}
 		}
 
 		private void PoolsTab_GotFocus(object sender, RoutedEventArgs e)
@@ -438,6 +445,18 @@ namespace PoolCreator
 			return tournamentData.GetRound(division, round).maxTeams;
 		}
 
+		private float GetTeamRankingPoints(TeamData td)
+		{
+			if (poolsDivision == EDivision.Women)
+			{
+				return td.TeamWomenRankingPoints;
+			}
+			else
+			{
+				return td.TeamRankingPoints;
+			}
+		}
+
 		public void GenerateNextPool(EDivision division, ERound round, EPool pool)
 		{
 			PoolData pool1;
@@ -472,7 +491,12 @@ namespace PoolCreator
 						continue;
 					}
 
-					if (pool1Teams[teamIndex1].TeamRankingPoints < pool2Teams[teamIndex2].TeamRankingPoints)
+					if (teamIndex1 >= pool1Teams.Count || teamIndex2 >= pool2Teams.Count)
+					{
+						break;
+					}
+
+					if (GetTeamRankingPoints(pool1Teams[teamIndex1]) < GetTeamRankingPoints(pool2Teams[teamIndex2]))
 					{
 						nextPoolTeams.Insert(0, pool2Teams[teamIndex2]);
 						nextPoolTeams.Insert(0, pool1Teams[teamIndex1]);

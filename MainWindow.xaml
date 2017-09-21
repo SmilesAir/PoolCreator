@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:PoolCreator"
         mc:Ignorable="d"
         Title="Pool Creator by Ryan Young" Height="720" Width="1280"
+        WindowState="Maximized"
         Loaded="Window_Loaded"
         Closing="Window_Closing">
 
@@ -66,9 +67,16 @@
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
 
-                            <Label Content="Rankings URL:" Grid.Column="0"/>
+                            <Label Content="Open Rankings URL:" Grid.Column="0"/>
                             <TextBox Name="RankingsURL" Text="http://koljah.de/freestylediscrankings/currentopen.htm" Grid.Column="1" VerticalContentAlignment="Center" TextChanged="RankingsURL_TextChanged"/>
+
+                            <Label Grid.Row="1" Content="Women Rankings URL:" Grid.Column="0"/>
+                            <TextBox Grid.Row="1" Name="WomenRankingsURL" Text="http://koljah.de/freestylediscrankings/currentwomen.htm" Grid.Column="1" VerticalContentAlignment="Center" TextChanged="RankingsURL_TextChanged"/>
                         </Grid>
 
                         <Grid Grid.Row="1">
@@ -519,7 +527,7 @@
                                             </Grid.ColumnDefinitions>
 
                                             <Label Content="{Binding PlayerNames}"/>
-                                            <Label Grid.Column="1" Content="{Binding TeamRankingPoints}"/>
+                                            <Label Grid.Column="1" Content="{Binding TeamBothRankingsPointsString}"/>
                                         </Grid>
                                     </DataTemplate>
                                 </ItemsControl.ItemTemplate>

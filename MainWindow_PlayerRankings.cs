@@ -46,6 +46,54 @@ namespace PoolCreator
 			}
 		}
 
+		private void UpdateRegisteredPlayerRankAndPoints(RegisteredPlayer outPlayer)
+		{
+			foreach (PlayerRanking originalPlayer in playerRankingData.playerRankings)
+			{
+				if (outPlayer.FullName == originalPlayer.FullName)
+				{
+					outPlayer.rank = originalPlayer.rank;
+					outPlayer.points = originalPlayer.points;
+					outPlayer.womenPoints = originalPlayer.womenPoints;
+
+					return;
+				}
+			}
+		}
+
+		private void UpdateRankingPointsInCurrentData()
+		{
+			foreach (RegisteredPlayer rp in tournamentData.registeredPlayers)
+			{
+				UpdateRegisteredPlayerRankAndPoints(rp);
+			}
+
+			foreach (DivisionData dd in tournamentData.divisions)
+			{
+				foreach (TeamData td in dd.teamList.teams)
+				{
+					foreach (RegisteredPlayer rp in td.players)
+					{
+						UpdateRegisteredPlayerRankAndPoints(rp);
+					}
+				}
+
+				foreach (RoundData rd in dd.rounds)
+				{
+					foreach (PoolData pd in rd.pools)
+					{
+						foreach (TeamData td in pd.teamList.teams)
+						{
+							foreach (RegisteredPlayer rp in td.players)
+							{
+								UpdateRegisteredPlayerRankAndPoints(rp);
+							}
+						}
+					}
+				}
+			}
+		}
+
 		private void UpdateRankingsButton_Click(object sender, RoutedEventArgs e)
 		{
 			GetAndSavePlayerRankings();
@@ -58,7 +106,9 @@ namespace PoolCreator
 
 			BackgroundWorker getRankingsWorker = new BackgroundWorker();
 			string url = RankingsURL.Text;
-			getRankingsWorker.DoWork += delegate { GetRankingsWorker_DoWork(url); };
+			string womenUrl = WomenRankingsURL.Text;
+			getRankingsWorker.DoWork += delegate { GetRankingsWorker_DoWork(url, true); };
+			getRankingsWorker.DoWork += delegate { GetRankingsWorker_DoWork(womenUrl, false); };
 			getRankingsWorker.RunWorkerCompleted += delegate { GetRankingsWorker_RunWorkerCompleted(); };
 			getRankingsWorker.RunWorkerAsync();
 		}
@@ -72,10 +122,12 @@ namespace PoolCreator
 
 			FillRankingsTextBox();
 
+			UpdateRankingPointsInCurrentData();
+
 			SaveRankingsToDisk();
 		}
 
-		private void GetRankingsWorker_DoWork(string url)
+		private void GetRankingsWorker_DoWork(string url, bool bIsOpenRankings)
 		{
 			using (WebClient client = new WebClient())
 			{
@@ -120,6 +172,7 @@ namespace PoolCreator
 							string rankStr = line.Trim().Replace(rankTag, "");
 							rankStr = rankStr.Replace("</td>", "").Replace("T", "");
 							int.TryParse(rankStr, out newPlayer.rank);
+							newPlayer.womenPoints = 0;
 							textStream.ReadLine();
 
 							string nameLine = textStream.ReadLine().Trim().Replace("<td class=" + nameClass + ">", "");
@@ -135,12 +188,30 @@ namespace PoolCreator
 
 
 							textStream.ReadLine();
-							textStream.ReadLine();
+							if (bIsOpenRankings)
+							{
+								// Open rankings has extra line for gender
+								textStream.ReadLine();
+							}
 							string pointsLine = textStream.ReadLine().Trim();
 							pointsLine = pointsLine.Replace("<td class=" + pointsClass + ">", "").Replace("</td>", "").Replace(",", ".");
 							float.TryParse(pointsLine, out newPlayer.points);
 
-							asyncRetrievedPlayerRankings.Add(newPlayer);
+							if (bIsOpenRankings)
+							{
+								asyncRetrievedPlayerRankings.Add(newPlayer);
+							}
+							else
+							{
+								// Women points need to be queried after open
+								foreach (PlayerRanking pr in asyncRetrievedPlayerRankings)
+								{
+									if (pr.FullName == newPlayer.FullName)
+									{
+										pr.womenPoints = newPlayer.points;
+									}
+								}
+							}
 						}
 					}
 				}
@@ -204,6 +275,7 @@ namespace PoolCreator
 		public string firstName;
 		public string lastName;
 		public float points;
+		public float womenPoints;
 		public int rank;
 		private bool bIsRegistered = false;
 		public bool IsRegistered

@@ -37,7 +37,7 @@
                                         </Grid.ColumnDefinitions>
 
                                         <Label Content="{Binding PlayerNames}" Foreground="{Binding TextColor}"/>
-                                        <Label Grid.Column="1" Content="{Binding TeamRankingPoints}" Foreground="{Binding TextColor}"/>
+                                        <Label Grid.Column="1" Content="{Binding TeamBothRankingsPointsString}" Foreground="{Binding TextColor}"/>
                                     </Grid>
                                 </Border>
                             </Grid>

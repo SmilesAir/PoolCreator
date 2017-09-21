@@ -149,6 +149,8 @@ namespace PoolCreator
 			PoolData pd1 = parentWindow.tournamentData.GetPool(division, round, 0);
 			PoolData pd2 = parentWindow.tournamentData.GetPool(division, round, 1);
 
+			bool bFestivalJudging = round == ERoundJudgeDisplay.QuarterfinalsAC || round == ERoundJudgeDisplay.QuarterfinalsBD;
+
 			foreach (JudgeInventoryItemData judge in judgeItems)
 			{
 				judge.ButtonAEnabled = true;
@@ -157,11 +159,21 @@ namespace PoolCreator
 				if (IsPlayingInPool(judge.PlayerName, 0))
 				{
 					judge.ButtonAEnabled = false;
+
+					if (bFestivalJudging)
+					{
+						judge.ButtonBEnabled = false;
+					}
 				}
 
 				if (IsPlayingInPool(judge.PlayerName, 1))
 				{
 					judge.ButtonBEnabled = false;
+
+					if (bFestivalJudging)
+					{
+						judge.ButtonAEnabled = false;
+					}
 				}
 
 				if (round == ERoundJudgeDisplay.Finals)

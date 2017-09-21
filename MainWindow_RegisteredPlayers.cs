@@ -94,6 +94,7 @@ namespace PoolCreator
 		public string firstName { get; set; }
 		public string lastName { get; set; }
 		public float points { get; set; }
+		public float womenPoints { get; set; }
 		public int rank { get; set; }
 		public int totalJudgingCount { get; set; }
 
@@ -113,6 +114,7 @@ namespace PoolCreator
 			firstName = player.firstName;
 			lastName = player.lastName;
 			points = player.points;
+			womenPoints = player.womenPoints;
 			rank = player.rank;
 		}
 		public RegisteredPlayer(PlayerRanking player)
@@ -120,6 +122,7 @@ namespace PoolCreator
 			firstName = player.firstName;
 			lastName = player.lastName;
 			points = player.points;
+			womenPoints = player.womenPoints;
 			rank = player.rank;
 		}
 	};

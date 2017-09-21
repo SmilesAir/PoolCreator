@@ -739,6 +739,26 @@ namespace PoolCreator
 				return ret;
 			}
 		}
+		public float TeamWomenRankingPoints
+		{
+			get
+			{
+				float ret = 0;
+				foreach (RegisteredPlayer rp in players)
+				{
+					ret += rp.womenPoints;
+				}
+
+				return ret;
+			}
+		}
+		public string TeamBothRankingsPointsString
+		{
+			get
+			{
+				return TeamRankingPoints + "/" + TeamWomenRankingPoints;
+			}
+		}
 		[XmlIgnore]
 		private EOverlayTeamDataState overlayDragState = EOverlayTeamDataState.Normal;
 		public EOverlayTeamDataState OverlayDragState
@@ -880,7 +900,9 @@ namespace PoolCreator
 
 		public bool Contains(RegisteredPlayer judge)
 		{
-			return judgesEx.Contains(judge) || judgesAi.Contains(judge) || judgesDiff.Contains(judge);
+			return JudgeExists(judge, EJudgeCategory.Execution) ||
+				JudgeExists(judge, EJudgeCategory.ArtisticImpression) ||
+				JudgeExists(judge, EJudgeCategory.Difficulty);
 		}
 
 		public bool HasJudges()
