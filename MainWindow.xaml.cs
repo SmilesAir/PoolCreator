@@ -315,6 +315,16 @@ namespace PoolCreator
 				}
 			}
 		}
+
+		private void About_Click(object sender, RoutedEventArgs e)
+		{
+			var version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+			DateTime buildDate = new DateTime(2000, 1, 1)
+				.AddDays(version.Build)
+				.AddSeconds(version.Revision * 2);
+
+			MessageBox.Show("Build Time: " + buildDate.ToString(), "Pool Creator by Ryan Young");
+		}
 	}
 
 	public static partial class NameFinder

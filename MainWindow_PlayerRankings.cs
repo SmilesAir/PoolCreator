@@ -195,7 +195,11 @@ namespace PoolCreator
 							}
 							string pointsLine = textStream.ReadLine().Trim();
 							pointsLine = pointsLine.Replace("<td class=" + pointsClass + ">", "").Replace("</td>", "").Replace(",", ".");
-							float.TryParse(pointsLine, out newPlayer.points);
+							
+							float.TryParse(pointsLine,
+								System.Globalization.NumberStyles.AllowDecimalPoint,
+								System.Globalization.CultureInfo.CreateSpecificCulture("en-US"),
+								out newPlayer.points);
 
 							if (bIsOpenRankings)
 							{

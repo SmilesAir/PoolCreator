@@ -27,7 +27,7 @@
                 <MenuItem Header="E_xit" Click="Exit_Click"/>
             </MenuItem>
             <MenuItem Header="Help">
-                <MenuItem Header="_About"/>
+                <MenuItem Header="_About" Click="About_Click"/>
             </MenuItem>
         </Menu>
 
