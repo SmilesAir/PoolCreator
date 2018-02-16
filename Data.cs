@@ -309,43 +309,84 @@ namespace PoolCreator
 			}
 			else
 			{
-				EDivision division = EDivision.Open;
-				foreach (DivisionData dd in divisions)
+				for (EDivision division = EDivision.Open; division < EDivision.Max; ++division)
 				{
-					if (dd.division == EDivision.None)
+					if ((int)division < divisions.Count)
 					{
-						dd.division = division;
-					}
+						DivisionData dd = divisions[(int)division];
 
-					ERound round = ERound.Finals;
-					foreach (RoundData rd in dd.rounds)
-					{
-						if (rd.round == ERound.None || rd.round == ERound.Max)
+						if (dd.division == EDivision.None)
 						{
-							rd.round = round;
+							dd.division = division;
 						}
-
-						if (rd.maxTeams == 0)
+						
+						for (ERound round = ERound.Finals; round < ERound.Max; ++round)
 						{
-							rd.InitMaxTeams(division, round);
-						}
-
-						EPool pool = EPool.A;
-						foreach (PoolData pd in rd.pools)
-						{
-							if (pd.pool == EPool.None)
+							if ((int)round < dd.rounds.Count)
 							{
-								pd.pool = pool;
+								RoundData rd = dd.rounds[(int)round];
+								if (rd.round == ERound.None || rd.round == ERound.Max)
+								{
+									rd.round = round;
+								}
+
+								if (rd.maxTeams == 0)
+								{
+									rd.InitMaxTeams(division, round);
+								}
+								
+								int poolCount = GetPoolCount(round);
+								for (EPool pool = EPool.A; (int)pool < poolCount; ++pool)
+								{
+									if ((int)pool < rd.pools.Count)
+									{
+										PoolData pd = rd.pools[(int)pool];
+
+										if (pd.pool == EPool.None)
+										{
+											pd.pool = pool;
+										}
+									}
+									else
+									{
+										PoolData pd = new PoolData(pool);
+										pd.CreateData();
+										rd.pools.Add(pd);
+									}
+								}
 							}
-
-							++pool;
+							else
+							{
+								RoundData rd = new RoundData(division, round);
+								rd.CreateData();
+								dd.rounds.Add(rd);
+							}
 						}
-
-						++round;
 					}
-
-					++division;
+					else
+					{
+						DivisionData dd = new DivisionData(division);
+						dd.CreateData();
+						divisions.Add(dd);
+					}
 				}
+			}
+		}
+
+		public int GetPoolCount(ERound round)
+		{
+			switch (round)
+			{
+				case ERound.Finals:
+					return 1;
+				case ERound.Semifinals:
+					return 2;
+				case ERound.Quarterfinals:
+					return 4;
+				case ERound.Prelims:
+					return 4;
+				default:
+					return 0;
 			}
 		}
 
@@ -606,6 +647,12 @@ namespace PoolCreator
 					pools.Add(new PoolData(EPool.B));
 					break;
 				case ERound.Quarterfinals:
+					pools.Add(new PoolData(EPool.A));
+					pools.Add(new PoolData(EPool.B));
+					pools.Add(new PoolData(EPool.C));
+					pools.Add(new PoolData(EPool.D));
+					break;
+				case ERound.Prelims:
 					pools.Add(new PoolData(EPool.A));
 					pools.Add(new PoolData(EPool.B));
 					pools.Add(new PoolData(EPool.C));
