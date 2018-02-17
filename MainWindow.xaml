@@ -700,7 +700,7 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="2*"/>
                         <RowDefinition Height="3*"/>
                     </Grid.RowDefinitions>
                     
@@ -783,6 +783,11 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
 
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto"/>
@@ -805,7 +810,7 @@
                             <Button Grid.Row="2" Grid.ColumnSpan="3" Content="Export" Click="ExportExcel_Click"/>
                         </Grid>
 
-                        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" Background="Gainsboro"/>
+                        <GridSplitter Grid.Column="1" Grid.RowSpan="2" Width="5" HorizontalAlignment="Stretch" Background="Gainsboro"/>
 
                         <Grid Grid.Column="2">
                             <Grid.RowDefinitions>
@@ -818,7 +823,7 @@
                             <Button Grid.Row="1" Content="Export" Click="ExportToLisaHelper_Click"/>
                         </Grid>
 
-                        <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch" Background="Gainsboro"/>
+                        <GridSplitter Grid.Column="3" Grid.RowSpan="2" Width="5" HorizontalAlignment="Stretch" Background="Gainsboro"/>
 
                         <Grid Grid.Column="4">
                             <Grid.RowDefinitions>
@@ -830,7 +835,33 @@
 
                             <Button Grid.Row="1" Content="Export" Click="ExportToPotlatch_Click"/>
                         </Grid>
+
+                        <Grid Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Content="Step 3d - Export to Dial Judger" HorizontalAlignment="Stretch" Background="PaleTurquoise" HorizontalContentAlignment="Center"/>
+
+                            <Button Grid.Row="2" Grid.ColumnSpan="3" Content="Generate" Click="ExportDialJudger_Click"/>
+                        </Grid>
+
+                        <Grid Grid.Row="1" Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+
+                        <Grid Grid.Row="1" Grid.Column="4">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
                     </Grid>
+
 
                     <ScrollViewer Grid.Row="4" VerticalScrollBarVisibility="Auto">
                         <TextBox AcceptsReturn="True" IsReadOnly="True" Text="{Binding ExportOutputTextBox, UpdateSourceTrigger=PropertyChanged}"/>

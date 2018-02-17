@@ -773,6 +773,24 @@ namespace PoolCreator
 				return ret;
 			}
 		}
+		public string PlayerNamesCommaSeparated
+		{
+			get
+			{
+				string ret = "";
+				foreach (RegisteredPlayer rp in players)
+				{
+					if (ret.Length > 0)
+					{
+						ret += ", ";
+					}
+
+					ret += rp.FullName;
+				}
+
+				return ret;
+			}
+		}
 		public float TeamRankingPoints
 		{
 			get

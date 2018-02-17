@@ -215,27 +215,32 @@ namespace PoolCreator
 		private void InvokeAppendOutputLine(string line)
 		{
 			Application.Current.Dispatcher.Invoke(DispatcherPriority.Background,
-				new Action(() => ExportOutputTextBox += line + "\n"));
+				new Action(() => ExportOutputTextBox += line + Environment.NewLine));
+		}
+
+		private void ExportAllPools(Action<PoolKey> exportAction)
+		{
+			for (int divisionIndex = 0; divisionIndex < 4; ++divisionIndex)
+			{
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.A));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.B));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.C));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.D));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.A));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.B));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.C));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.D));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Semifinals, EPool.A));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Semifinals, EPool.B));
+				exportAction(new PoolKey(EDivision.Open + divisionIndex, ERound.Finals, EPool.A));
+			}
 		}
 
 		private void ExportExcelAll()
 		{
 			InvokeAppendOutputLine("Starting Export");
 
-			for (int divisionIndex = 0; divisionIndex < 4; ++divisionIndex)
-			{
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.A));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.B));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.C));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Prelims, EPool.D));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.A));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.B));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.C));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Quarterfinals, EPool.D));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Semifinals, EPool.A));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Semifinals, EPool.B));
-				ExportExcel(new PoolKey(EDivision.Open + divisionIndex, ERound.Finals, EPool.A));
-			}
+			ExportAllPools(ExportExcel);
 
 			InvokeAppendOutputLine("Export Finished");
 		}
@@ -475,6 +480,76 @@ namespace PoolCreator
 			}
 
 			stream.WriteLine();
+		}
+
+		private void ExportDialJudgerImportText(PoolKey poolKey)
+		{
+			if (!tournamentData.GetRound(poolKey.division, poolKey.round).shouldExport)
+			{
+				return;
+			}
+
+			PoolData pd = tournamentData.GetPool(poolKey);
+			if (pd.teamList.teams.Count == 0 && !pd.judgesData.HasJudges())
+			{
+				return;
+			}
+
+			string outputText = "";
+			string exportName = poolKey.division.ToString() + "-" +
+				poolKey.round.ToString() + "-" +
+				poolKey.pool.ToString();
+
+			outputText += Environment.NewLine;
+			outputText += "///////////////////////////////////////" + Environment.NewLine;
+			outputText += "// " + exportName + Environment.NewLine;
+
+			foreach (TeamData td in pd.teamList.teams)
+			{
+				outputText += td.PlayerNamesCommaSeparated + Environment.NewLine;
+			}
+
+			outputText += Environment.NewLine;
+			outputText += "// Judges" + Environment.NewLine;
+
+			foreach (RegisteredPlayer rp in pd.judgesData.judgesAi)
+			{
+				outputText += rp.FullName + ", ArtisticImpression" + Environment.NewLine;
+			}
+			foreach (RegisteredPlayer rp in pd.judgesData.judgesDiff)
+			{
+				outputText += rp.FullName + ", Difficulty" + Environment.NewLine;
+			}
+			foreach (RegisteredPlayer rp in pd.judgesData.judgesEx)
+			{
+				outputText += rp.FullName + ", Execution" + Environment.NewLine;
+			}
+
+			outputText += "///////////////////////////////////////" + Environment.NewLine;
+			outputText += Environment.NewLine;
+
+			ExportOutputTextBox += outputText;
+
+			try
+			{
+				using (StreamWriter saveFile = new StreamWriter(ExportPath + @"\" + exportName + ".txt",
+						false, System.Text.Encoding.Unicode))
+				{
+					saveFile.Write(outputText);
+				}
+			}
+			catch
+			{
+			}
+		}
+
+		private void ExportDialJudger_Click(object sender, RoutedEventArgs e)
+		{
+			ExportOutputTextBox = "------------ Starting Generation ------------" + Environment.NewLine;
+
+			ExportAllPools(ExportDialJudgerImportText);
+
+			ExportOutputTextBox += "------------ Finished Generation ------------";
 		}
 	}
 }

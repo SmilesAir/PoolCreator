@@ -480,16 +480,7 @@
               </teamList>
               <resultRank />
               <judgesData>
-                <judgesEx>
-                  <RegisteredPlayer>
-                    <firstName>Daniel</firstName>
-                    <lastName>Weinbuch</lastName>
-                    <points>357.1</points>
-                    <womenPoints>0</womenPoints>
-                    <rank>69</rank>
-                    <totalJudgingCount>0</totalJudgingCount>
-                  </RegisteredPlayer>
-                </judgesEx>
+                <judgesEx />
                 <judgesAi />
                 <judgesDiff />
               </judgesData>
@@ -638,8 +629,34 @@
               <resultRank />
               <judgesData>
                 <judgesEx />
-                <judgesAi />
-                <judgesDiff />
+                <judgesAi>
+                  <RegisteredPlayer>
+                    <firstName>Simon</firstName>
+                    <lastName>Faber</lastName>
+                    <points>175.5</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>143</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Mehrdad</firstName>
+                    <lastName>Hosseinian</lastName>
+                    <points>1354.75</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>7</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                  </RegisteredPlayer>
+                </judgesAi>
+                <judgesDiff>
+                  <RegisteredPlayer>
+                    <firstName>Simon</firstName>
+                    <lastName>Lühring</lastName>
+                    <points>97.5</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>205</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                  </RegisteredPlayer>
+                </judgesDiff>
               </judgesData>
             </PoolData>
             <PoolData>
@@ -777,8 +794,34 @@
               <resultRank />
               <judgesData>
                 <judgesEx />
-                <judgesAi />
-                <judgesDiff />
+                <judgesAi>
+                  <RegisteredPlayer>
+                    <firstName>Sven</firstName>
+                    <lastName>Deschle</lastName>
+                    <points>77.55</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>247</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                  </RegisteredPlayer>
+                </judgesAi>
+                <judgesDiff>
+                  <RegisteredPlayer>
+                    <firstName>Maurice</firstName>
+                    <lastName>Eugene</lastName>
+                    <points>47</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>316</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Luca</firstName>
+                    <lastName>Nogay</lastName>
+                    <points>0</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>0</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                  </RegisteredPlayer>
+                </judgesDiff>
               </judgesData>
             </PoolData>
           </pools>
@@ -1546,6 +1589,6 @@
   </divisions>
   <TournamentName>In den Hallen 2018</TournamentName>
   <TournamentSubtitle>Karlsruhe, Germany</TournamentSubtitle>
-  <exportPath>C:\Users\hess\Google Drive\Freestyle Karlsruhe\Events\In den Hallen 2018\Judgingsheets</exportPath>
-  <excelTemplatePath>C:\Users\hess\Google Drive\Freestyle Karlsruhe\Events\In den Hallen 2018\Judgingsheets\PoolCreator\Scoresheets_2.14.xlsm</excelTemplatePath>
+  <exportPath>C:\Users\Ryan\Desktop\DialJudger\Pool Creator Exports</exportPath>
+  <excelTemplatePath>C:\Users\Ryan\Desktop\PoolCreator\Export\DM2017-Scoresheets.xlsm</excelTemplatePath>
 </TournamentData>
