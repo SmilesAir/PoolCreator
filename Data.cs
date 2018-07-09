@@ -231,12 +231,12 @@ namespace PoolCreator
 
 	public enum EPool
 	{
+		None = -1,
 		A,
 		B,
 		C,
 		D,
-		Max,
-		None
+		Max
 	}
 
 	[XmlRoot("PlayerRankingData")]
