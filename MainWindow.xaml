@@ -497,7 +497,7 @@
                     </Grid>
                 </Grid>
             </TabItem>
-            <TabItem Header="Pools" GotFocus="PoolsTab_GotFocus">
+            <TabItem Header="Pools">
                 <Grid MouseMove="OverlayCanvas_MouseMove" MouseLeftButtonDown="OverlayCanvas_MouseLeftButtonDown" MouseLeftButtonUp="OverlayCanvas_MouseLeftButtonUp">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto"/>
@@ -511,6 +511,7 @@
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
                         </Grid.RowDefinitions>
 
                         <Label Content="Step 1 - Select Round" HorizontalAlignment="Stretch" Background="LightSteelBlue" HorizontalContentAlignment="Center"/>
@@ -520,20 +521,25 @@
                             <ItemsControl Name="PoolsTeamsItemsControl">
                                 <ItemsControl.ItemTemplate>
                                     <DataTemplate>
-                                        <Grid>
+                                        <Grid Background="{Binding BgColor}">
                                             <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto"/>
+                                                <ColumnDefinition Width="Auto"/>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="Auto"/>
                                             </Grid.ColumnDefinitions>
 
-                                            <Label Content="{Binding PlayerNames}"/>
-                                            <Label Grid.Column="1" Content="{Binding TeamBothRankingsPointsString}"/>
+                                            <Button FontFamily="Marlett" FontSize="20" Content="5" Tag="{Binding}" Click="PoolsSeedingMoveUp"/>
+                                            <Button Grid.Column="1" FontFamily="Marlett" FontSize="20" Content="6" Tag="{Binding}" Click="PoolsSeedingMoveDown"/>
+                                            <Label Grid.Column="2" Content="{Binding PlayerNames}"/>
+                                            <Label Grid.Column="3" Content="{Binding TeamBothRankingsPointsString}"/>
                                         </Grid>
                                     </DataTemplate>
                                 </ItemsControl.ItemTemplate>
                             </ItemsControl>
                         </ScrollViewer>
                         <Button Grid.Row="4" Content="Seed Round" Click="PoolsSeedRound_Click"/>
+                        <Button Grid.Row="5" Content="Reset Seeding Order" Click="PoolsResetSeeding_Click"/>
                     </Grid>
                     
                     <ScrollViewer Grid.Column="1" Name="PoolsScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">

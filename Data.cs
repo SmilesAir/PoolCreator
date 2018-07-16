@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media;
 using System.Xml.Serialization;
 
 namespace PoolCreator
@@ -867,6 +868,28 @@ namespace PoolCreator
 
 				return System.Windows.Media.Brushes.Gray;
 			}
+		}
+		public Brush BgColor
+		{
+			get
+			{
+				return IsMovedForPoolSeeding ? Brushes.LightGreen : Brushes.Transparent;
+			}
+		}
+		private int wildCardIndex = -1;
+		public int WildCardIndex
+		{
+			get { return wildCardIndex; }
+			set
+			{
+				wildCardIndex = value;
+				OnPropertyChanged("WildCardIndex");
+				OnPropertyChanged("BgColor");
+			}
+		}
+		public bool IsMovedForPoolSeeding
+		{
+			get { return WildCardIndex != -1; }
 		}
 
 		public TeamData()

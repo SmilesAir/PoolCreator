@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-16"?>
 <PlayerRankingData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <time>2018-02-14T19:22:33.6153702-08:00</time>
+  <time>2018-07-09T21:08:35.9563653-07:00</time>
   <playerRankings>
     <PlayerRanking>
       <firstName>Christian</firstName>
       <lastName>Lamred</lastName>
-      <points>1867.75</points>
+      <points>1776.25</points>
       <womenPoints>0</womenPoints>
       <rank>1</rank>
       <IsRegistered>true</IsRegistered>
@@ -13,431 +13,431 @@
     <PlayerRanking>
       <firstName>Alex</firstName>
       <lastName>Leist</lastName>
-      <points>1720.2</points>
+      <points>1562.75</points>
       <womenPoints>0</womenPoints>
       <rank>2</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Florian</firstName>
-      <lastName>Hess</lastName>
-      <points>1690.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>3</rank>
-      <IsRegistered>true</IsRegistered>
+      <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>James</firstName>
       <lastName>Wiseman</lastName>
-      <points>1616.75</points>
+      <points>1552.75</points>
       <womenPoints>0</womenPoints>
-      <rank>4</rank>
-      <IsRegistered>true</IsRegistered>
+      <rank>3</rank>
+      <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Ryan</firstName>
       <lastName>Young</lastName>
-      <points>1437.5</points>
+      <points>1522.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>4</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Florian</firstName>
+      <lastName>Hess</lastName>
+      <points>1521</points>
       <womenPoints>0</womenPoints>
       <rank>5</rank>
       <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Tom</firstName>
-      <lastName>Leitner</lastName>
-      <points>1432</points>
+      <firstName>Jakub</firstName>
+      <lastName>Kostel</lastName>
+      <points>1469</points>
       <womenPoints>0</womenPoints>
       <rank>6</rank>
-      <IsRegistered>true</IsRegistered>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Tom</firstName>
+      <lastName>Leitner</lastName>
+      <points>1408.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>7</rank>
+      <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Mehrdad</firstName>
       <lastName>Hosseinian</lastName>
-      <points>1354.75</points>
-      <womenPoints>0</womenPoints>
-      <rank>7</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jakub</firstName>
-      <lastName>Kostel</lastName>
-      <points>1295</points>
+      <points>1373.25</points>
       <womenPoints>0</womenPoints>
       <rank>8</rank>
       <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Randy</firstName>
-      <lastName>Silvey</lastName>
-      <points>1285.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>9</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
       <firstName>Marco</firstName>
       <lastName>Prati</lastName>
-      <points>1226.75</points>
+      <points>1339</points>
       <womenPoints>0</womenPoints>
-      <rank>10</rank>
+      <rank>9</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Paul</firstName>
       <lastName>Kenny</lastName>
-      <points>1218.25</points>
+      <points>1295.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>10</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Randy</firstName>
+      <lastName>Silvey</lastName>
+      <points>1241.5</points>
       <womenPoints>0</womenPoints>
       <rank>11</rank>
-      <IsRegistered>true</IsRegistered>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Fabio</firstName>
+      <lastName>Nizzo</lastName>
+      <points>1231.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>12</rank>
+      <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Freddy</firstName>
       <lastName>Finner</lastName>
-      <points>1194.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>12</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Fabio</firstName>
-      <lastName>Sanna</lastName>
-      <points>1087.9</points>
+      <points>1220</points>
       <womenPoints>0</womenPoints>
       <rank>13</rank>
       <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Daniel</firstName>
-      <lastName>O'Neill</lastName>
-      <points>1026.75</points>
+      <firstName>Andrea</firstName>
+      <lastName>Rimatori</lastName>
+      <points>1159.75</points>
       <womenPoints>0</womenPoints>
       <rank>14</rank>
-      <IsRegistered>true</IsRegistered>
+      <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Fabio</firstName>
-      <lastName>Nizzo</lastName>
-      <points>1010.4</points>
+      <firstName>Pavel</firstName>
+      <lastName>Baranyk</lastName>
+      <points>1125.5</points>
       <womenPoints>0</womenPoints>
       <rank>15</rank>
-      <IsRegistered>true</IsRegistered>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Manuel</firstName>
+      <lastName>Cesari</lastName>
+      <points>1073.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>16</rank>
+      <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Sascha</firstName>
       <lastName>Höhne</lastName>
       <points>1008</points>
       <womenPoints>0</womenPoints>
-      <rank>16</rank>
+      <rank>17</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Pavel</firstName>
-      <lastName>Baranyk</lastName>
-      <points>999.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>17</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Thomas</firstName>
-      <lastName>Nötzel</lastName>
-      <points>973.5</points>
+      <firstName>Larry</firstName>
+      <lastName>Imperiale</lastName>
+      <points>990.5</points>
       <womenPoints>0</womenPoints>
       <rank>18</rank>
       <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Manuel</firstName>
-      <lastName>Cesari</lastName>
-      <points>971.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>19</rank>
-      <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Matt</firstName>
       <lastName>Gauthier</lastName>
       <points>961.5</points>
       <womenPoints>0</womenPoints>
-      <rank>20</rank>
-      <IsRegistered>true</IsRegistered>
+      <rank>19</rank>
+      <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Andrea</firstName>
-      <lastName>Rimatori</lastName>
-      <points>949.75</points>
+      <firstName>Daniel</firstName>
+      <lastName>O'Neill</lastName>
+      <points>946.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>20</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Thomas</firstName>
+      <lastName>Nötzel</lastName>
+      <points>938.5</points>
       <womenPoints>0</womenPoints>
       <rank>21</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Bianca</firstName>
-      <lastName>Strunz</lastName>
-      <points>916</points>
-      <womenPoints>1135</womenPoints>
-      <rank>22</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Philipp</firstName>
-      <lastName>Krüger</lastName>
-      <points>907.7</points>
-      <womenPoints>0</womenPoints>
-      <rank>23</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jake</firstName>
-      <lastName>Gauthier</lastName>
-      <points>904.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>24</rank>
       <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Fabian</firstName>
       <lastName>Dinklage</lastName>
-      <points>848</points>
+      <points>937.5</points>
       <womenPoints>0</womenPoints>
-      <rank>25</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Antonio Piccione</firstName>
-      <lastName>Cusmá</lastName>
-      <points>799.75</points>
-      <womenPoints>0</womenPoints>
-      <rank>26</rank>
+      <rank>22</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Larry</firstName>
-      <lastName>Imperiale</lastName>
-      <points>787.7</points>
-      <womenPoints>0</womenPoints>
-      <rank>27</rank>
+      <firstName>Bianca</firstName>
+      <lastName>Strunz</lastName>
+      <points>888.5</points>
+      <womenPoints>1122</womenPoints>
+      <rank>23</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Anton</firstName>
       <lastName>Capellmann</lastName>
-      <points>783</points>
+      <points>841</points>
       <womenPoints>0</womenPoints>
-      <rank>28</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Andrea</firstName>
-      <lastName>Festi</lastName>
-      <points>765.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>29</rank>
+      <rank>24</rank>
       <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Emanuele</firstName>
-      <lastName>Faustini</lastName>
-      <points>750.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>30</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Waldemar</firstName>
-      <lastName>Wagner</lastName>
-      <points>740.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>31</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Woo</firstName>
-      <lastName>Wunder</lastName>
-      <points>725.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>32</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Toby</firstName>
-      <lastName>Künzel</lastName>
-      <points>723.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>33</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Harald</firstName>
-      <lastName>S.</lastName>
-      <points>715.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>34</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Ilka</firstName>
-      <lastName>Simon</lastName>
-      <points>715</points>
-      <womenPoints>1098</womenPoints>
-      <rank>35</rank>
-      <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Sascha</firstName>
       <lastName>Scherzinger</lastName>
-      <points>705.25</points>
+      <points>834.75</points>
       <womenPoints>0</womenPoints>
-      <rank>36</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Benjamin</firstName>
-      <lastName>Edelmann</lastName>
-      <points>690.7</points>
-      <womenPoints>0</womenPoints>
-      <rank>37</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Marc</firstName>
-      <lastName>Pestotnik</lastName>
-      <points>675.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>38</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Mattia</firstName>
-      <lastName>Colombari</lastName>
-      <points>659.625</points>
-      <womenPoints>0</womenPoints>
-      <rank>39</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Robert</firstName>
-      <lastName>Dittrich</lastName>
-      <points>656.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>40</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Clay</firstName>
-      <lastName>Collerà</lastName>
-      <points>639.85</points>
-      <womenPoints>0</womenPoints>
-      <rank>41</rank>
+      <rank>25</rank>
       <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Andrea</firstName>
       <lastName>Sarti</lastName>
-      <points>634.1</points>
+      <points>830.6</points>
       <womenPoints>0</womenPoints>
-      <rank>42</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Markus</firstName>
-      <lastName>Hein</lastName>
-      <points>632</points>
-      <womenPoints>0</womenPoints>
-      <rank>43</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jan</firstName>
-      <lastName>Schreck</lastName>
-      <points>619.95</points>
-      <womenPoints>0</womenPoints>
-      <rank>44</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jakub</firstName>
-      <lastName>Matula</lastName>
-      <points>597</points>
-      <womenPoints>0</womenPoints>
-      <rank>45</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jens</firstName>
-      <lastName>Friebe</lastName>
-      <points>593.6</points>
-      <womenPoints>0</womenPoints>
-      <rank>46</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Joakim</firstName>
-      <lastName>Arveskär</lastName>
-      <points>580</points>
-      <womenPoints>0</womenPoints>
-      <rank>47</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jonathan</firstName>
-      <lastName>Kriss</lastName>
-      <points>580</points>
-      <womenPoints>0</womenPoints>
-      <rank>48</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Manuel</firstName>
-      <lastName>Zach</lastName>
-      <points>579.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>49</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Edoardo</firstName>
-      <lastName>Turri</lastName>
-      <points>566.125</points>
-      <womenPoints>0</womenPoints>
-      <rank>50</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Stefan</firstName>
-      <lastName>Dünkel</lastName>
-      <points>562.65</points>
-      <womenPoints>0</womenPoints>
-      <rank>51</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jason</firstName>
-      <lastName>Salkey</lastName>
-      <points>549.68</points>
-      <womenPoints>0</womenPoints>
-      <rank>52</rank>
+      <rank>26</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Andrea</firstName>
-      <lastName>Izzo</lastName>
-      <points>542.75</points>
+      <lastName>Festi</lastName>
+      <points>807.75</points>
       <womenPoints>0</womenPoints>
-      <rank>53</rank>
+      <rank>27</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Fabio</firstName>
+      <lastName>Sanna</lastName>
+      <points>772.525</points>
+      <womenPoints>0</womenPoints>
+      <rank>28</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Clay</firstName>
+      <lastName>Collerà</lastName>
+      <points>767.35</points>
+      <womenPoints>0</womenPoints>
+      <rank>29</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jake</firstName>
+      <lastName>Gauthier</lastName>
+      <points>736.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>30</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Mattia</firstName>
+      <lastName>Colombari</lastName>
+      <points>706.125</points>
+      <womenPoints>0</womenPoints>
+      <rank>31</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Antonio Piccione</firstName>
+      <lastName>Cusmá</lastName>
+      <points>690.95</points>
+      <womenPoints>0</womenPoints>
+      <rank>32</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Woo</firstName>
+      <lastName>Wunder</lastName>
+      <points>689.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>33</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Robert</firstName>
+      <lastName>Dittrich</lastName>
+      <points>683</points>
+      <womenPoints>0</womenPoints>
+      <rank>34</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Waldemar</firstName>
+      <lastName>Wagner</lastName>
+      <points>671</points>
+      <womenPoints>0</womenPoints>
+      <rank>35</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Yuval</firstName>
       <lastName>Reikoren</lastName>
-      <points>534.1</points>
+      <points>669.25</points>
       <womenPoints>0</womenPoints>
-      <rank>54</rank>
+      <rank>36</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Toby</firstName>
+      <lastName>Künzel</lastName>
+      <points>663.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>37</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Yonatan</firstName>
+      <lastName>Kriss</lastName>
+      <points>648.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>38</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Philipp</firstName>
+      <lastName>Krüger</lastName>
+      <points>646.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>39</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Francesco</firstName>
       <lastName>Santolin</lastName>
-      <points>530.5</points>
+      <points>645.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>40</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Ilka</firstName>
+      <lastName>Simon</lastName>
+      <points>644.5</points>
+      <womenPoints>1123</womenPoints>
+      <rank>41</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Marc</firstName>
+      <lastName>Pestotnik</lastName>
+      <points>643</points>
+      <womenPoints>0</womenPoints>
+      <rank>42</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Edoardo</firstName>
+      <lastName>Turri</lastName>
+      <points>628.875</points>
+      <womenPoints>0</womenPoints>
+      <rank>43</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Dario</firstName>
+      <lastName>Giusti</lastName>
+      <points>626</points>
+      <womenPoints>0</womenPoints>
+      <rank>44</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Andrea</firstName>
+      <lastName>Izzo</lastName>
+      <points>617</points>
+      <womenPoints>0</womenPoints>
+      <rank>45</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jakub</firstName>
+      <lastName>Matula</lastName>
+      <points>612</points>
+      <womenPoints>0</womenPoints>
+      <rank>46</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Ayal</firstName>
+      <lastName>Benin</lastName>
+      <points>608.35</points>
+      <womenPoints>0</womenPoints>
+      <rank>47</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Kuba</firstName>
+      <lastName>Radwanski</lastName>
+      <points>595.7</points>
+      <womenPoints>0</womenPoints>
+      <rank>48</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Emanuele</firstName>
+      <lastName>Faustini</lastName>
+      <points>571.6</points>
+      <womenPoints>0</womenPoints>
+      <rank>49</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Markus</firstName>
+      <lastName>Hein</lastName>
+      <points>563</points>
+      <womenPoints>0</womenPoints>
+      <rank>50</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Filippo</firstName>
+      <lastName>Bortot</lastName>
+      <points>552.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>51</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Steffen</firstName>
+      <lastName>Verstichel</lastName>
+      <points>551.7</points>
+      <womenPoints>0</womenPoints>
+      <rank>52</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Lori</firstName>
+      <lastName>Daniels</lastName>
+      <points>551.65</points>
+      <womenPoints>1126</womenPoints>
+      <rank>53</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jens</firstName>
+      <lastName>Friebe</lastName>
+      <points>542.55</points>
+      <womenPoints>0</womenPoints>
+      <rank>54</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Manuel</firstName>
+      <lastName>Zach</lastName>
+      <points>538</points>
       <womenPoints>0</womenPoints>
       <rank>55</rank>
       <IsRegistered>false</IsRegistered>
@@ -445,41 +445,89 @@
     <PlayerRanking>
       <firstName>Mike</firstName>
       <lastName>Galloupe</lastName>
-      <points>521.15</points>
+      <points>520.15</points>
       <womenPoints>0</womenPoints>
       <rank>56</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Filippo</firstName>
-      <lastName>Bortot</lastName>
-      <points>516</points>
+      <firstName>Andrea</firstName>
+      <lastName>Poli</lastName>
+      <points>520</points>
       <womenPoints>0</womenPoints>
       <rank>57</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Dario</firstName>
-      <lastName>Giusti</lastName>
-      <points>512.75</points>
+      <firstName>Fabrizio &amp;quot;Nino&amp;quot;</firstName>
+      <lastName>Nicco</lastName>
+      <points>509.35</points>
       <womenPoints>0</womenPoints>
       <rank>58</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Kuba</firstName>
-      <lastName>Radwanski</lastName>
-      <points>502.7</points>
+      <firstName>Andrea</firstName>
+      <lastName>Piemontese</lastName>
+      <points>502</points>
       <womenPoints>0</womenPoints>
       <rank>59</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Lori</firstName>
-      <lastName>Daniels</lastName>
-      <points>498.75</points>
-      <womenPoints>1126</womenPoints>
+      <firstName>Dan</firstName>
+      <lastName>Lustiger</lastName>
+      <points>499.2</points>
+      <womenPoints>0</womenPoints>
       <rank>60</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Mattia</firstName>
+      <lastName>Lambertini</lastName>
+      <points>486.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>61</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Serge</firstName>
+      <lastName>Marconi</lastName>
+      <points>479.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>62</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Harald</firstName>
+      <lastName>S.</lastName>
+      <points>478</points>
+      <womenPoints>0</womenPoints>
+      <rank>63</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Marco</firstName>
+      <lastName>Chessa</lastName>
+      <points>465</points>
+      <womenPoints>0</womenPoints>
+      <rank>64</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Stefan</firstName>
+      <lastName>Dünkel</lastName>
+      <points>462.55</points>
+      <womenPoints>0</womenPoints>
+      <rank>65</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Joakim</firstName>
+      <lastName>Arveskär</lastName>
+      <points>461</points>
+      <womenPoints>0</womenPoints>
+      <rank>66</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -487,63 +535,79 @@
       <lastName>Schiller</lastName>
       <points>459</points>
       <womenPoints>0</womenPoints>
-      <rank>61</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Fabrizio &amp;quot;Nino&amp;quot;</firstName>
-      <lastName>Nicco</lastName>
-      <points>450.48</points>
-      <womenPoints>0</womenPoints>
-      <rank>62</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Chris</firstName>
-      <lastName>Bellaj</lastName>
-      <points>449.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>63</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Dylan</firstName>
-      <lastName>Rocha Pires</lastName>
-      <points>443.4</points>
-      <womenPoints>0</womenPoints>
-      <rank>64</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Andrea</firstName>
-      <lastName>Piemontese</lastName>
-      <points>442.95</points>
-      <womenPoints>0</womenPoints>
-      <rank>65</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Steffen</firstName>
-      <lastName>Verstichelen</lastName>
-      <points>440.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>66</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Mattia</firstName>
-      <lastName>Lambertini</lastName>
-      <points>430.15</points>
-      <womenPoints>0</womenPoints>
       <rank>67</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Oliver</firstName>
       <lastName>Peters</lastName>
-      <points>413.11</points>
+      <points>456.88</points>
       <womenPoints>0</womenPoints>
       <rank>68</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Oren</firstName>
+      <lastName>Meron</lastName>
+      <points>439.38</points>
+      <womenPoints>0</womenPoints>
+      <rank>69</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jason</firstName>
+      <lastName>Salkey</lastName>
+      <points>438.28</points>
+      <womenPoints>0</womenPoints>
+      <rank>70</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Benjamin</firstName>
+      <lastName>Edelmann</lastName>
+      <points>435.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>71</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Johnny</firstName>
+      <lastName>Trevino</lastName>
+      <points>434.4</points>
+      <womenPoints>0</womenPoints>
+      <rank>72</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Andre</firstName>
+      <lastName>Zaharias</lastName>
+      <points>430.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>73</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jakub</firstName>
+      <lastName>Hosek</lastName>
+      <points>412.83</points>
+      <womenPoints>0</womenPoints>
+      <rank>74</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Andrea</firstName>
+      <lastName>Meola</lastName>
+      <points>411.1</points>
+      <womenPoints>0</womenPoints>
+      <rank>75</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Chris</firstName>
+      <lastName>Bellaj</lastName>
+      <points>409.45</points>
+      <womenPoints>0</womenPoints>
+      <rank>76</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -551,47 +615,39 @@
       <lastName>Soerensen</lastName>
       <points>405.5</points>
       <womenPoints>0</womenPoints>
-      <rank>69</rank>
+      <rank>77</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Alessandro</firstName>
+      <lastName>Damiano</lastName>
+      <points>404</points>
+      <womenPoints>0</womenPoints>
+      <rank>78</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Edoardo</firstName>
+      <lastName>Favorini</lastName>
+      <points>404</points>
+      <womenPoints>0</womenPoints>
+      <rank>79</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Silvina</firstName>
+      <lastName>Porsch</lastName>
+      <points>396.75</points>
+      <womenPoints>580.5</womenPoints>
+      <rank>80</rank>
       <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Dennis</firstName>
-      <lastName>Vollmer</lastName>
-      <points>404.25</points>
+      <firstName>Dan</firstName>
+      <lastName>Yarnell</lastName>
+      <points>393.75</points>
       <womenPoints>0</womenPoints>
-      <rank>70</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Andre</firstName>
-      <lastName>Zaharias</lastName>
-      <points>395</points>
-      <womenPoints>0</womenPoints>
-      <rank>71</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Andrea</firstName>
-      <lastName>Poli</lastName>
-      <points>393.9125</points>
-      <womenPoints>0</womenPoints>
-      <rank>72</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Anna</firstName>
-      <lastName>Merlo</lastName>
-      <points>393</points>
-      <womenPoints>877</womenPoints>
-      <rank>73</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Johnny</firstName>
-      <lastName>Trevino</lastName>
-      <points>390.9</points>
-      <womenPoints>0</womenPoints>
-      <rank>74</rank>
+      <rank>81</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -599,135 +655,143 @@
       <lastName>Gaddoni</lastName>
       <points>389.7</points>
       <womenPoints>0</womenPoints>
-      <rank>75</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Philipp</firstName>
-      <lastName>Schellworth</lastName>
-      <points>384.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>76</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Serge</firstName>
-      <lastName>Marconi</lastName>
-      <points>371.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>77</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Silvina</firstName>
-      <lastName>Porsch</lastName>
-      <points>356</points>
-      <womenPoints>555.5</womenPoints>
-      <rank>78</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jan</firstName>
-      <lastName>Zverina</lastName>
-      <points>353.2</points>
-      <womenPoints>0</womenPoints>
-      <rank>79</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Andrea</firstName>
-      <lastName>Meola</lastName>
-      <points>349.8</points>
-      <womenPoints>0</womenPoints>
-      <rank>80</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Lukas</firstName>
-      <lastName>Lacina</lastName>
-      <points>349.23</points>
-      <womenPoints>0</womenPoints>
-      <rank>81</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Marco</firstName>
-      <lastName>Chessa</lastName>
-      <points>347</points>
-      <womenPoints>0</womenPoints>
       <rank>82</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jakub</firstName>
-      <lastName>Hosek</lastName>
-      <points>342.38</points>
+      <firstName>Jan</firstName>
+      <lastName>Schreck</lastName>
+      <points>383</points>
       <womenPoints>0</womenPoints>
       <rank>83</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Kolja</firstName>
-      <lastName>Hannemann</lastName>
-      <points>336</points>
-      <womenPoints>0</womenPoints>
+      <firstName>Juliana</firstName>
+      <lastName>Korver</lastName>
+      <points>368.5</points>
+      <womenPoints>974</womenPoints>
       <rank>84</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Andreas</firstName>
-      <lastName>Jaderyd</lastName>
-      <points>331.8</points>
+      <firstName>Philipp</firstName>
+      <lastName>Schellworth</lastName>
+      <points>366</points>
       <womenPoints>0</womenPoints>
       <rank>85</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Juliana</firstName>
-      <lastName>Korver</lastName>
-      <points>328.5</points>
-      <womenPoints>855.25</womenPoints>
+      <firstName>Daniel</firstName>
+      <lastName>Pinchasov</lastName>
+      <points>365</points>
+      <womenPoints>0</womenPoints>
       <rank>86</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jessica</firstName>
-      <lastName>S.</lastName>
-      <points>326.25</points>
-      <womenPoints>450.25</womenPoints>
+      <firstName>Kolja</firstName>
+      <lastName>Hannemann</lastName>
+      <points>364</points>
+      <womenPoints>0</womenPoints>
       <rank>87</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Claudio</firstName>
-      <lastName>Cigna</lastName>
-      <points>324</points>
+      <firstName>Pablo</firstName>
+      <lastName>Azul</lastName>
+      <points>362.9</points>
       <womenPoints>0</womenPoints>
       <rank>88</rank>
-      <IsRegistered>true</IsRegistered>
+      <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Ziv</firstName>
       <lastName>Lavy</lastName>
-      <points>323.25</points>
+      <points>359</points>
       <womenPoints>0</womenPoints>
       <rank>89</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Oren</firstName>
-      <lastName>Meron</lastName>
-      <points>320.88</points>
+      <firstName>Roberto</firstName>
+      <lastName>Borghesi</lastName>
+      <points>356.25</points>
       <womenPoints>0</womenPoints>
       <rank>90</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
+      <firstName>Anna</firstName>
+      <lastName>Merlo</lastName>
+      <points>351</points>
+      <womenPoints>818</womenPoints>
+      <rank>91</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Dylan</firstName>
+      <lastName>Rocha Pires</lastName>
+      <points>344.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>92</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Rick</firstName>
+      <lastName>Lebeau</lastName>
+      <points>343.8</points>
+      <womenPoints>0</womenPoints>
+      <rank>93</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
       <firstName>Tim</firstName>
       <lastName>Pattberg</lastName>
-      <points>318.38</points>
+      <points>341.88</points>
       <womenPoints>0</womenPoints>
-      <rank>91</rank>
+      <rank>94</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Dennis</firstName>
+      <lastName>Vollmer</lastName>
+      <points>337</points>
+      <womenPoints>0</womenPoints>
+      <rank>95</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Emma</firstName>
+      <lastName>Kahle</lastName>
+      <points>330.7</points>
+      <womenPoints>537.7</womenPoints>
+      <rank>96</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Roger</firstName>
+      <lastName>Meier</lastName>
+      <points>323.6</points>
+      <womenPoints>0</womenPoints>
+      <rank>97</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Francesco</firstName>
+      <lastName>Romeo</lastName>
+      <points>321.8125</points>
+      <womenPoints>0</womenPoints>
+      <rank>98</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Andrea</firstName>
+      <lastName>Dini</lastName>
+      <points>318.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>99</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -735,15 +799,7 @@
       <lastName>Wright</lastName>
       <points>316.55</points>
       <womenPoints>0</womenPoints>
-      <rank>92</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Gianluca</firstName>
-      <lastName>Giglio</lastName>
-      <points>316.45</points>
-      <womenPoints>0</womenPoints>
-      <rank>93</rank>
+      <rank>100</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -751,23 +807,39 @@
       <lastName>Hunrichs</lastName>
       <points>314.75</points>
       <womenPoints>942</womenPoints>
-      <rank>94</rank>
+      <rank>101</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Alessandro</firstName>
-      <lastName>Damiano</lastName>
-      <points>313.5</points>
+      <firstName>Andreas</firstName>
+      <lastName>Jaderyd</lastName>
+      <points>308</points>
       <womenPoints>0</womenPoints>
-      <rank>95</rank>
+      <rank>102</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Michal</firstName>
-      <lastName>Maciolek</lastName>
-      <points>303.3</points>
+      <firstName>Doug</firstName>
+      <lastName>Simon</lastName>
+      <points>307.6</points>
       <womenPoints>0</womenPoints>
-      <rank>96</rank>
+      <rank>103</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Char</firstName>
+      <lastName>Powell</lastName>
+      <points>303.8</points>
+      <womenPoints>710</womenPoints>
+      <rank>104</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Ofir</firstName>
+      <lastName>Almog</lastName>
+      <points>303.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>105</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -775,79 +847,63 @@
       <lastName>Harahsina</lastName>
       <points>302.5</points>
       <womenPoints>0</womenPoints>
-      <rank>97</rank>
+      <rank>106</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Roger</firstName>
-      <lastName>Meier</lastName>
-      <points>301.6</points>
+      <firstName>Pepyn</firstName>
+      <lastName>Tavernier</lastName>
+      <points>300.3</points>
       <womenPoints>0</womenPoints>
-      <rank>98</rank>
+      <rank>107</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Doug</firstName>
-      <lastName>Simon</lastName>
-      <points>301.6</points>
+      <firstName>Lukas</firstName>
+      <lastName>Lacina</lastName>
+      <points>297.5</points>
       <womenPoints>0</womenPoints>
-      <rank>98</rank>
+      <rank>108</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Dan</firstName>
-      <lastName>Lustiger</lastName>
-      <points>296.2</points>
+      <firstName>Joey</firstName>
+      <lastName>Hudoklin</lastName>
+      <points>295.6</points>
       <womenPoints>0</womenPoints>
-      <rank>100</rank>
+      <rank>109</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Doug</firstName>
-      <lastName>Korns</lastName>
-      <points>295.2</points>
+      <firstName>Michal</firstName>
+      <lastName>Maciolek</lastName>
+      <points>286.3</points>
       <womenPoints>0</womenPoints>
-      <rank>101</rank>
+      <rank>110</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Tom &amp;quot;Harry&amp;quot;</firstName>
-      <lastName>Goltz</lastName>
-      <points>294</points>
+      <firstName>Raphael</firstName>
+      <lastName>Legrand</lastName>
+      <points>279.9</points>
       <womenPoints>0</womenPoints>
-      <rank>102</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Pablo</firstName>
-      <lastName>Azul</lastName>
-      <points>288.9</points>
-      <womenPoints>0</womenPoints>
-      <rank>103</rank>
+      <rank>111</rank>
       <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Paula</firstName>
-      <lastName>Willin</lastName>
-      <points>285.5</points>
-      <womenPoints>500.9</womenPoints>
-      <rank>104</rank>
+      <firstName>Jessica</firstName>
+      <lastName>S.</lastName>
+      <points>276.5</points>
+      <womenPoints>360.5</womenPoints>
+      <rank>112</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Ayal</firstName>
-      <lastName>Benin</lastName>
-      <points>281.25</points>
+      <firstName>Lorenzo</firstName>
+      <lastName>Modarelli</lastName>
+      <points>276.2</points>
       <womenPoints>0</womenPoints>
-      <rank>105</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Gordy</firstName>
-      <lastName>Brown</lastName>
-      <points>277.6</points>
-      <womenPoints>0</womenPoints>
-      <rank>106</rank>
+      <rank>113</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -855,95 +911,135 @@
       <lastName>Occorsio</lastName>
       <points>267</points>
       <womenPoints>0</womenPoints>
-      <rank>107</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Edoardo</firstName>
-      <lastName>Gargano</lastName>
-      <points>262.15</points>
-      <womenPoints>0</womenPoints>
-      <rank>108</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Andy</firstName>
-      <lastName>Absolom</lastName>
-      <points>260.65</points>
-      <womenPoints>0</womenPoints>
-      <rank>109</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Lorenzo</firstName>
-      <lastName>Modarelli</lastName>
-      <points>259.7</points>
-      <womenPoints>0</womenPoints>
-      <rank>110</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Johanna</firstName>
-      <lastName>Matthiä</lastName>
-      <points>256.25</points>
-      <womenPoints>553.5</womenPoints>
-      <rank>111</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Char</firstName>
-      <lastName>Powell</lastName>
-      <points>255.2</points>
-      <womenPoints>595</womenPoints>
-      <rank>112</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Andrea</firstName>
-      <lastName>Dini</lastName>
-      <points>244.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>113</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Edoardo</firstName>
-      <lastName>Favorini</lastName>
-      <points>243.9</points>
-      <womenPoints>0</womenPoints>
       <rank>114</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Toddy</firstName>
-      <lastName>Brodeur</lastName>
-      <points>243</points>
+      <firstName>Tomer</firstName>
+      <lastName>Adar</lastName>
+      <points>264.5</points>
       <womenPoints>0</womenPoints>
       <rank>115</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Steve</firstName>
-      <lastName>Scannell</lastName>
-      <points>242.75</points>
+      <firstName>Gordy</firstName>
+      <lastName>Brown</lastName>
+      <points>262.8</points>
       <womenPoints>0</womenPoints>
       <rank>116</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Sophie</firstName>
-      <lastName>Rickers</lastName>
-      <points>242.5</points>
-      <womenPoints>730</womenPoints>
+      <firstName>Tom &amp;quot;Harry&amp;quot;</firstName>
+      <lastName>Goltz</lastName>
+      <points>260.5</points>
+      <womenPoints>0</womenPoints>
       <rank>117</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Rick</firstName>
-      <lastName>Lebeau</lastName>
-      <points>241.35</points>
+      <firstName>Kim</firstName>
+      <lastName>Larkin</lastName>
+      <points>260</points>
       <womenPoints>0</womenPoints>
       <rank>118</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jens</firstName>
+      <lastName>Velasquez</lastName>
+      <points>259.2</points>
+      <womenPoints>0</womenPoints>
+      <rank>119</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Paolo</firstName>
+      <lastName>Mirabelli</lastName>
+      <points>254.875</points>
+      <womenPoints>0</womenPoints>
+      <rank>120</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Mateusz</firstName>
+      <lastName>Gajewski</lastName>
+      <points>252.9</points>
+      <womenPoints>0</womenPoints>
+      <rank>121</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Gianluca</firstName>
+      <lastName>Giglio</lastName>
+      <points>251.2</points>
+      <womenPoints>0</womenPoints>
+      <rank>122</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Toddy</firstName>
+      <lastName>Brodeur</lastName>
+      <points>249</points>
+      <womenPoints>0</womenPoints>
+      <rank>123</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Arthur</firstName>
+      <lastName>Coddington</lastName>
+      <points>248.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>124</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Rob</firstName>
+      <lastName>Fried</lastName>
+      <points>246.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>125</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Doug</firstName>
+      <lastName>Korns</lastName>
+      <points>242</points>
+      <womenPoints>0</womenPoints>
+      <rank>126</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Yarden</firstName>
+      <lastName>Borkow</lastName>
+      <points>241.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>127</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Andrea</firstName>
+      <lastName>Marciano</lastName>
+      <points>233.825</points>
+      <womenPoints>0</womenPoints>
+      <rank>128</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Andy</firstName>
+      <lastName>Absolom</lastName>
+      <points>232.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>129</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Alexander</firstName>
+      <lastName>Enhuber</lastName>
+      <points>231.63</points>
+      <womenPoints>0</womenPoints>
+      <rank>130</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -951,47 +1047,55 @@
       <lastName>Schiller</lastName>
       <points>225.5</points>
       <womenPoints>457</womenPoints>
-      <rank>119</rank>
+      <rank>131</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Andrea</firstName>
-      <lastName>Marciano</lastName>
-      <points>216.325</points>
-      <womenPoints>0</womenPoints>
-      <rank>120</rank>
+      <firstName>Sophie</firstName>
+      <lastName>Rickers</lastName>
+      <points>223.1</points>
+      <womenPoints>790</womenPoints>
+      <rank>132</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Joey</firstName>
-      <lastName>Hudoklin</lastName>
-      <points>216.1</points>
+      <firstName>Brett</firstName>
+      <lastName>Schramek</lastName>
+      <points>217.25</points>
       <womenPoints>0</womenPoints>
-      <rank>121</rank>
+      <rank>133</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Scott</firstName>
-      <lastName>Weaver</lastName>
-      <points>213.7</points>
+      <firstName>Charles</firstName>
+      <lastName>Logan</lastName>
+      <points>213.8</points>
       <womenPoints>0</womenPoints>
-      <rank>122</rank>
+      <rank>134</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Dan</firstName>
-      <lastName>Yarnell</lastName>
-      <points>212.75</points>
+      <firstName>Paolo</firstName>
+      <lastName>Cipolloni</lastName>
+      <points>213.5</points>
       <womenPoints>0</womenPoints>
-      <rank>123</rank>
+      <rank>135</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Andrea</firstName>
-      <lastName>Ludergnani</lastName>
-      <points>210.95</points>
+      <firstName>Edoardo</firstName>
+      <lastName>Gargano</lastName>
+      <points>209.65</points>
       <womenPoints>0</womenPoints>
-      <rank>124</rank>
+      <rank>136</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Omer</firstName>
+      <lastName>Rosenbaum</lastName>
+      <points>209.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>137</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -999,7 +1103,7 @@
       <lastName>Feller</lastName>
       <points>208.3</points>
       <womenPoints>0</womenPoints>
-      <rank>125</rank>
+      <rank>138</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1007,7 +1111,7 @@
       <lastName>Suzuki</lastName>
       <points>206.75</points>
       <womenPoints>0</womenPoints>
-      <rank>126</rank>
+      <rank>139</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1015,63 +1119,71 @@
       <lastName>Yamaji</lastName>
       <points>206.75</points>
       <womenPoints>0</womenPoints>
-      <rank>126</rank>
+      <rank>139</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Iwan</firstName>
-      <lastName>de Moor</lastName>
-      <points>204.8</points>
+      <firstName>Martin</firstName>
+      <lastName>Höser</lastName>
+      <points>202</points>
       <womenPoints>0</womenPoints>
-      <rank>128</rank>
+      <rank>141</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Rob</firstName>
-      <lastName>Fried</lastName>
-      <points>203.5</points>
+      <firstName>Naim</firstName>
+      <lastName>Megassabi</lastName>
+      <points>198.43</points>
       <womenPoints>0</womenPoints>
-      <rank>129</rank>
+      <rank>142</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Pat</firstName>
-      <lastName>Marron</lastName>
-      <points>203</points>
+      <firstName>Lorenzo</firstName>
+      <lastName>Telo</lastName>
+      <points>197.6</points>
       <womenPoints>0</womenPoints>
-      <rank>130</rank>
+      <rank>143</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Emma</firstName>
-      <lastName>Kahle</lastName>
-      <points>202.7</points>
-      <womenPoints>425.7</womenPoints>
-      <rank>131</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jeff</firstName>
-      <lastName>O'Brien</lastName>
-      <points>197.5</points>
+      <firstName>Amir</firstName>
+      <lastName>Hoshen</lastName>
+      <points>194.5</points>
       <womenPoints>0</womenPoints>
-      <rank>132</rank>
+      <rank>144</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>David</firstName>
-      <lastName>Tomiak</lastName>
-      <points>193.65</points>
+      <firstName>Steve</firstName>
+      <lastName>Scannell</lastName>
+      <points>193.25</points>
       <womenPoints>0</womenPoints>
-      <rank>133</rank>
+      <rank>145</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Mateusz</firstName>
-      <lastName>Gajewski</lastName>
-      <points>189.3</points>
+      <firstName>Fabio</firstName>
+      <lastName>Vinciguerra</lastName>
+      <points>193.25</points>
       <womenPoints>0</womenPoints>
-      <rank>134</rank>
+      <rank>146</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>John</firstName>
+      <lastName>Titcomb</lastName>
+      <points>191.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>147</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Bar</firstName>
+      <lastName>Bendek</lastName>
+      <points>188.5</points>
+      <womenPoints>364.5</womenPoints>
+      <rank>148</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1079,23 +1191,71 @@
       <lastName>Coppo</lastName>
       <points>187.5</points>
       <womenPoints>0</womenPoints>
-      <rank>135</rank>
+      <rank>149</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jan</firstName>
+      <lastName>Zverina</lastName>
+      <points>186.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>150</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Balu</firstName>
+      <lastName>Major</lastName>
+      <points>184.2</points>
+      <womenPoints>0</womenPoints>
+      <rank>151</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Iwan</firstName>
+      <lastName>de Moor</lastName>
+      <points>183.6</points>
+      <womenPoints>0</womenPoints>
+      <rank>152</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Andrea</firstName>
+      <lastName>Ludergnani</lastName>
+      <points>183.3</points>
+      <womenPoints>0</womenPoints>
+      <rank>153</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jim</firstName>
+      <lastName>Dodelson</lastName>
+      <points>183</points>
+      <womenPoints>0</womenPoints>
+      <rank>154</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Sebastian</firstName>
       <lastName>Gorczynski</lastName>
-      <points>186.83</points>
+      <points>182.25</points>
       <womenPoints>0</womenPoints>
-      <rank>136</rank>
+      <rank>155</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Dave</firstName>
-      <lastName>Murphy</lastName>
+      <firstName>Mark</firstName>
+      <lastName>Trout</lastName>
+      <points>182.05</points>
+      <womenPoints>0</womenPoints>
+      <rank>156</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Gil</firstName>
+      <lastName>Korin</lastName>
       <points>180</points>
       <womenPoints>0</womenPoints>
-      <rank>137</rank>
+      <rank>157</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1103,55 +1263,79 @@
       <lastName>McElwain</lastName>
       <points>179.8</points>
       <womenPoints>0</womenPoints>
-      <rank>138</rank>
+      <rank>158</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Pipo</firstName>
-      <lastName>Lopez</lastName>
-      <points>179</points>
+      <firstName>Luca</firstName>
+      <lastName>Sanso</lastName>
+      <points>179.5</points>
       <womenPoints>0</womenPoints>
-      <rank>139</rank>
+      <rank>159</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Charles</firstName>
-      <lastName>Logan</lastName>
-      <points>178.8</points>
+      <firstName>David</firstName>
+      <lastName>Tomiak</lastName>
+      <points>179.25</points>
       <womenPoints>0</womenPoints>
-      <rank>140</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Gregory</firstName>
-      <lastName>Lo-a-sjoe</lastName>
-      <points>178.3</points>
-      <womenPoints>0</womenPoints>
-      <rank>141</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Brett</firstName>
-      <lastName>Schramek</lastName>
-      <points>175.75</points>
-      <womenPoints>0</womenPoints>
-      <rank>142</rank>
+      <rank>160</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Simon</firstName>
       <lastName>Faber</lastName>
-      <points>175.5</points>
+      <points>178</points>
       <womenPoints>0</womenPoints>
-      <rank>143</rank>
+      <rank>161</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jeff</firstName>
+      <lastName>O'Brien</lastName>
+      <points>175</points>
+      <womenPoints>0</womenPoints>
+      <rank>162</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Martin</firstName>
-      <lastName>Höser</lastName>
+      <firstName>Ran</firstName>
+      <lastName>Klein</lastName>
+      <points>173.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>163</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Konrad</firstName>
+      <lastName>Patris</lastName>
+      <points>172.45</points>
+      <womenPoints>0</womenPoints>
+      <rank>164</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Simon</firstName>
+      <lastName>Lühring</lastName>
       <points>172.25</points>
       <womenPoints>0</womenPoints>
-      <rank>144</rank>
+      <rank>165</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Harvey</firstName>
+      <lastName>Brandt</lastName>
+      <points>172</points>
+      <womenPoints>0</womenPoints>
+      <rank>166</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Kate</firstName>
+      <lastName>Gester</lastName>
+      <points>170.75</points>
+      <womenPoints>401</womenPoints>
+      <rank>167</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1159,7 +1343,7 @@
       <lastName>Audet</lastName>
       <points>168.75</points>
       <womenPoints>371.9</womenPoints>
-      <rank>145</rank>
+      <rank>168</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1167,71 +1351,63 @@
       <lastName>Regalbuti</lastName>
       <points>168.1</points>
       <womenPoints>0</womenPoints>
-      <rank>146</rank>
+      <rank>169</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Stephan</firstName>
-      <lastName>Stoll</lastName>
+      <firstName>Claudio</firstName>
+      <lastName>Massaro</lastName>
+      <points>167.3125</points>
+      <womenPoints>0</womenPoints>
+      <rank>170</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Johanna</firstName>
+      <lastName>Matthiä</lastName>
       <points>166.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>147</rank>
+      <womenPoints>210</womenPoints>
+      <rank>171</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Raphael</firstName>
-      <lastName>Legrand</lastName>
-      <points>165.7</points>
+      <firstName>Claudio</firstName>
+      <lastName>Cigna</lastName>
+      <points>164.25</points>
       <womenPoints>0</womenPoints>
-      <rank>148</rank>
+      <rank>172</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Daniel</firstName>
-      <lastName>Pinchasov</lastName>
-      <points>164.5</points>
+      <firstName>Eitan</firstName>
+      <lastName>Rei Koren</lastName>
+      <points>161.9</points>
       <womenPoints>0</womenPoints>
-      <rank>149</rank>
+      <rank>173</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Gianluca</firstName>
-      <lastName>Bertoncelli</lastName>
-      <points>163.5</points>
+      <firstName>Tom</firstName>
+      <lastName>Cole</lastName>
+      <points>160.1</points>
       <womenPoints>0</womenPoints>
-      <rank>150</rank>
+      <rank>174</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Mirco</firstName>
-      <lastName>Zanchetta</lastName>
-      <points>162.4</points>
-      <womenPoints>0</womenPoints>
-      <rank>151</rank>
+      <firstName>Cindy</firstName>
+      <lastName>St. Mary</lastName>
+      <points>156.25</points>
+      <womenPoints>223.5</womenPoints>
+      <rank>175</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Mark</firstName>
-      <lastName>Trout</lastName>
-      <points>158.3</points>
+      <firstName>Rick</firstName>
+      <lastName>Williams</lastName>
+      <points>155.7</points>
       <womenPoints>0</womenPoints>
-      <rank>152</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Kate</firstName>
-      <lastName>Gester</lastName>
-      <points>157.25</points>
-      <womenPoints>447.5</womenPoints>
-      <rank>153</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>John</firstName>
-      <lastName>Titcomb</lastName>
-      <points>154</points>
-      <womenPoints>0</womenPoints>
-      <rank>154</rank>
+      <rank>176</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1239,7 +1415,15 @@
       <lastName>Abel</lastName>
       <points>153</points>
       <womenPoints>0</womenPoints>
-      <rank>155</rank>
+      <rank>177</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Marco</firstName>
+      <lastName>Fera</lastName>
+      <points>152.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>178</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1247,47 +1431,103 @@
       <lastName>Takeuchi</lastName>
       <points>152.5</points>
       <womenPoints>0</womenPoints>
-      <rank>156</rank>
+      <rank>179</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Konrad</firstName>
-      <lastName>Patris</lastName>
-      <points>150.45</points>
+      <firstName>Stefan</firstName>
+      <lastName>Frehland</lastName>
+      <points>150</points>
       <womenPoints>0</womenPoints>
-      <rank>157</rank>
+      <rank>180</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Naim</firstName>
-      <lastName>Megassabi</lastName>
-      <points>144.63</points>
+      <firstName>Conrad</firstName>
+      <lastName>Damon</lastName>
+      <points>149.4</points>
       <womenPoints>0</womenPoints>
-      <rank>158</rank>
+      <rank>181</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Andreas</firstName>
+      <lastName>Nogay</lastName>
+      <points>147.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>182</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Tito</firstName>
+      <lastName>Andino</lastName>
+      <points>146</points>
+      <womenPoints>0</womenPoints>
+      <rank>183</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Ron</firstName>
+      <lastName>Huberman</lastName>
+      <points>145</points>
+      <womenPoints>0</womenPoints>
+      <rank>184</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Federico</firstName>
+      <lastName>Iommi</lastName>
+      <points>143.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>185</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Jack</firstName>
       <lastName>Cooksey</lastName>
-      <points>139.6</points>
+      <points>143.6</points>
       <womenPoints>0</womenPoints>
-      <rank>159</rank>
+      <rank>186</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jason</firstName>
-      <lastName>McGlade</lastName>
-      <points>138</points>
+      <firstName>Stephan</firstName>
+      <lastName>Stoll</lastName>
+      <points>142.5</points>
       <womenPoints>0</womenPoints>
-      <rank>160</rank>
+      <rank>187</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jens</firstName>
-      <lastName>Velasquez</lastName>
-      <points>136.7</points>
+      <firstName>Tony</firstName>
+      <lastName>Pellicane</lastName>
+      <points>142</points>
       <womenPoints>0</womenPoints>
-      <rank>161</rank>
+      <rank>188</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Sven</firstName>
+      <lastName>Deschle</lastName>
+      <points>141.85</points>
+      <womenPoints>0</womenPoints>
+      <rank>189</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Hauke</firstName>
+      <lastName>Raschen</lastName>
+      <points>138.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>190</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Yarden</firstName>
+      <lastName>Ghefter</lastName>
+      <points>136.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>191</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1295,39 +1535,15 @@
       <lastName>Johansson</lastName>
       <points>135.5</points>
       <womenPoints>0</womenPoints>
-      <rank>162</rank>
+      <rank>192</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Anna</firstName>
-      <lastName>Duran-Korzycka</lastName>
-      <points>133.3</points>
-      <womenPoints>347.8</womenPoints>
-      <rank>163</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Filip</firstName>
-      <lastName>Korzycki</lastName>
-      <points>132.6</points>
+      <firstName>Mirco</firstName>
+      <lastName>Zanchetta</lastName>
+      <points>135.1</points>
       <womenPoints>0</womenPoints>
-      <rank>164</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Daniel</firstName>
-      <lastName>Weinbuch</lastName>
-      <points>132.35</points>
-      <womenPoints>0</womenPoints>
-      <rank>165</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Bethany</firstName>
-      <lastName>Sanchez</lastName>
-      <points>129.5</points>
-      <womenPoints>440.4</womenPoints>
-      <rank>166</rank>
+      <rank>193</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1335,31 +1551,47 @@
       <lastName>Maeda</lastName>
       <points>129</points>
       <womenPoints>0</womenPoints>
-      <rank>167</rank>
+      <rank>194</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Harvey</firstName>
-      <lastName>Brandt</lastName>
-      <points>128.5</points>
+      <firstName>Filip</firstName>
+      <lastName>Korzycki</lastName>
+      <points>129</points>
       <womenPoints>0</womenPoints>
-      <rank>168</rank>
+      <rank>195</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Paolo</firstName>
-      <lastName>Mirabelli</lastName>
-      <points>128.375</points>
+      <firstName>Gianluca</firstName>
+      <lastName>Bertoncelli</lastName>
+      <points>128</points>
       <womenPoints>0</womenPoints>
-      <rank>169</rank>
+      <rank>196</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Daniel</firstName>
-      <lastName>Nothaas</lastName>
-      <points>125.25</points>
+      <firstName>Fabiana</firstName>
+      <lastName>Ciciriello</lastName>
+      <points>127</points>
+      <womenPoints>384.9</womenPoints>
+      <rank>197</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Ramon</firstName>
+      <lastName>Galliani</lastName>
+      <points>126.5</points>
       <womenPoints>0</womenPoints>
-      <rank>170</rank>
+      <rank>198</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Rodney</firstName>
+      <lastName>Sanchez</lastName>
+      <points>125.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>199</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1367,39 +1599,47 @@
       <lastName>Hirashima</lastName>
       <points>125</points>
       <womenPoints>0</womenPoints>
-      <rank>171</rank>
+      <rank>200</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Andrea</firstName>
-      <lastName>Pecchiari</lastName>
-      <points>124.6625</points>
+      <firstName>Kevin</firstName>
+      <lastName>Surdyka</lastName>
+      <points>124</points>
       <womenPoints>0</womenPoints>
-      <rank>172</rank>
-      <IsRegistered>false</IsRegistered>
+      <rank>201</rank>
+      <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Julian</firstName>
-      <lastName>Störk</lastName>
-      <points>123.45</points>
-      <womenPoints>0</womenPoints>
-      <rank>173</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Andreas</firstName>
-      <lastName>Nogay</lastName>
+      <firstName>Anna</firstName>
+      <lastName>Duran-Korzycka</lastName>
       <points>123</points>
-      <womenPoints>0</womenPoints>
-      <rank>174</rank>
+      <womenPoints>244</womenPoints>
+      <rank>202</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Nico</firstName>
-      <lastName>Schwarz</lastName>
-      <points>122.48</points>
+      <firstName>Daniel</firstName>
+      <lastName>Shriki</lastName>
+      <points>122.5</points>
       <womenPoints>0</womenPoints>
-      <rank>175</rank>
+      <rank>203</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Bob</firstName>
+      <lastName>Boulware</lastName>
+      <points>121</points>
+      <womenPoints>0</womenPoints>
+      <rank>204</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Fabrizio</firstName>
+      <lastName>De Rossi</lastName>
+      <points>120</points>
+      <womenPoints>0</womenPoints>
+      <rank>205</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1407,7 +1647,7 @@
       <lastName>Burvall</lastName>
       <points>119.5</points>
       <womenPoints>0</womenPoints>
-      <rank>176</rank>
+      <rank>206</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1415,15 +1655,7 @@
       <lastName>Goetz</lastName>
       <points>119</points>
       <womenPoints>0</womenPoints>
-      <rank>177</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Claudio</firstName>
-      <lastName>Massaro</lastName>
-      <points>118.9625</points>
-      <womenPoints>0</womenPoints>
-      <rank>178</rank>
+      <rank>207</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1431,7 +1663,7 @@
       <lastName>Menetrat</lastName>
       <points>118.75</points>
       <womenPoints>0</womenPoints>
-      <rank>179</rank>
+      <rank>208</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1439,39 +1671,31 @@
       <lastName>Böhm</lastName>
       <points>116.5</points>
       <womenPoints>0</womenPoints>
-      <rank>180</rank>
+      <rank>209</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Tom</firstName>
-      <lastName>Cole</lastName>
-      <points>115.6</points>
+      <firstName>Brad</firstName>
+      <lastName>Keller</lastName>
+      <points>116</points>
       <womenPoints>0</womenPoints>
-      <rank>181</rank>
+      <rank>210</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Pepyn</firstName>
-      <lastName>Tavernier</lastName>
-      <points>114.98</points>
+      <firstName>Simon</firstName>
+      <lastName>Wassermann</lastName>
+      <points>114.1</points>
       <womenPoints>0</womenPoints>
-      <rank>182</rank>
-      <IsRegistered>false</IsRegistered>
+      <rank>211</rank>
+      <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Yarden</firstName>
-      <lastName>Borkow</lastName>
-      <points>114</points>
+      <firstName>Jakub</firstName>
+      <lastName>Sedlak</lastName>
+      <points>113.83</points>
       <womenPoints>0</womenPoints>
-      <rank>183</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Ofir</firstName>
-      <lastName>Almog</lastName>
-      <points>114</points>
-      <womenPoints>0</womenPoints>
-      <rank>184</rank>
+      <rank>212</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1479,15 +1703,7 @@
       <lastName>Sanna</lastName>
       <points>113</points>
       <womenPoints>0</womenPoints>
-      <rank>185</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Ron</firstName>
-      <lastName>Huberman</lastName>
-      <points>112.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>186</rank>
+      <rank>213</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1495,7 +1711,31 @@
       <lastName>Yamamoto</lastName>
       <points>112.5</points>
       <womenPoints>0</womenPoints>
-      <rank>186</rank>
+      <rank>214</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Angelo</firstName>
+      <lastName>Mancarella</lastName>
+      <points>112</points>
+      <womenPoints>0</womenPoints>
+      <rank>215</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Pat</firstName>
+      <lastName>Marron</lastName>
+      <points>112</points>
+      <womenPoints>0</womenPoints>
+      <rank>215</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Angelo</firstName>
+      <lastName>Trevino</lastName>
+      <points>111.55</points>
+      <womenPoints>0</womenPoints>
+      <rank>217</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1503,31 +1743,31 @@
       <lastName>Allen</lastName>
       <points>111.5</points>
       <womenPoints>0</womenPoints>
-      <rank>188</rank>
+      <rank>218</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Carl</firstName>
-      <lastName>Dobson</lastName>
+      <firstName>Pipo</firstName>
+      <lastName>Lopez</lastName>
       <points>111.5</points>
       <womenPoints>0</womenPoints>
-      <rank>189</rank>
+      <rank>218</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Arthur</firstName>
-      <lastName>Coddington</lastName>
-      <points>110</points>
+      <firstName>Scott</firstName>
+      <lastName>Weaver</lastName>
+      <points>111.2</points>
       <womenPoints>0</womenPoints>
-      <rank>190</rank>
+      <rank>220</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Conrad</firstName>
-      <lastName>Damon</lastName>
-      <points>107.9</points>
+      <firstName>Manuel</firstName>
+      <lastName>Enders</lastName>
+      <points>109</points>
       <womenPoints>0</womenPoints>
-      <rank>191</rank>
+      <rank>221</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1535,31 +1775,47 @@
       <lastName>Zeff</lastName>
       <points>106.4</points>
       <womenPoints>0</womenPoints>
-      <rank>192</rank>
+      <rank>222</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Lina</firstName>
-      <lastName>Dittrich</lastName>
-      <points>106</points>
-      <womenPoints>80</womenPoints>
-      <rank>193</rank>
+      <firstName>Julian</firstName>
+      <lastName>Störk</lastName>
+      <points>105</points>
+      <womenPoints>0</womenPoints>
+      <rank>223</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Omer</firstName>
-      <lastName>Rosenbaum</lastName>
+      <firstName>Paula</firstName>
+      <lastName>Willin</lastName>
+      <points>104.5</points>
+      <womenPoints>344.4</womenPoints>
+      <rank>224</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Janis</firstName>
+      <lastName>Brunner</lastName>
       <points>104</points>
       <womenPoints>0</womenPoints>
-      <rank>194</rank>
+      <rank>225</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Francesco</firstName>
-      <lastName>Romeo</lastName>
-      <points>102.8125</points>
+      <firstName>Lukas</firstName>
+      <lastName>Zimovcak</lastName>
+      <points>103.95</points>
       <womenPoints>0</womenPoints>
-      <rank>195</rank>
+      <rank>226</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Eugenio</firstName>
+      <lastName>Zaffarano</lastName>
+      <points>103</points>
+      <womenPoints>0</womenPoints>
+      <rank>227</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1567,7 +1823,7 @@
       <lastName>Yamamoto</lastName>
       <points>102.5</points>
       <womenPoints>0</womenPoints>
-      <rank>196</rank>
+      <rank>228</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1575,23 +1831,7 @@
       <lastName>Hoffman</lastName>
       <points>101</points>
       <womenPoints>0</womenPoints>
-      <rank>197</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Daniele</firstName>
-      <lastName>Bertolini</lastName>
-      <points>100.88</points>
-      <womenPoints>0</womenPoints>
-      <rank>198</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Amir</firstName>
-      <lastName>Hoshen</lastName>
-      <points>100.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>199</rank>
+      <rank>229</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1599,23 +1839,7 @@
       <lastName>Karlsson</lastName>
       <points>100</points>
       <womenPoints>0</womenPoints>
-      <rank>200</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Kevin</firstName>
-      <lastName>Surdyka</lastName>
-      <points>99.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>201</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Luca</firstName>
-      <lastName>Sanso</lastName>
-      <points>99</points>
-      <womenPoints>0</womenPoints>
-      <rank>202</rank>
+      <rank>230</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1623,7 +1847,7 @@
       <lastName>Andres Mosquer</lastName>
       <points>99</points>
       <womenPoints>0</womenPoints>
-      <rank>203</rank>
+      <rank>231</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1631,31 +1855,15 @@
       <lastName>Pinto</lastName>
       <points>97.8125</points>
       <womenPoints>0</womenPoints>
-      <rank>204</rank>
+      <rank>232</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Simon</firstName>
-      <lastName>Lühring</lastName>
-      <points>97.5</points>
+      <firstName>Idan</firstName>
+      <lastName>Levy</lastName>
+      <points>97</points>
       <womenPoints>0</womenPoints>
-      <rank>205</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Cindy</firstName>
-      <lastName>St. Mary</lastName>
-      <points>97.25</points>
-      <womenPoints>93.5</womenPoints>
-      <rank>206</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Ian</firstName>
-      <lastName>White</lastName>
-      <points>96.1</points>
-      <womenPoints>0</womenPoints>
-      <rank>207</rank>
+      <rank>233</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1663,7 +1871,7 @@
       <lastName>Kuroda</lastName>
       <points>95.5</points>
       <womenPoints>0</womenPoints>
-      <rank>208</rank>
+      <rank>234</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1671,7 +1879,15 @@
       <lastName>Oouchi</lastName>
       <points>95.5</points>
       <womenPoints>0</womenPoints>
-      <rank>208</rank>
+      <rank>234</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Bethany</firstName>
+      <lastName>Sanchez</lastName>
+      <points>95.5</points>
+      <womenPoints>386.4</womenPoints>
+      <rank>236</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1679,23 +1895,7 @@
       <lastName>Ranieri</lastName>
       <points>94</points>
       <womenPoints>0</womenPoints>
-      <rank>210</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Adrian</firstName>
-      <lastName>Röder</lastName>
-      <points>93.8</points>
-      <womenPoints>0</womenPoints>
-      <rank>211</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Lorenzo</firstName>
-      <lastName>Telo</lastName>
-      <points>92.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>212</rank>
+      <rank>237</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1703,47 +1903,15 @@
       <lastName>Yokota</lastName>
       <points>92</points>
       <womenPoints>0</womenPoints>
-      <rank>213</rank>
+      <rank>238</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Fabiana</firstName>
-      <lastName>Ciciriello</lastName>
-      <points>92</points>
-      <womenPoints>354.9</womenPoints>
-      <rank>214</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Federico</firstName>
-      <lastName>Iommi</lastName>
-      <points>91.75</points>
+      <firstName>Kuba</firstName>
+      <lastName>Opaluch</lastName>
+      <points>91.2</points>
       <womenPoints>0</womenPoints>
-      <rank>215</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Rick</firstName>
-      <lastName>Williams</lastName>
-      <points>90.7</points>
-      <womenPoints>0</womenPoints>
-      <rank>216</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Alexander</firstName>
-      <lastName>Enhuber</lastName>
-      <points>90.63</points>
-      <womenPoints>0</womenPoints>
-      <rank>217</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Hanna</firstName>
-      <lastName>Dura</lastName>
-      <points>90.5</points>
-      <womenPoints>259</womenPoints>
-      <rank>218</rank>
+      <rank>239</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1751,7 +1919,7 @@
       <lastName>Cameranesi</lastName>
       <points>90.25</points>
       <womenPoints>0</womenPoints>
-      <rank>219</rank>
+      <rank>240</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1759,55 +1927,39 @@
       <lastName>Kamiya</lastName>
       <points>89</points>
       <womenPoints>0</womenPoints>
-      <rank>220</rank>
+      <rank>241</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Tony</firstName>
-      <lastName>Pellicane</lastName>
-      <points>89</points>
+      <firstName>Andrea</firstName>
+      <lastName>Pecchiari</lastName>
+      <points>88.9125</points>
       <womenPoints>0</womenPoints>
-      <rank>220</rank>
+      <rank>242</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Irena</firstName>
-      <lastName>Kulisanova</lastName>
-      <points>88.4</points>
-      <womenPoints>356.9</womenPoints>
-      <rank>222</rank>
+      <firstName>Toufik</firstName>
+      <lastName>Lamred</lastName>
+      <points>88.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>243</rank>
       <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jiri</firstName>
-      <lastName>Weiss</lastName>
-      <points>87.48</points>
-      <womenPoints>0</womenPoints>
-      <rank>223</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Rainer</firstName>
-      <lastName>Doerr</lastName>
+      <firstName>Gregory</firstName>
+      <lastName>Lo-a-sjoe</lastName>
       <points>86.5</points>
       <womenPoints>0</womenPoints>
-      <rank>224</rank>
+      <rank>244</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Joel</firstName>
-      <lastName>Rogers</lastName>
-      <points>85.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>225</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Roberto</firstName>
-      <lastName>Borghesi</lastName>
-      <points>85.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>226</rank>
+      <firstName>Giulia</firstName>
+      <lastName>Aretano</lastName>
+      <points>85.875</points>
+      <womenPoints>343.88</womenPoints>
+      <rank>245</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1815,15 +1967,7 @@
       <lastName>Olsson</lastName>
       <points>84.8</points>
       <womenPoints>0</womenPoints>
-      <rank>227</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Lisa</firstName>
-      <lastName>Löser</lastName>
-      <points>84.5</points>
-      <womenPoints>84.5</womenPoints>
-      <rank>228</rank>
+      <rank>246</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1831,15 +1975,7 @@
       <lastName>Sumrall</lastName>
       <points>84.3</points>
       <womenPoints>0</womenPoints>
-      <rank>229</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Erwin</firstName>
-      <lastName>Velasquez</lastName>
-      <points>84.2</points>
-      <womenPoints>0</womenPoints>
-      <rank>230</rank>
+      <rank>247</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1847,55 +1983,15 @@
       <lastName>Dufke</lastName>
       <points>84</points>
       <womenPoints>0</womenPoints>
-      <rank>231</rank>
+      <rank>248</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Bar</firstName>
-      <lastName>Bendek</lastName>
-      <points>84</points>
-      <womenPoints>84</womenPoints>
-      <rank>232</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Kuba</firstName>
-      <lastName>Opaluch</lastName>
-      <points>84</points>
+      <firstName>Dave</firstName>
+      <lastName>Murphy</lastName>
+      <points>81.5</points>
       <womenPoints>0</womenPoints>
-      <rank>232</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Hauke</firstName>
-      <lastName>Raschen</lastName>
-      <points>83</points>
-      <womenPoints>0</womenPoints>
-      <rank>234</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Federico</firstName>
-      <lastName>Bianchini</lastName>
-      <points>82.58</points>
-      <womenPoints>0</womenPoints>
-      <rank>235</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Anna</firstName>
-      <lastName>Bragagnolo</lastName>
-      <points>82.2</points>
-      <womenPoints>575.7</womenPoints>
-      <rank>236</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Gil</firstName>
-      <lastName>Korin</lastName>
-      <points>81</points>
-      <womenPoints>0</womenPoints>
-      <rank>237</rank>
+      <rank>249</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1903,23 +1999,15 @@
       <lastName>Galloupe</lastName>
       <points>81</points>
       <womenPoints>81</womenPoints>
-      <rank>238</rank>
+      <rank>250</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Mikey</firstName>
-      <lastName>Callaghan</lastName>
-      <points>80.7</points>
-      <womenPoints>0</womenPoints>
-      <rank>239</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Scott</firstName>
-      <lastName>Zimmerman</lastName>
+      <firstName>Hanna</firstName>
+      <lastName>Dura</lastName>
       <points>80.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>240</rank>
+      <womenPoints>115</womenPoints>
+      <rank>251</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1927,7 +2015,7 @@
       <lastName>Bergehamn</lastName>
       <points>80</points>
       <womenPoints>0</womenPoints>
-      <rank>241</rank>
+      <rank>252</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1935,23 +2023,31 @@
       <lastName>Lowry</lastName>
       <points>80</points>
       <womenPoints>73.5</womenPoints>
-      <rank>242</rank>
+      <rank>253</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Daniel</firstName>
-      <lastName>Shriki</lastName>
-      <points>80</points>
+      <firstName>Sam</firstName>
+      <lastName>Kaye</lastName>
+      <points>79.75</points>
       <womenPoints>0</womenPoints>
-      <rank>242</rank>
+      <rank>254</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Rodney</firstName>
-      <lastName>Sanchez</lastName>
-      <points>78.5</points>
+      <firstName>Bailey</firstName>
+      <lastName>Bonaci</lastName>
+      <points>79.3</points>
+      <womenPoints>76.8</womenPoints>
+      <rank>255</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Cotton</firstName>
+      <lastName>McAloon</lastName>
+      <points>79</points>
       <womenPoints>0</womenPoints>
-      <rank>244</rank>
+      <rank>256</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1959,7 +2055,7 @@
       <lastName>O'Neill</lastName>
       <points>78.3</points>
       <womenPoints>0</womenPoints>
-      <rank>245</rank>
+      <rank>257</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1967,15 +2063,23 @@
       <lastName>Magni</lastName>
       <points>78</points>
       <womenPoints>0</womenPoints>
-      <rank>246</rank>
+      <rank>258</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Sven</firstName>
-      <lastName>Deschle</lastName>
-      <points>77.55</points>
+      <firstName>Raffaele</firstName>
+      <lastName>Pilla</lastName>
+      <points>77.8125</points>
       <womenPoints>0</womenPoints>
-      <rank>247</rank>
+      <rank>259</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Mikey</firstName>
+      <lastName>Callaghan</lastName>
+      <points>77.6</points>
+      <womenPoints>0</womenPoints>
+      <rank>260</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -1983,23 +2087,23 @@
       <lastName>?</lastName>
       <points>77.5</points>
       <womenPoints>0</womenPoints>
-      <rank>248</rank>
+      <rank>261</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Tomer</firstName>
-      <lastName>Adar</lastName>
-      <points>77.25</points>
+      <firstName>Lars</firstName>
+      <lastName>Neumann</lastName>
+      <points>77</points>
       <womenPoints>0</womenPoints>
-      <rank>249</rank>
+      <rank>262</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Korneliusz</firstName>
-      <lastName>Zagórski</lastName>
-      <points>75.83</points>
+      <firstName>Davide</firstName>
+      <lastName>Liberti</lastName>
+      <points>76.05</points>
       <womenPoints>0</womenPoints>
-      <rank>250</rank>
+      <rank>263</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2007,31 +2111,7 @@
       <lastName>Emerson</lastName>
       <points>75.7</points>
       <womenPoints>0</womenPoints>
-      <rank>251</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Alan</firstName>
-      <lastName>Clark</lastName>
-      <points>75.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>252</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Geoff</firstName>
-      <lastName>Gregory</lastName>
-      <points>75.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>252</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Rafael</firstName>
-      <lastName>von der Grün</lastName>
-      <points>75.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>252</rank>
+      <rank>264</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2039,87 +2119,31 @@
       <lastName>Brack</lastName>
       <points>75</points>
       <womenPoints>0</womenPoints>
-      <rank>255</rank>
+      <rank>265</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Tobias</firstName>
-      <lastName>Gebert</lastName>
-      <points>75</points>
+      <firstName>Jiri</firstName>
+      <lastName>Weiss</lastName>
+      <points>74.45</points>
       <womenPoints>0</womenPoints>
-      <rank>256</rank>
+      <rank>266</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Dave</firstName>
+      <lastName>Hesselberth</lastName>
+      <points>73.9</points>
+      <womenPoints>0</womenPoints>
+      <rank>267</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Greg</firstName>
       <lastName>Marter</lastName>
-      <points>75</points>
+      <points>71.5</points>
       <womenPoints>0</womenPoints>
-      <rank>256</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Dario</firstName>
-      <lastName>Marioni</lastName>
-      <points>74.73</points>
-      <womenPoints>0</womenPoints>
-      <rank>258</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jakub</firstName>
-      <lastName>Sedlak</lastName>
-      <points>74.58</points>
-      <womenPoints>0</womenPoints>
-      <rank>259</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Toufik</firstName>
-      <lastName>Lamred</lastName>
-      <points>73.75</points>
-      <womenPoints>0</womenPoints>
-      <rank>260</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Fabio</firstName>
-      <lastName>Vinciguerra</lastName>
-      <points>72.75</points>
-      <womenPoints>0</womenPoints>
-      <rank>261</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Cedrik</firstName>
-      <lastName>Stevens</lastName>
-      <points>72.13</points>
-      <womenPoints>0</womenPoints>
-      <rank>262</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Tito</firstName>
-      <lastName>Andino</lastName>
-      <points>72</points>
-      <womenPoints>0</womenPoints>
-      <rank>263</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Steve</firstName>
-      <lastName>Reicke</lastName>
-      <points>71.4</points>
-      <womenPoints>0</womenPoints>
-      <rank>264</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Bob</firstName>
-      <lastName>Boulware</lastName>
-      <points>71</points>
-      <womenPoints>0</womenPoints>
-      <rank>265</rank>
+      <rank>268</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2127,7 +2151,7 @@
       <lastName>Alessandrini</lastName>
       <points>71</points>
       <womenPoints>127.5</womenPoints>
-      <rank>266</rank>
+      <rank>269</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2135,31 +2159,39 @@
       <lastName>Mucciaccia</lastName>
       <points>70.25</points>
       <womenPoints>0</womenPoints>
-      <rank>267</rank>
+      <rank>270</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Dave</firstName>
-      <lastName>Hesselberth</lastName>
-      <points>68.9</points>
+      <firstName>Maurice</firstName>
+      <lastName>Eugene</lastName>
+      <points>69.65</points>
       <womenPoints>0</womenPoints>
-      <rank>268</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Ilona</firstName>
-      <lastName>Heinz</lastName>
-      <points>68.25</points>
-      <womenPoints>68.25</womenPoints>
-      <rank>269</rank>
-      <IsRegistered>false</IsRegistered>
+      <rank>271</rank>
+      <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Francesco</firstName>
       <lastName>Lucci</lastName>
       <points>68</points>
       <womenPoints>0</womenPoints>
-      <rank>270</rank>
+      <rank>272</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Geoff</firstName>
+      <lastName>Gregory</lastName>
+      <points>67.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>273</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Chris</firstName>
+      <lastName>Horn</lastName>
+      <points>67.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>273</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2167,7 +2199,7 @@
       <lastName>Imazio</lastName>
       <points>66.5</points>
       <womenPoints>243</womenPoints>
-      <rank>271</rank>
+      <rank>275</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2175,7 +2207,31 @@
       <lastName>Geare</lastName>
       <points>66</points>
       <womenPoints>0</womenPoints>
-      <rank>272</rank>
+      <rank>276</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Cedrik</firstName>
+      <lastName>Stevens</lastName>
+      <points>65.98</points>
+      <womenPoints>0</womenPoints>
+      <rank>277</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jeff</firstName>
+      <lastName>Shelton</lastName>
+      <points>65.4</points>
+      <womenPoints>0</womenPoints>
+      <rank>278</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Daniel</firstName>
+      <lastName>Weinbuch</lastName>
+      <points>65.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>279</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2183,7 +2239,7 @@
       <lastName>Yamaji</lastName>
       <points>65</points>
       <womenPoints>0</womenPoints>
-      <rank>273</rank>
+      <rank>280</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2191,15 +2247,7 @@
       <lastName>Rurek</lastName>
       <points>65</points>
       <womenPoints>0</womenPoints>
-      <rank>274</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Idan</firstName>
-      <lastName>Levy</lastName>
-      <points>64.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>275</rank>
+      <rank>281</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2207,7 +2255,7 @@
       <lastName>Slaska</lastName>
       <points>64.25</points>
       <womenPoints>0</womenPoints>
-      <rank>276</rank>
+      <rank>282</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2215,23 +2263,23 @@
       <lastName>Mossavar Rahmani</lastName>
       <points>64</points>
       <womenPoints>148</womenPoints>
-      <rank>277</rank>
+      <rank>283</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Fabrizio</firstName>
-      <lastName>De Rossi</lastName>
+      <firstName>Jonathan</firstName>
+      <lastName>Willett</lastName>
+      <points>63.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>284</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Korneliusz</firstName>
+      <lastName>Zagórski</lastName>
       <points>62</points>
       <womenPoints>0</womenPoints>
-      <rank>278</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Katrin</firstName>
-      <lastName>Schmeisser</lastName>
-      <points>61.75</points>
-      <womenPoints>145.75</womenPoints>
-      <rank>279</rank>
+      <rank>285</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2239,23 +2287,23 @@
       <lastName>Lopez Velez</lastName>
       <points>61.5</points>
       <womenPoints>0</womenPoints>
-      <rank>280</rank>
+      <rank>286</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Randy</firstName>
-      <lastName>Lahm</lastName>
-      <points>61</points>
-      <womenPoints>0</womenPoints>
-      <rank>281</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Chris</firstName>
-      <lastName>Horn</lastName>
+      <firstName>Carl</firstName>
+      <lastName>Dobson</lastName>
       <points>60.5</points>
       <womenPoints>0</womenPoints>
-      <rank>282</rank>
+      <rank>287</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Dario</firstName>
+      <lastName>Marioni</lastName>
+      <points>60.33</points>
+      <womenPoints>0</womenPoints>
+      <rank>288</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2263,23 +2311,7 @@
       <lastName>Bryant</lastName>
       <points>60</points>
       <womenPoints>0</womenPoints>
-      <rank>283</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jim</firstName>
-      <lastName>Herrick</lastName>
-      <points>59.6</points>
-      <womenPoints>0</womenPoints>
-      <rank>284</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Spencer</firstName>
-      <lastName>Herrick</lastName>
-      <points>59.6</points>
-      <womenPoints>0</womenPoints>
-      <rank>284</rank>
+      <rank>289</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2287,7 +2319,15 @@
       <lastName>Rada</lastName>
       <points>59.5</points>
       <womenPoints>0</womenPoints>
-      <rank>286</rank>
+      <rank>290</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Bob</firstName>
+      <lastName>Cooksey</lastName>
+      <points>59.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>291</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2295,7 +2335,7 @@
       <lastName>Jonasson</lastName>
       <points>59</points>
       <womenPoints>0</womenPoints>
-      <rank>287</rank>
+      <rank>292</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2303,7 +2343,7 @@
       <lastName>Zewgren</lastName>
       <points>59</points>
       <womenPoints>0</womenPoints>
-      <rank>287</rank>
+      <rank>292</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2311,15 +2351,31 @@
       <lastName>Gibbons</lastName>
       <points>58.5</points>
       <womenPoints>0</womenPoints>
-      <rank>289</rank>
+      <rank>294</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Tobias</firstName>
-      <lastName>Cole</lastName>
-      <points>57.95</points>
+      <firstName>Dan</firstName>
+      <lastName>Bailey</lastName>
+      <points>58</points>
       <womenPoints>0</womenPoints>
-      <rank>290</rank>
+      <rank>295</rank>
+      <IsRegistered>true</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Randy</firstName>
+      <lastName>Lahm</lastName>
+      <points>58</points>
+      <womenPoints>0</womenPoints>
+      <rank>295</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Andrew</firstName>
+      <lastName>Lemann</lastName>
+      <points>57</points>
+      <womenPoints>0</womenPoints>
+      <rank>297</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2327,23 +2383,15 @@
       <lastName>Karlsson</lastName>
       <points>56.8</points>
       <womenPoints>0</womenPoints>
-      <rank>291</rank>
+      <rank>298</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jan</firstName>
-      <lastName>Zahradnicek</lastName>
-      <points>56.7</points>
+      <firstName>Daniele</firstName>
+      <lastName>Bertolini</lastName>
+      <points>56.3</points>
       <womenPoints>0</womenPoints>
-      <rank>292</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Paolo</firstName>
-      <lastName>Cipolloni</lastName>
-      <points>56.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>293</rank>
+      <rank>299</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2351,31 +2399,15 @@
       <lastName>Karlsson</lastName>
       <points>56</points>
       <womenPoints>0</womenPoints>
-      <rank>294</rank>
+      <rank>300</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Janis</firstName>
-      <lastName>Brunner</lastName>
+      <firstName>Jason</firstName>
+      <lastName>McGlade</lastName>
       <points>56</points>
       <womenPoints>0</womenPoints>
-      <rank>295</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Bob</firstName>
-      <lastName>Cooksey</lastName>
-      <points>55.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>296</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Michal</firstName>
-      <lastName>Piekarski</lastName>
-      <points>55.1</points>
-      <womenPoints>0</womenPoints>
-      <rank>297</rank>
+      <rank>300</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2383,7 +2415,7 @@
       <lastName>Bailey</lastName>
       <points>55</points>
       <womenPoints>0</womenPoints>
-      <rank>298</rank>
+      <rank>302</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2391,15 +2423,7 @@
       <lastName>Thoma</lastName>
       <points>54.5</points>
       <womenPoints>0</womenPoints>
-      <rank>299</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Angelo</firstName>
-      <lastName>Trevino</lastName>
-      <points>54.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>300</rank>
+      <rank>303</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2407,7 +2431,7 @@
       <lastName>Rhodes</lastName>
       <points>54</points>
       <womenPoints>0</womenPoints>
-      <rank>301</rank>
+      <rank>304</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2415,39 +2439,31 @@
       <lastName>Pietrangeli</lastName>
       <points>53.5</points>
       <womenPoints>0</womenPoints>
-      <rank>302</rank>
+      <rank>305</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Davide</firstName>
-      <lastName>Liberti</lastName>
-      <points>53.25</points>
+      <firstName>Eitan</firstName>
+      <lastName>Reikoren</lastName>
+      <points>53</points>
       <womenPoints>0</womenPoints>
-      <rank>303</rank>
+      <rank>306</rank>
       <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Adrian</firstName>
+      <lastName>Röder</lastName>
+      <points>52.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>307</rank>
+      <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Mike</firstName>
       <lastName>Slaska</lastName>
       <points>52.75</points>
       <womenPoints>0</womenPoints>
-      <rank>304</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Brad</firstName>
-      <lastName>Keller</lastName>
-      <points>52.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>305</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Felix</firstName>
-      <lastName>Geipel</lastName>
-      <points>52</points>
-      <womenPoints>0</womenPoints>
-      <rank>306</rank>
+      <rank>307</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2455,7 +2471,15 @@
       <lastName>Kaji</lastName>
       <points>52</points>
       <womenPoints>0</womenPoints>
-      <rank>306</rank>
+      <rank>309</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Michal</firstName>
+      <lastName>Piekarski</lastName>
+      <points>51.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>310</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2463,7 +2487,7 @@
       <lastName>Caruso</lastName>
       <points>51</points>
       <womenPoints>0</womenPoints>
-      <rank>308</rank>
+      <rank>311</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2471,15 +2495,23 @@
       <lastName>Vincent</lastName>
       <points>51</points>
       <womenPoints>0</womenPoints>
-      <rank>308</rank>
+      <rank>311</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jonathan</firstName>
-      <lastName>Willett</lastName>
-      <points>51</points>
+      <firstName>John</firstName>
+      <lastName>Collins</lastName>
+      <points>50.5</points>
       <womenPoints>0</womenPoints>
-      <rank>308</rank>
+      <rank>313</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Hunter</firstName>
+      <lastName>Wootten</lastName>
+      <points>50.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>313</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2487,7 +2519,7 @@
       <lastName>Emerson</lastName>
       <points>50</points>
       <womenPoints>0</womenPoints>
-      <rank>311</rank>
+      <rank>315</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2495,7 +2527,7 @@
       <lastName>Murakami</lastName>
       <points>50</points>
       <womenPoints>0</womenPoints>
-      <rank>311</rank>
+      <rank>315</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2503,7 +2535,15 @@
       <lastName>Okubo</lastName>
       <points>50</points>
       <womenPoints>0</womenPoints>
-      <rank>311</rank>
+      <rank>315</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Joel</firstName>
+      <lastName>Rogers</lastName>
+      <points>50</points>
+      <womenPoints>0</womenPoints>
+      <rank>315</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2511,7 +2551,31 @@
       <lastName>Takeno</lastName>
       <points>50</points>
       <womenPoints>0</womenPoints>
-      <rank>311</rank>
+      <rank>315</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jannis</firstName>
+      <lastName>Brünner</lastName>
+      <points>48.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>320</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Felix</firstName>
+      <lastName>Krause</lastName>
+      <points>48.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>320</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Birger</firstName>
+      <lastName>Schmidt</lastName>
+      <points>48.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>320</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2519,15 +2583,15 @@
       <lastName>Shperling</lastName>
       <points>48</points>
       <womenPoints>0</womenPoints>
-      <rank>315</rank>
+      <rank>323</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Maurice</firstName>
-      <lastName>Eugene</lastName>
-      <points>47</points>
+      <firstName>Tobias</firstName>
+      <lastName>Cole</lastName>
+      <points>47.2</points>
       <womenPoints>0</womenPoints>
-      <rank>316</rank>
+      <rank>324</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2535,7 +2599,7 @@
       <lastName>Lozio</lastName>
       <points>47</points>
       <womenPoints>0</womenPoints>
-      <rank>316</rank>
+      <rank>325</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2543,15 +2607,7 @@
       <lastName>Rudel</lastName>
       <points>47</points>
       <womenPoints>0</womenPoints>
-      <rank>316</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Federico</firstName>
-      <lastName>Bon</lastName>
-      <points>46.75</points>
-      <womenPoints>0</womenPoints>
-      <rank>319</rank>
+      <rank>325</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2559,23 +2615,31 @@
       <lastName>Mackey</lastName>
       <points>46.5</points>
       <womenPoints>0</womenPoints>
-      <rank>320</rank>
+      <rank>327</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jim</firstName>
-      <lastName>Dodelson</lastName>
+      <firstName>Carlo</firstName>
+      <lastName>Perrone</lastName>
       <points>46</points>
       <womenPoints>0</womenPoints>
-      <rank>321</rank>
+      <rank>328</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Chuck</firstName>
-      <lastName>Richard</lastName>
-      <points>45.9</points>
+      <firstName>Daniel</firstName>
+      <lastName>Nothaas</lastName>
+      <points>45.5</points>
       <womenPoints>0</womenPoints>
-      <rank>322</rank>
+      <rank>329</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Nico</firstName>
+      <lastName>Schwarz</lastName>
+      <points>45.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>329</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2583,15 +2647,15 @@
       <lastName>Friere</lastName>
       <points>45</points>
       <womenPoints>0</womenPoints>
-      <rank>323</rank>
+      <rank>331</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Giulia</firstName>
-      <lastName>Aretano</lastName>
-      <points>44.875</points>
-      <womenPoints>308.88</womenPoints>
-      <rank>324</rank>
+      <firstName>Irena</firstName>
+      <lastName>Kulisanova</lastName>
+      <points>45</points>
+      <womenPoints>42.5</womenPoints>
+      <rank>331</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2599,7 +2663,7 @@
       <lastName>André</lastName>
       <points>44</points>
       <womenPoints>104</womenPoints>
-      <rank>325</rank>
+      <rank>333</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2607,7 +2671,15 @@
       <lastName>Högberg</lastName>
       <points>44</points>
       <womenPoints>104</womenPoints>
-      <rank>325</rank>
+      <rank>333</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Nadav</firstName>
+      <lastName>Zandani</lastName>
+      <points>43.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>335</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2615,15 +2687,7 @@
       <lastName>Janeczka</lastName>
       <points>43</points>
       <womenPoints>0</womenPoints>
-      <rank>327</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Cotton</firstName>
-      <lastName>McAloon</lastName>
-      <points>43</points>
-      <womenPoints>0</womenPoints>
-      <rank>327</rank>
+      <rank>336</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2631,7 +2695,7 @@
       <lastName>Elliot</lastName>
       <points>42</points>
       <womenPoints>0</womenPoints>
-      <rank>329</rank>
+      <rank>337</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2639,7 +2703,23 @@
       <lastName>Jammer</lastName>
       <points>42</points>
       <womenPoints>0</womenPoints>
-      <rank>329</rank>
+      <rank>337</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Grant</firstName>
+      <lastName>Guilnor</lastName>
+      <points>41.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>339</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Federico</firstName>
+      <lastName>Bianchini</lastName>
+      <points>41.3</points>
+      <womenPoints>0</womenPoints>
+      <rank>340</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2647,23 +2727,7 @@
       <lastName>Caplin</lastName>
       <points>40.4</points>
       <womenPoints>0</womenPoints>
-      <rank>331</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jeff</firstName>
-      <lastName>Shelton</lastName>
-      <points>40.15</points>
-      <womenPoints>0</womenPoints>
-      <rank>332</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Mike</firstName>
-      <lastName>Esterbrook</lastName>
-      <points>40</points>
-      <womenPoints>0</womenPoints>
-      <rank>333</rank>
+      <rank>341</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2671,7 +2735,7 @@
       <lastName>Haim</lastName>
       <points>40</points>
       <womenPoints>0</womenPoints>
-      <rank>333</rank>
+      <rank>342</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2679,7 +2743,7 @@
       <lastName>Ichikawa</lastName>
       <points>40</points>
       <womenPoints>40</womenPoints>
-      <rank>333</rank>
+      <rank>342</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2687,15 +2751,7 @@
       <lastName>Komori</lastName>
       <points>40</points>
       <womenPoints>0</womenPoints>
-      <rank>333</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Kim</firstName>
-      <lastName>Larkin</lastName>
-      <points>40</points>
-      <womenPoints>40</womenPoints>
-      <rank>333</rank>
+      <rank>342</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2703,7 +2759,7 @@
       <lastName>Umehara</lastName>
       <points>40</points>
       <womenPoints>0</womenPoints>
-      <rank>333</rank>
+      <rank>342</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2711,23 +2767,39 @@
       <lastName>Wakabayashi</lastName>
       <points>40</points>
       <womenPoints>0</womenPoints>
-      <rank>333</rank>
+      <rank>342</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Hunter</firstName>
-      <lastName>Wootten</lastName>
-      <points>39.5</points>
+      <firstName>Erwin</firstName>
+      <lastName>Velasquez</lastName>
+      <points>39.7</points>
       <womenPoints>0</womenPoints>
-      <rank>340</rank>
+      <rank>347</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Dan</firstName>
-      <lastName>Bailey</lastName>
+      <firstName>Randy</firstName>
+      <lastName>Lahm jr.</lastName>
+      <points>39.4</points>
+      <womenPoints>0</womenPoints>
+      <rank>348</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Tobias</firstName>
+      <lastName>Gebert</lastName>
+      <points>39.25</points>
+      <womenPoints>0</womenPoints>
+      <rank>349</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Lisa</firstName>
+      <lastName>Löser</lastName>
       <points>39</points>
-      <womenPoints>0</womenPoints>
-      <rank>341</rank>
+      <womenPoints>39</womenPoints>
+      <rank>350</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2735,23 +2807,15 @@
       <lastName>Sallehsari</lastName>
       <points>39</points>
       <womenPoints>0</womenPoints>
-      <rank>341</rank>
+      <rank>350</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Tom</firstName>
-      <lastName>Lasher</lastName>
-      <points>38</points>
+      <firstName>Ondrej</firstName>
+      <lastName>Kolega</lastName>
+      <points>38.7</points>
       <womenPoints>0</womenPoints>
-      <rank>343</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jay</firstName>
-      <lastName>Moldenhauer</lastName>
-      <points>38</points>
-      <womenPoints>0</womenPoints>
-      <rank>343</rank>
+      <rank>352</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2759,7 +2823,15 @@
       <lastName>Hesselgren</lastName>
       <points>37.2</points>
       <womenPoints>0</womenPoints>
-      <rank>345</rank>
+      <rank>353</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Chuck</firstName>
+      <lastName>Richard</lastName>
+      <points>36.9</points>
+      <womenPoints>0</womenPoints>
+      <rank>354</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2767,7 +2839,23 @@
       <lastName>Bengtsson</lastName>
       <points>36.75</points>
       <womenPoints>0</womenPoints>
-      <rank>346</rank>
+      <rank>355</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Connie</firstName>
+      <lastName>Bond</lastName>
+      <points>36.5</points>
+      <womenPoints>230</womenPoints>
+      <rank>356</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Elena</firstName>
+      <lastName>Dalmasso</lastName>
+      <points>36.25</points>
+      <womenPoints>134.75</womenPoints>
+      <rank>357</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2775,23 +2863,31 @@
       <lastName>Avrahami</lastName>
       <points>36</points>
       <womenPoints>0</womenPoints>
-      <rank>347</rank>
+      <rank>358</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Leonardo</firstName>
-      <lastName>Finco</lastName>
+      <firstName>Alessandro</firstName>
+      <lastName>Tamassia</lastName>
       <points>35.75</points>
       <womenPoints>0</womenPoints>
-      <rank>348</rank>
+      <rank>359</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Beka</firstName>
-      <lastName>Namchevadze</lastName>
+      <firstName>Chris</firstName>
+      <lastName>Korn</lastName>
       <points>35.5</points>
       <womenPoints>0</womenPoints>
-      <rank>349</rank>
+      <rank>360</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Tom</firstName>
+      <lastName>Lasher</lastName>
+      <points>35.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>360</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2799,7 +2895,15 @@
       <lastName>Burke</lastName>
       <points>35.4</points>
       <womenPoints>0</womenPoints>
-      <rank>350</rank>
+      <rank>362</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Alan</firstName>
+      <lastName>Clark</lastName>
+      <points>35</points>
+      <womenPoints>0</womenPoints>
+      <rank>363</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2807,7 +2911,7 @@
       <lastName>Figa Talamanca</lastName>
       <points>35</points>
       <womenPoints>35</womenPoints>
-      <rank>351</rank>
+      <rank>363</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2815,7 +2919,7 @@
       <lastName>Ikebayashi</lastName>
       <points>35</points>
       <womenPoints>0</womenPoints>
-      <rank>351</rank>
+      <rank>363</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2823,15 +2927,23 @@
       <lastName>Ono</lastName>
       <points>35</points>
       <womenPoints>0</womenPoints>
-      <rank>351</rank>
+      <rank>363</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Charlie</firstName>
-      <lastName>Richards IV</lastName>
-      <points>35</points>
+      <firstName>Jim</firstName>
+      <lastName>Herrick</lastName>
+      <points>34.1</points>
       <womenPoints>0</womenPoints>
-      <rank>351</rank>
+      <rank>367</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Spencer</firstName>
+      <lastName>Herrick</lastName>
+      <points>34.1</points>
+      <womenPoints>0</womenPoints>
+      <rank>367</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2839,7 +2951,7 @@
       <lastName>Bodell</lastName>
       <points>34</points>
       <womenPoints>0</womenPoints>
-      <rank>355</rank>
+      <rank>369</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2847,7 +2959,7 @@
       <lastName>Hultqvist</lastName>
       <points>34</points>
       <womenPoints>0</womenPoints>
-      <rank>355</rank>
+      <rank>369</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2855,7 +2967,7 @@
       <lastName>Lindh</lastName>
       <points>34</points>
       <womenPoints>0</womenPoints>
-      <rank>355</rank>
+      <rank>369</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2863,7 +2975,7 @@
       <lastName>Wenger</lastName>
       <points>34</points>
       <womenPoints>0</womenPoints>
-      <rank>355</rank>
+      <rank>369</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2871,39 +2983,7 @@
       <lastName>Berra</lastName>
       <points>33.7</points>
       <womenPoints>0</womenPoints>
-      <rank>359</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Karin</firstName>
-      <lastName>Breitenbücher</lastName>
-      <points>33.5</points>
-      <womenPoints>32.5</womenPoints>
-      <rank>360</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Simon</firstName>
-      <lastName>Wassermann</lastName>
-      <points>33.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>361</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Randy</firstName>
-      <lastName>Lahm jr.</lastName>
-      <points>33.4</points>
-      <womenPoints>0</womenPoints>
-      <rank>362</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Ethan</firstName>
-      <lastName>Lahm</lastName>
-      <points>33.4</points>
-      <womenPoints>0</womenPoints>
-      <rank>362</rank>
+      <rank>373</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2911,15 +2991,7 @@
       <lastName>Stoneking</lastName>
       <points>33</points>
       <womenPoints>0</womenPoints>
-      <rank>364</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Sam</firstName>
-      <lastName>Kaye</lastName>
-      <points>32.95</points>
-      <womenPoints>0</womenPoints>
-      <rank>365</rank>
+      <rank>374</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2927,7 +2999,23 @@
       <lastName>Koonts</lastName>
       <points>32.95</points>
       <womenPoints>0</womenPoints>
-      <rank>365</rank>
+      <rank>375</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Greg</firstName>
+      <lastName>Goren</lastName>
+      <points>32.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>376</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Ilona</firstName>
+      <lastName>Heinz</lastName>
+      <points>32.5</points>
+      <womenPoints>32.5</womenPoints>
+      <rank>376</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2935,7 +3023,7 @@
       <lastName>Kanai</lastName>
       <points>32.5</points>
       <womenPoints>0</womenPoints>
-      <rank>367</rank>
+      <rank>376</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2943,7 +3031,7 @@
       <lastName>Kimel</lastName>
       <points>32.5</points>
       <womenPoints>0</womenPoints>
-      <rank>367</rank>
+      <rank>376</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2951,7 +3039,7 @@
       <lastName>Konda</lastName>
       <points>32.5</points>
       <womenPoints>0</womenPoints>
-      <rank>367</rank>
+      <rank>376</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2959,23 +3047,23 @@
       <lastName>Negishi</lastName>
       <points>32.5</points>
       <womenPoints>0</womenPoints>
-      <rank>367</rank>
+      <rank>376</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Eitan</firstName>
-      <lastName>Rei Koren</lastName>
+      <firstName>Katrin</firstName>
+      <lastName>Schmeisser</lastName>
+      <points>32.5</points>
+      <womenPoints>32.5</womenPoints>
+      <rank>376</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Tobias</firstName>
+      <lastName>Burzan</lastName>
       <points>32</points>
       <womenPoints>0</womenPoints>
-      <rank>371</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Markus</firstName>
-      <lastName>Fath</lastName>
-      <points>31.05</points>
-      <womenPoints>0</womenPoints>
-      <rank>372</rank>
+      <rank>383</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2983,15 +3071,7 @@
       <lastName>Isola</lastName>
       <points>30.88</points>
       <womenPoints>0</womenPoints>
-      <rank>373</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Raffaele</firstName>
-      <lastName>Pilla</lastName>
-      <points>30.8125</points>
-      <womenPoints>0</womenPoints>
-      <rank>374</rank>
+      <rank>384</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -2999,7 +3079,23 @@
       <lastName>Dybbroe</lastName>
       <points>30.8</points>
       <womenPoints>0</womenPoints>
-      <rank>375</rank>
+      <rank>385</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Evan</firstName>
+      <lastName>Walridge</lastName>
+      <points>30.2</points>
+      <womenPoints>0</womenPoints>
+      <rank>386</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Bernie</firstName>
+      <lastName>Murray</lastName>
+      <points>30</points>
+      <womenPoints>30</womenPoints>
+      <rank>387</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3007,15 +3103,7 @@
       <lastName>Okamura</lastName>
       <points>29.25</points>
       <womenPoints>0</womenPoints>
-      <rank>376</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Ian</firstName>
-      <lastName>Schwarz</lastName>
-      <points>29.25</points>
-      <womenPoints>0</womenPoints>
-      <rank>376</rank>
+      <rank>388</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3023,7 +3111,15 @@
       <lastName>Suzuki</lastName>
       <points>29.25</points>
       <womenPoints>0</womenPoints>
-      <rank>376</rank>
+      <rank>388</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Robert</firstName>
+      <lastName>McLeod</lastName>
+      <points>29</points>
+      <womenPoints>0</womenPoints>
+      <rank>390</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3031,7 +3127,7 @@
       <lastName>Pires</lastName>
       <points>28.8</points>
       <womenPoints>0</womenPoints>
-      <rank>379</rank>
+      <rank>391</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3039,7 +3135,7 @@
       <lastName>Sturefeldt</lastName>
       <points>28.8</points>
       <womenPoints>0</womenPoints>
-      <rank>379</rank>
+      <rank>391</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3047,7 +3143,15 @@
       <lastName>Schmitt</lastName>
       <points>28.7</points>
       <womenPoints>0</womenPoints>
-      <rank>381</rank>
+      <rank>393</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jakub</firstName>
+      <lastName>Zahradnicek</lastName>
+      <points>28.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>394</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3055,7 +3159,7 @@
       <lastName>Gamon Kossi</lastName>
       <points>28</points>
       <womenPoints>0</womenPoints>
-      <rank>382</rank>
+      <rank>395</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3063,7 +3167,7 @@
       <lastName>Lindblad</lastName>
       <points>28</points>
       <womenPoints>0</womenPoints>
-      <rank>382</rank>
+      <rank>395</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3071,7 +3175,7 @@
       <lastName>Lindblad</lastName>
       <points>28</points>
       <womenPoints>0</womenPoints>
-      <rank>382</rank>
+      <rank>395</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3079,31 +3183,31 @@
       <lastName>Caplin</lastName>
       <points>27</points>
       <womenPoints>0</womenPoints>
-      <rank>385</rank>
+      <rank>398</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Ramon</firstName>
-      <lastName>Galliani</lastName>
-      <points>26.5</points>
+      <firstName>Markus</firstName>
+      <lastName>Fath</lastName>
+      <points>27</points>
       <womenPoints>0</womenPoints>
-      <rank>386</rank>
+      <rank>398</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Beth</firstName>
-      <lastName>Verish</lastName>
-      <points>26.45</points>
-      <womenPoints>26.45</womenPoints>
-      <rank>387</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Sophie</firstName>
-      <lastName>Wolf</lastName>
+      <firstName>Craig</firstName>
+      <lastName>Simon</lastName>
       <points>26</points>
-      <womenPoints>24</womenPoints>
-      <rank>388</rank>
+      <womenPoints>0</womenPoints>
+      <rank>400</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Emilia</firstName>
+      <lastName>Zoila</lastName>
+      <points>26</points>
+      <womenPoints>26</womenPoints>
+      <rank>400</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3111,7 +3215,7 @@
       <lastName>Geare</lastName>
       <points>25.95</points>
       <womenPoints>25.95</womenPoints>
-      <rank>389</rank>
+      <rank>402</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3119,31 +3223,15 @@
       <lastName>O'Malley</lastName>
       <points>25.7</points>
       <womenPoints>0</womenPoints>
-      <rank>390</rank>
+      <rank>403</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Don</firstName>
-      <lastName>Wallace</lastName>
-      <points>25.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>391</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Matej</firstName>
-      <lastName>Kostel</lastName>
-      <points>24.95</points>
-      <womenPoints>0</womenPoints>
-      <rank>392</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>John</firstName>
-      <lastName>Collins</lastName>
+      <firstName>Judith</firstName>
+      <lastName>Hess</lastName>
       <points>24.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>393</rank>
+      <womenPoints>24</womenPoints>
+      <rank>404</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3151,7 +3239,7 @@
       <lastName>Kitchens</lastName>
       <points>24.5</points>
       <womenPoints>0</womenPoints>
-      <rank>393</rank>
+      <rank>404</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3159,15 +3247,15 @@
       <lastName>Andarizig</lastName>
       <points>24</points>
       <womenPoints>0</womenPoints>
-      <rank>395</rank>
+      <rank>406</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Sören</firstName>
-      <lastName>Dietrich</lastName>
+      <firstName>Jim</firstName>
+      <lastName>Elsner</lastName>
       <points>24</points>
       <womenPoints>0</womenPoints>
-      <rank>395</rank>
+      <rank>406</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3175,7 +3263,7 @@
       <lastName>Kisiliewska</lastName>
       <points>24</points>
       <womenPoints>24</womenPoints>
-      <rank>395</rank>
+      <rank>406</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3183,7 +3271,15 @@
       <lastName>Leak</lastName>
       <points>24</points>
       <womenPoints>0</womenPoints>
-      <rank>398</rank>
+      <rank>409</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Ethan</firstName>
+      <lastName>Lahm</lastName>
+      <points>23.4</points>
+      <womenPoints>0</womenPoints>
+      <rank>410</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3191,7 +3287,7 @@
       <lastName>Henriksson</lastName>
       <points>22.8</points>
       <womenPoints>0</womenPoints>
-      <rank>399</rank>
+      <rank>411</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3199,23 +3295,7 @@
       <lastName>Kappling</lastName>
       <points>22.8</points>
       <womenPoints>0</womenPoints>
-      <rank>399</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Robert</firstName>
-      <lastName>McLeod</lastName>
-      <points>22.15</points>
-      <womenPoints>0</womenPoints>
-      <rank>401</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Evan</firstName>
-      <lastName>Walridge</lastName>
-      <points>20.95</points>
-      <womenPoints>0</womenPoints>
-      <rank>402</rank>
+      <rank>411</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3223,7 +3303,7 @@
       <lastName>Hejdari</lastName>
       <points>20.8</points>
       <womenPoints>0</womenPoints>
-      <rank>403</rank>
+      <rank>413</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3231,7 +3311,7 @@
       <lastName>Hossini</lastName>
       <points>20.8</points>
       <womenPoints>0</womenPoints>
-      <rank>403</rank>
+      <rank>413</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3239,7 +3319,15 @@
       <lastName>Conger</lastName>
       <points>20.4</points>
       <womenPoints>0</womenPoints>
-      <rank>405</rank>
+      <rank>415</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Steve</firstName>
+      <lastName>Reicke</lastName>
+      <points>20.4</points>
+      <womenPoints>0</womenPoints>
+      <rank>415</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3247,15 +3335,7 @@
       <lastName>Chartrand</lastName>
       <points>19.3</points>
       <womenPoints>0</womenPoints>
-      <rank>406</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jack</firstName>
-      <lastName>Stanton</lastName>
-      <points>19</points>
-      <womenPoints>0</womenPoints>
-      <rank>407</rank>
+      <rank>417</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3263,7 +3343,7 @@
       <lastName>Finn O'Brien</lastName>
       <points>18</points>
       <womenPoints>0</womenPoints>
-      <rank>408</rank>
+      <rank>418</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3271,7 +3351,7 @@
       <lastName>Luis</lastName>
       <points>18</points>
       <womenPoints>0</womenPoints>
-      <rank>408</rank>
+      <rank>418</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3279,7 +3359,15 @@
       <lastName>Mirzayi</lastName>
       <points>17.6</points>
       <womenPoints>0</womenPoints>
-      <rank>410</rank>
+      <rank>420</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Anna</firstName>
+      <lastName>Bragagnolo</lastName>
+      <points>17.2</points>
+      <womenPoints>176.2</womenPoints>
+      <rank>421</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3287,7 +3375,7 @@
       <lastName>Baroni</lastName>
       <points>17</points>
       <womenPoints>0</womenPoints>
-      <rank>411</rank>
+      <rank>422</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3295,7 +3383,7 @@
       <lastName>Abboni</lastName>
       <points>17</points>
       <womenPoints>85</womenPoints>
-      <rank>412</rank>
+      <rank>423</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3303,7 +3391,7 @@
       <lastName>Vingerelli</lastName>
       <points>16.8</points>
       <womenPoints>0</womenPoints>
-      <rank>413</rank>
+      <rank>424</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3311,7 +3399,7 @@
       <lastName>Whitlock</lastName>
       <points>16.8</points>
       <womenPoints>0</womenPoints>
-      <rank>413</rank>
+      <rank>424</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3319,7 +3407,15 @@
       <lastName>Hinkle</lastName>
       <points>16.5</points>
       <womenPoints>0</womenPoints>
-      <rank>415</rank>
+      <rank>426</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Dominika</firstName>
+      <lastName>Matuskova</lastName>
+      <points>16.1</points>
+      <womenPoints>204.1</womenPoints>
+      <rank>427</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3327,7 +3423,7 @@
       <lastName>Anversa</lastName>
       <points>16</points>
       <womenPoints>0</womenPoints>
-      <rank>416</rank>
+      <rank>428</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3335,31 +3431,39 @@
       <lastName>Restaino</lastName>
       <points>16</points>
       <womenPoints>0</womenPoints>
-      <rank>416</rank>
+      <rank>428</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Ondrej</firstName>
-      <lastName>Kolega</lastName>
-      <points>15.9</points>
+      <firstName>Peter</firstName>
+      <lastName>Honzik</lastName>
+      <points>15.6</points>
       <womenPoints>0</womenPoints>
-      <rank>418</rank>
+      <rank>430</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Lukas</firstName>
-      <lastName>Zimovcak</lastName>
-      <points>15.3</points>
+      <firstName>Ian</firstName>
+      <lastName>White</lastName>
+      <points>15.6</points>
       <womenPoints>0</womenPoints>
-      <rank>419</rank>
+      <rank>430</rank>
       <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Luca</firstName>
+      <lastName>Nogay</lastName>
+      <points>15</points>
+      <womenPoints>0</womenPoints>
+      <rank>432</rank>
+      <IsRegistered>true</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Derek</firstName>
       <lastName>Robins</lastName>
       <points>15</points>
       <womenPoints>0</womenPoints>
-      <rank>420</rank>
+      <rank>432</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3367,23 +3471,7 @@
       <lastName>Stazi</lastName>
       <points>15</points>
       <womenPoints>0</womenPoints>
-      <rank>420</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Eric</firstName>
-      <lastName>Wootten</lastName>
-      <points>15</points>
-      <womenPoints>0</womenPoints>
-      <rank>420</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Heather</firstName>
-      <lastName>Wootten</lastName>
-      <points>15</points>
-      <womenPoints>15</womenPoints>
-      <rank>420</rank>
+      <rank>432</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3391,7 +3479,23 @@
       <lastName>Rodriguez</lastName>
       <points>14.63</points>
       <womenPoints>0</womenPoints>
-      <rank>424</rank>
+      <rank>435</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>John</firstName>
+      <lastName>Elsner</lastName>
+      <points>14.4</points>
+      <womenPoints>0</womenPoints>
+      <rank>436</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Dániel</firstName>
+      <lastName>Kárpáti</lastName>
+      <points>14.2</points>
+      <womenPoints>0</womenPoints>
+      <rank>437</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3399,7 +3503,7 @@
       <lastName>Polla Cusma</lastName>
       <points>14</points>
       <womenPoints>122.5</womenPoints>
-      <rank>425</rank>
+      <rank>438</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3407,7 +3511,7 @@
       <lastName>Porter</lastName>
       <points>13.95</points>
       <womenPoints>0</womenPoints>
-      <rank>426</rank>
+      <rank>439</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3415,7 +3519,15 @@
       <lastName>Ugalde</lastName>
       <points>13.95</points>
       <womenPoints>13.95</womenPoints>
-      <rank>426</rank>
+      <rank>439</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Beth</firstName>
+      <lastName>Verish</lastName>
+      <points>13.95</points>
+      <womenPoints>13.95</womenPoints>
+      <rank>439</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3423,7 +3535,15 @@
       <lastName>Ekman</lastName>
       <points>13.7</points>
       <womenPoints>0</womenPoints>
-      <rank>428</rank>
+      <rank>442</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Matej</firstName>
+      <lastName>Kostel</lastName>
+      <points>13.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>443</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3431,7 +3551,7 @@
       <lastName>Anthony</lastName>
       <points>13</points>
       <womenPoints>0</womenPoints>
-      <rank>429</rank>
+      <rank>444</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3439,7 +3559,7 @@
       <lastName>Morelli</lastName>
       <points>13</points>
       <womenPoints>13</womenPoints>
-      <rank>429</rank>
+      <rank>444</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3447,15 +3567,15 @@
       <lastName>Terramoccia</lastName>
       <points>13</points>
       <womenPoints>0</womenPoints>
-      <rank>429</rank>
+      <rank>444</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jan &amp;quot;Dexter&amp;quot;</firstName>
-      <lastName>Struz</lastName>
-      <points>12.95</points>
+      <firstName>Mark</firstName>
+      <lastName>Horn</lastName>
+      <points>12.8</points>
       <womenPoints>0</womenPoints>
-      <rank>432</rank>
+      <rank>447</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3463,7 +3583,15 @@
       <lastName>Jakobsson</lastName>
       <points>12.6</points>
       <womenPoints>13.2</womenPoints>
-      <rank>433</rank>
+      <rank>448</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Philipp</firstName>
+      <lastName>Kleis</lastName>
+      <points>12.6</points>
+      <womenPoints>0</womenPoints>
+      <rank>448</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3471,39 +3599,7 @@
       <lastName>Ringbom</lastName>
       <points>12.6</points>
       <womenPoints>13.2</womenPoints>
-      <rank>433</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Stephanie</firstName>
-      <lastName>Chan</lastName>
-      <points>12.5</points>
-      <womenPoints>12.5</womenPoints>
-      <rank>435</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Ken</firstName>
-      <lastName>Reynolds</lastName>
-      <points>12.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>435</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Dave</firstName>
-      <lastName>Steger</lastName>
-      <points>12.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>435</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Elena</firstName>
-      <lastName>Dalmasso</lastName>
-      <points>12.5</points>
-      <womenPoints>57.5</womenPoints>
-      <rank>438</rank>
+      <rank>448</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3511,7 +3607,7 @@
       <lastName>?</lastName>
       <points>12</points>
       <womenPoints>12</womenPoints>
-      <rank>439</rank>
+      <rank>451</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3519,7 +3615,7 @@
       <lastName>Liang</lastName>
       <points>11.4</points>
       <womenPoints>0</womenPoints>
-      <rank>440</rank>
+      <rank>452</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3527,7 +3623,7 @@
       <lastName>Thompson</lastName>
       <points>11.4</points>
       <womenPoints>0</womenPoints>
-      <rank>440</rank>
+      <rank>452</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3535,7 +3631,31 @@
       <lastName>Vinberg</lastName>
       <points>11.4</points>
       <womenPoints>0</womenPoints>
-      <rank>440</rank>
+      <rank>452</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jan</firstName>
+      <lastName>Zahradnicek</lastName>
+      <points>11.4</points>
+      <womenPoints>0</womenPoints>
+      <rank>452</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jasun</firstName>
+      <lastName>Burdic</lastName>
+      <points>11.2</points>
+      <womenPoints>0</womenPoints>
+      <rank>456</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Federico</firstName>
+      <lastName>Bon</lastName>
+      <points>11</points>
+      <womenPoints>0</womenPoints>
+      <rank>457</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3543,15 +3663,7 @@
       <lastName>Girotto</lastName>
       <points>10.75</points>
       <womenPoints>0</womenPoints>
-      <rank>443</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Scott</firstName>
-      <lastName>Stokley</lastName>
-      <points>10.75</points>
-      <womenPoints>0</womenPoints>
-      <rank>443</rank>
+      <rank>458</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3559,7 +3671,23 @@
       <lastName>Valente</lastName>
       <points>10.75</points>
       <womenPoints>0</womenPoints>
-      <rank>443</rank>
+      <rank>458</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Mike</firstName>
+      <lastName>Prost</lastName>
+      <points>10.4</points>
+      <womenPoints>0</womenPoints>
+      <rank>460</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Cade</firstName>
+      <lastName>Loving</lastName>
+      <points>9.6</points>
+      <womenPoints>0</womenPoints>
+      <rank>461</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3567,7 +3695,31 @@
       <lastName>Starling</lastName>
       <points>9.25</points>
       <womenPoints>0</womenPoints>
-      <rank>446</rank>
+      <rank>462</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Hank</firstName>
+      <lastName>Bass</lastName>
+      <points>8.8</points>
+      <womenPoints>0</womenPoints>
+      <rank>463</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Pavel</firstName>
+      <lastName>Hanka</lastName>
+      <points>8.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>464</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jiri</firstName>
+      <lastName>Sedlácek</lastName>
+      <points>8.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>464</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3575,7 +3727,15 @@
       <lastName>Klos</lastName>
       <points>8.5</points>
       <womenPoints>60</womenPoints>
-      <rank>447</rank>
+      <rank>466</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jan</firstName>
+      <lastName>Skladanowski</lastName>
+      <points>7.2</points>
+      <womenPoints>0</womenPoints>
+      <rank>467</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3583,31 +3743,7 @@
       <lastName>Poli</lastName>
       <points>6.5625</points>
       <womenPoints>0</womenPoints>
-      <rank>448</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Antonio</firstName>
-      <lastName>Iannettone</lastName>
-      <points>5.55</points>
-      <womenPoints>0</womenPoints>
-      <rank>449</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Peter</firstName>
-      <lastName>Honzik</lastName>
-      <points>5.33</points>
-      <womenPoints>0</womenPoints>
-      <rank>450</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jeannette</firstName>
-      <lastName>Ortiz</lastName>
-      <points>5</points>
-      <womenPoints>70</womenPoints>
-      <rank>451</rank>
+      <rank>468</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -3615,15 +3751,7 @@
       <lastName>Arveskär</lastName>
       <points>3</points>
       <womenPoints>52</womenPoints>
-      <rank>452</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Connie</firstName>
-      <lastName>Bond</lastName>
-      <points>1</points>
-      <womenPoints>100</womenPoints>
-      <rank>453</rank>
+      <rank>469</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -4163,6 +4291,14 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
+      <firstName>Karin</firstName>
+      <lastName>Breitenbücher</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
       <firstName>Paul</firstName>
       <lastName>Brenner</lastName>
       <points>0</points>
@@ -4205,14 +4341,6 @@
     <PlayerRanking>
       <firstName>Scott</firstName>
       <lastName>Burtard</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Tobias</firstName>
-      <lastName>Burzan</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -4325,6 +4453,14 @@
     <PlayerRanking>
       <firstName>Matteo</firstName>
       <lastName>Ceresa</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Stephanie</firstName>
+      <lastName>Chan</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -4603,8 +4739,32 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
+      <firstName>Sören</firstName>
+      <lastName>Dietrich</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Lina</firstName>
+      <lastName>Dittrich</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
       <firstName>Tobias</firstName>
       <lastName>Doehner</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Rainer</firstName>
+      <lastName>Doerr</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -4715,22 +4875,6 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Jim</firstName>
-      <lastName>Elsner</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>John</firstName>
-      <lastName>Elsner</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
       <firstName>Josh</firstName>
       <lastName>Emerson</lastName>
       <points>0</points>
@@ -4747,16 +4891,16 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Manuel</firstName>
-      <lastName>Enders</lastName>
+      <firstName>Udo</firstName>
+      <lastName>Engeter</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Udo</firstName>
-      <lastName>Engeter</lastName>
+      <firstName>Mike</firstName>
+      <lastName>Esterbrook</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -4811,14 +4955,6 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Marco</firstName>
-      <lastName>Fera</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
       <firstName>Florian</firstName>
       <lastName>Fessler</lastName>
       <points>0</points>
@@ -4837,6 +4973,14 @@
     <PlayerRanking>
       <firstName>Joe</firstName>
       <lastName>Fiedt</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Leonardo</firstName>
+      <lastName>Finco</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -4907,14 +5051,6 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Stefan</firstName>
-      <lastName>Frehland</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
       <firstName>Martina</firstName>
       <lastName>Frosini</lastName>
       <points>0</points>
@@ -4957,6 +5093,14 @@
     <PlayerRanking>
       <firstName>Andrea</firstName>
       <lastName>Gallotti</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Felix</firstName>
+      <lastName>Geipel</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -5203,14 +5347,6 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Judith</firstName>
-      <lastName>Hess</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
       <firstName>Mike</firstName>
       <lastName>Hettich</lastName>
       <points>0</points>
@@ -5285,14 +5421,6 @@
     <PlayerRanking>
       <firstName>Oliver</firstName>
       <lastName>Hocker</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Mark</firstName>
-      <lastName>Horn</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -5397,6 +5525,14 @@
     <PlayerRanking>
       <firstName>Jan</firstName>
       <lastName>Huybrechts</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Antonio</firstName>
+      <lastName>Iannettone</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -5859,14 +5995,6 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Andrew</firstName>
-      <lastName>Lemann</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
       <firstName>Radek</firstName>
       <lastName>Lenczewski</lastName>
       <points>0</points>
@@ -6019,14 +6147,6 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Balu</firstName>
-      <lastName>Major</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>true</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
       <firstName>Lilla</firstName>
       <lastName>Major</lastName>
       <points>0</points>
@@ -6045,14 +6165,6 @@
     <PlayerRanking>
       <firstName>Daniele</firstName>
       <lastName>Malaguzzi</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Angelo</firstName>
-      <lastName>Mancarella</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -6243,6 +6355,14 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
+      <firstName>Jay</firstName>
+      <lastName>Moldenhauer</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
       <firstName>Paul</firstName>
       <lastName>Mondesire</lastName>
       <points>0</points>
@@ -6315,8 +6435,8 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Bernie</firstName>
-      <lastName>Murray</lastName>
+      <firstName>Beka</firstName>
+      <lastName>Namchevadze</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -6333,14 +6453,6 @@
     <PlayerRanking>
       <firstName>Gery</firstName>
       <lastName>Németh</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Lars</firstName>
-      <lastName>Neumann</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -6428,6 +6540,14 @@
     </PlayerRanking>
     <PlayerRanking>
       <firstName>Enrique</firstName>
+      <lastName>Ortiz</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jeannette</firstName>
       <lastName>Ortiz</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
@@ -6541,14 +6661,6 @@
     <PlayerRanking>
       <firstName>Fabio</firstName>
       <lastName>Percario</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Carlo</firstName>
-      <lastName>Perrone</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -6755,8 +6867,24 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
+      <firstName>Ken</firstName>
+      <lastName>Reynolds</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
       <firstName>Walter</firstName>
       <lastName>Reynolds</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Charlie</firstName>
+      <lastName>Richards IV</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -7019,14 +7147,6 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Birger</firstName>
-      <lastName>Schmidt</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
       <firstName>Max</firstName>
       <lastName>Schmidt</lastName>
       <points>0</points>
@@ -7069,6 +7189,14 @@
     <PlayerRanking>
       <firstName>Tom Carlos</firstName>
       <lastName>Schuster</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Ian</firstName>
+      <lastName>Schwarz</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -7195,14 +7323,6 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Craig</firstName>
-      <lastName>Simon</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
       <firstName>Benni</firstName>
       <lastName>Sing</lastName>
       <points>0</points>
@@ -7323,6 +7443,14 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
+      <firstName>Jack</firstName>
+      <lastName>Stanton</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
       <firstName>Scott</firstName>
       <lastName>Starr</lastName>
       <points>0</points>
@@ -7355,8 +7483,24 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
+      <firstName>Dave</firstName>
+      <lastName>Steger</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
       <firstName>Johan</firstName>
       <lastName>Stensmar</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Scott</firstName>
+      <lastName>Stokley</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -7381,6 +7525,14 @@
     <PlayerRanking>
       <firstName>Sue</firstName>
       <lastName>Strait</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Jan &amp;quot;Dexter&amp;quot;</firstName>
+      <lastName>Struz</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -7827,6 +7979,14 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
+      <firstName>Rafael</firstName>
+      <lastName>von der Grün</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
       <firstName>Mirko</firstName>
       <lastName>Vosen</lastName>
       <points>0</points>
@@ -7877,6 +8037,14 @@
     <PlayerRanking>
       <firstName>Adrian</firstName>
       <lastName>Wainwright</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Don</firstName>
+      <lastName>Wallace</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -8019,6 +8187,14 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
+      <firstName>Sophie</firstName>
+      <lastName>Wolf</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
       <firstName>Tam</firstName>
       <lastName>Wolfe</lastName>
       <points>0</points>
@@ -8029,6 +8205,22 @@
     <PlayerRanking>
       <firstName>Jascha</firstName>
       <lastName>Wollman</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Eric</firstName>
+      <lastName>Wootten</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Heather</firstName>
+      <lastName>Wootten</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -8077,22 +8269,6 @@
     <PlayerRanking>
       <firstName>Kaili</firstName>
       <lastName>Young</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Eugenio</firstName>
-      <lastName>Zaffarano</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Jakub</firstName>
-      <lastName>Zahradnicek</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -8163,8 +8339,8 @@
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
-      <firstName>Emilia</firstName>
-      <lastName>Zoila</lastName>
+      <firstName>Scott</firstName>
+      <lastName>Zimmerman</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
       <rank>0</rank>
@@ -8183,7 +8359,7 @@
       <lastName>Andrea Correa</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
-      <rank>454</rank>
+      <rank>470</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -8191,7 +8367,7 @@
       <lastName>Brandi</lastName>
       <points>0</points>
       <womenPoints>50</womenPoints>
-      <rank>454</rank>
+      <rank>470</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -8199,7 +8375,15 @@
       <lastName>Chierici</lastName>
       <points>0</points>
       <womenPoints>50</womenPoints>
-      <rank>454</rank>
+      <rank>470</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Olga</firstName>
+      <lastName>Fisnerova</lastName>
+      <points>0</points>
+      <womenPoints>26</womenPoints>
+      <rank>470</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -8207,7 +8391,7 @@
       <lastName>Lin</lastName>
       <points>0</points>
       <womenPoints>72</womenPoints>
-      <rank>454</rank>
+      <rank>470</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -8215,15 +8399,7 @@
       <lastName>Lobos Fernandez</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
-      <rank>454</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Dominika</firstName>
-      <lastName>Matuskova</lastName>
-      <points>0</points>
-      <womenPoints>32.5</womenPoints>
-      <rank>454</rank>
+      <rank>470</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -8231,23 +8407,7 @@
       <lastName>Mossavar Rahmani</lastName>
       <points>0</points>
       <womenPoints>84</womenPoints>
-      <rank>454</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Yu Han</firstName>
-      <lastName>Wang</lastName>
-      <points>0</points>
-      <womenPoints>72</womenPoints>
-      <rank>454</rank>
-      <IsRegistered>false</IsRegistered>
-    </PlayerRanking>
-    <PlayerRanking>
-      <firstName>Olga</firstName>
-      <lastName>Fisnerova</lastName>
-      <points>0</points>
-      <womenPoints>80</womenPoints>
-      <rank>462</rank>
+      <rank>470</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
     <PlayerRanking>
@@ -8255,7 +8415,15 @@
       <lastName>Raclavsky</lastName>
       <points>0</points>
       <womenPoints>0</womenPoints>
-      <rank>462</rank>
+      <rank>470</rank>
+      <IsRegistered>false</IsRegistered>
+    </PlayerRanking>
+    <PlayerRanking>
+      <firstName>Yu Han</firstName>
+      <lastName>Wang</lastName>
+      <points>0</points>
+      <womenPoints>72</womenPoints>
+      <rank>470</rank>
       <IsRegistered>false</IsRegistered>
     </PlayerRanking>
   </playerRankings>

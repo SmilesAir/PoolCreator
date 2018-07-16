@@ -74,6 +74,10 @@ namespace PoolCreator
 				TabControl tabControl = sender as TabControl;
 				if (tabControl.SelectedIndex == 3)
 				{
+					OnPoolsTabSelected();
+				}
+				else if (tabControl.SelectedIndex == 4)
+				{
 					OnJudgeTabSelected();
 				}
 			}
