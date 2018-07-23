@@ -527,12 +527,14 @@
                                                 <ColumnDefinition Width="Auto"/>
                                                 <ColumnDefinition Width="*"/>
                                                 <ColumnDefinition Width="Auto"/>
+                                                <ColumnDefinition Width="Auto"/>
                                             </Grid.ColumnDefinitions>
 
                                             <Button FontFamily="Marlett" FontSize="20" Content="5" Tag="{Binding}" Click="PoolsSeedingMoveUp"/>
                                             <Button Grid.Column="1" FontFamily="Marlett" FontSize="20" Content="6" Tag="{Binding}" Click="PoolsSeedingMoveDown"/>
                                             <Label Grid.Column="2" Content="{Binding PlayerNames}"/>
                                             <Label Grid.Column="3" Content="{Binding TeamBothRankingsPointsString}"/>
+                                            <Button Grid.Column="4" FontFamily="Marlett" FontSize="20" Content="4" Tag="{Binding}" Click="Button_MouseLeftButtonDown"/>
                                         </Grid>
                                     </DataTemplate>
                                 </ItemsControl.ItemTemplate>

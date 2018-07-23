@@ -290,8 +290,9 @@ namespace PoolCreator
 				rd.pools.Add(new PoolData((EPool)i));
 			}
 
+			// Only seed teams 25-40 in prelims
 			List<TeamData> teams = new List<TeamData>();
-			for (int i = 24; i < poolsAllTeamsForDivision.Count(); ++i)
+			for (int i = 24; i < poolsAllTeamsForDivision.Count() && i < 40; ++i)
 			{
 				teams.Add(poolsAllTeamsForDivision[i]);
 			}
@@ -740,6 +741,15 @@ namespace PoolCreator
 
 				++listIndex;
 			}
+		}
+
+		private void Button_MouseLeftButtonDown(object sender, RoutedEventArgs e)
+		{
+			TeamData td = (sender as Button).Tag as TeamData;
+
+			td.OverlayDragState = EOverlayTeamDataState.DragFrom;
+			OverlayTeamData = td;
+			OverlayTeamDataOffset = new Point(0, 0);
 		}
 	}
 }
