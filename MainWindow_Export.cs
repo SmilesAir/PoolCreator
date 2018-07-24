@@ -747,7 +747,7 @@ namespace LisaHelperClasses
 		public int Id = -1;
 		public PoolCreator.EDivision Division;
 		public string Round;
-		public int Pool = -1;
+		public PoolCreator.EPool Pool = PoolCreator.EPool.None;
 		public List<int> AIJudgeIds = new List<int>();
 		public List<int> ExJudgeIds = new List<int>();
 		public List<int> DiffJudgeIds = new List<int>();
@@ -773,7 +773,7 @@ namespace LisaHelperClasses
 					Round = "Prelims";
 					break;
 			}
-			Pool = (int)poolKey.pool;
+			Pool = poolKey.pool;
 
 			foreach (PoolCreator.RegisteredPlayer judge in judgesData.judgesAi)
 			{

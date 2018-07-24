@@ -220,7 +220,7 @@ namespace PoolCreator
 			SetPoolItemsSources();
 		}
 
-		private void PoolsUpdateTeamList()
+		private void SetTeamsInBaseSeedingOrder()
 		{
 			poolsAllTeamsForDivision = tournamentData.GetAllTeams(poolsDivision);
 
@@ -232,11 +232,53 @@ namespace PoolCreator
 			{
 				poolsAllTeamsForDivision = new ObservableCollection<TeamData>(poolsAllTeamsForDivision.OrderByDescending(td => td.TeamRankingPoints));
 			}
+
+			PoolsTeamsItemsControl.ItemsSource = poolsAllTeamsForDivision;
 		}
 
-		private void PoolsTab_GotFocus(object sender, RoutedEventArgs e)
+		private void PoolsUpdateTeamList()
 		{
-			PoolsUpdateTeamList();
+			SetTeamsInBaseSeedingOrder();
+
+			ObservableCollection<TeamData> tempList = new ObservableCollection<TeamData>();
+
+			foreach (TeamData td in poolsAllTeamsForDivision)
+			{
+				tempList.Add(null);
+			}
+
+			for (int i = 0; i < poolsAllTeamsForDivision.Count; ++i)
+			{
+				TeamData td = poolsAllTeamsForDivision[i];
+
+				if (td.IsMovedForPoolSeeding)
+				{
+					tempList[td.WildCardIndex] = td;
+
+					poolsAllTeamsForDivision.RemoveAt(i);
+
+					--i;
+				}
+			}
+
+			foreach (TeamData orgTd in poolsAllTeamsForDivision)
+			{
+				for (int i = 0; i < tempList.Count; ++i)
+				{
+					if (tempList[i] == null)
+					{
+						tempList[i] = orgTd;
+						break;
+					}
+				}
+			}
+
+			poolsAllTeamsForDivision = tempList;
+		}
+
+		private void OnPoolsTabSelected()
+		{
+			PoolsUpdateBindings();
 		}
 
 		private void SeedPrelimPools(EDivision division, int numPools)
@@ -248,8 +290,9 @@ namespace PoolCreator
 				rd.pools.Add(new PoolData((EPool)i));
 			}
 
+			// Only seed teams 25-40 in prelims
 			List<TeamData> teams = new List<TeamData>();
-			for (int i = 24; i < poolsAllTeamsForDivision.Count(); ++i)
+			for (int i = 24; i < poolsAllTeamsForDivision.Count() && i < 40; ++i)
 			{
 				teams.Add(poolsAllTeamsForDivision[i]);
 			}
@@ -298,6 +341,18 @@ namespace PoolCreator
 					FillPoolTeams(poolsDivision, poolsRound, poolsAllTeamsForDivision.ToList());
 				}
 			}
+		}
+
+		private void PoolsResetSeeding_Click(object sender, RoutedEventArgs e)
+		{
+			SetTeamsInBaseSeedingOrder();
+
+			foreach (TeamData td in poolsAllTeamsForDivision)
+			{
+				td.WildCardIndex = -1;
+			}
+
+			UpdatePoolsAllTeamsWildcardData();
 		}
 
 		private void FillPoolTeams(EDivision division, ERound round, List<TeamData> teams)
@@ -627,6 +682,74 @@ namespace PoolCreator
 			}
 
 			PoolsUpdateBindings();
+		}
+
+		private void PoolsSeedingMoveUp(object sender, RoutedEventArgs e)
+		{
+			TeamData td = (sender as Button).Tag as TeamData;
+
+			int index = poolsAllTeamsForDivision.IndexOf(td);
+			if (index != -1)
+			{
+				poolsAllTeamsForDivision.RemoveAt(index);
+				poolsAllTeamsForDivision.Insert(Math.Max(0, index - 1), td);
+			}
+
+			UpdatePoolsAllTeamsWildcardData();
+		}
+
+		private void PoolsSeedingMoveDown(object sender, RoutedEventArgs e)
+		{
+			TeamData td = (sender as Button).Tag as TeamData;
+
+			int index = poolsAllTeamsForDivision.IndexOf(td);
+			if (index != -1)
+			{
+				poolsAllTeamsForDivision.RemoveAt(index);
+				poolsAllTeamsForDivision.Insert(Math.Min(poolsAllTeamsForDivision.Count, index + 1), td);
+			}
+
+			UpdatePoolsAllTeamsWildcardData();
+		}
+
+		private void UpdatePoolsAllTeamsWildcardData()
+		{
+			int listIndex = 0;
+			foreach (TeamData td in poolsAllTeamsForDivision)
+			{
+				td.WildCardIndex = -1;
+
+				for (int i = poolsAllTeamsForDivision.IndexOf(td) + 1; i < poolsAllTeamsForDivision.Count; ++i)
+				{
+					bool bMoved = false;
+					if (poolsDivision == EDivision.Women)
+					{
+						bMoved = poolsAllTeamsForDivision[i].TeamWomenRankingPoints > td.TeamWomenRankingPoints;
+					}
+					else
+					{
+						bMoved = poolsAllTeamsForDivision[i].TeamRankingPoints > td.TeamRankingPoints;
+					}
+
+					if (bMoved)
+					{
+						td.WildCardIndex = listIndex;
+
+						break;
+					}
+				}
+
+				++listIndex;
+			}
+		}
+
+		private void Button_MouseLeftButtonDown(object sender, RoutedEventArgs e)
+		{
+			TeamData td = (sender as Button).Tag as TeamData;
+
+			td.OverlayDragState = EOverlayTeamDataState.DragFrom;
+			OverlayTeamData = td;
+			OverlayTeamDataOffset = new Point(0, 0);
 		}
 	}
 }
