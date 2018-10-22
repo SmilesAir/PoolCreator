@@ -30,6 +30,10 @@ namespace PoolCreator
 
 		public MainWindow()
 		{
+#if !DEBUG
+			this.WindowState = WindowState.Maximized;
+#endif
+
 			InitializeComponent();
 		}
 
@@ -356,7 +360,7 @@ namespace PoolCreator
 				return true;
 			}
 
-			#region Alternate Chars Init
+#region Alternate Chars Init
 			if (alternateChars.Count == 0)
 			{
 				HashSet<char> charZ = new HashSet<char>();
@@ -418,7 +422,7 @@ namespace PoolCreator
 				charU.Add('ü');
 				alternateChars.Add(charU);
 			}
-			#endregion
+#endregion
 
 			foreach (HashSet<char> charHash in alternateChars)
 			{

@@ -6,7 +6,6 @@
         xmlns:local="clr-namespace:PoolCreator"
         mc:Ignorable="d"
         Title="Pool Creator by Ryan Young" Height="720" Width="1280"
-        WindowState="Maximized"
         Loaded="Window_Loaded"
         Closing="Window_Closing">
 
@@ -860,6 +859,15 @@
                                 <RowDefinition Height="Auto"/>
                                 <RowDefinition Height="*"/>
                             </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.ColumnSpan="2" Content="Step 3e - Export to Complete Judging" HorizontalAlignment="Stretch" Background="PaleTurquoise" HorizontalContentAlignment="Center"/>
+
+                            <Button Grid.Row="2" Content="Generate" Click="ExportCompleteJudging_Click"/>
+                            <Button Grid.Row="2" Grid.Column="1" Content="Upload" Click="UploadCompleteJudging_Click"/>
                         </Grid>
 
                         <Grid Grid.Row="1" Grid.Column="4">

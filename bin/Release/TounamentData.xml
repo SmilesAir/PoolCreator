@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TournamentData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <registeredPlayers />
+  <divisions>
+    <DivisionData>
+      <division>Open</division>
+      <teamList>
+        <teams />
+      </teamList>
+      <rounds>
+        <RoundData>
+          <round>Finals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Semifinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Quarterfinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Prelims</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+      </rounds>
+    </DivisionData>
+    <DivisionData>
+      <division>Mixed</division>
+      <teamList>
+        <teams />
+      </teamList>
+      <rounds>
+        <RoundData>
+          <round>Finals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>6</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Semifinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Quarterfinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Prelims</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+      </rounds>
+    </DivisionData>
+    <DivisionData>
+      <division>Coop</division>
+      <teamList>
+        <teams />
+      </teamList>
+      <rounds>
+        <RoundData>
+          <round>Finals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>6</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Semifinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Quarterfinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Prelims</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+      </rounds>
+    </DivisionData>
+    <DivisionData>
+      <division>Women</division>
+      <teamList>
+        <teams />
+      </teamList>
+      <rounds>
+        <RoundData>
+          <round>Finals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>6</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Semifinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Quarterfinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Prelims</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+      </rounds>
+    </DivisionData>
+  </divisions>
+  <exportPath>C:\Users\Ryan\Desktop\PoolCreator\Export</exportPath>
+  <excelTemplatePath>C:\Users\Ryan\Desktop\PoolCreator\Export\Scoresheets_2.10.xlsm</excelTemplatePath>
+</TournamentData>

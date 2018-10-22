@@ -1,8 +1,11 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Windows;
 using System.Windows.Threading;
@@ -15,6 +18,8 @@ namespace PoolCreator
 	{
 		Excel.Application excelApp = new Excel.Application();
 
+		HttpClient httpClient = new HttpClient();
+
 		string outputText = "";
 		public string ExportOutputTextBox
 		{
@@ -25,7 +30,6 @@ namespace PoolCreator
 				OnPropertyChanged("ExportOutputTextBox");
 			}
 		}
-
 		public string ExportPath
 		{
 			get { return tournamentData.exportPath; }
@@ -35,7 +39,6 @@ namespace PoolCreator
 				OnPropertyChanged("ExportPath");
 			}
 		}
-
 		public string ExcelTemplatePath
 		{
 			get { return tournamentData.excelTemplatePath; }
@@ -197,6 +200,10 @@ namespace PoolCreator
 		{
 			ExportPathText.DataContext = this;
 			ExcelTemplatePathText.DataContext = this;
+
+			httpClient.BaseAddress = new Uri("https://0uzw9x3t5g.execute-api.us-west-2.amazonaws.com/");
+			httpClient.DefaultRequestHeaders.Accept.Add(
+			   new MediaTypeWithQualityHeaderValue("application/json"));
 		}
 
 		public void ShutdownExport()
@@ -550,6 +557,31 @@ namespace PoolCreator
 			ExportAllPools(ExportDialJudgerImportText);
 
 			ExportOutputTextBox += "------------ Finished Generation ------------";
+		}
+
+		private void ExportCompleteJudging_Click(object sender, RoutedEventArgs e)
+		{
+			ExportToJson();
+		}
+
+		private void UploadCompleteJudging_Click(object sender, RoutedEventArgs e)
+		{
+			string jsonStr = JsonConvert.SerializeObject(tournamentData);
+			byte[] buffer = System.Text.Encoding.UTF8.GetBytes(jsonStr);
+			ByteArrayContent byteContent = new ByteArrayContent(buffer);
+			byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+
+			HttpResponseMessage response = httpClient.PostAsync("development/createTournament", byteContent).Result;
+
+			jsonStr = "";
+		}
+
+		private void ExportToJson()
+		{
+			string exportStr = JsonConvert.SerializeObject(tournamentData);
+
+			InvokeAppendOutputLine(exportStr);
 		}
 	}
 }
