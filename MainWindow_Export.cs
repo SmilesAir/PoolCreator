@@ -18,7 +18,8 @@ namespace PoolCreator
 	{
 		Excel.Application excelApp = new Excel.Application();
 
-		HttpClient httpClient = new HttpClient();
+		HttpClient httpClientDev = new HttpClient();
+		HttpClient httpClientProd = new HttpClient();
 
 		string outputText = "";
 		public string ExportOutputTextBox
@@ -201,9 +202,13 @@ namespace PoolCreator
 			ExportPathText.DataContext = this;
 			ExcelTemplatePathText.DataContext = this;
 
-			httpClient.BaseAddress = new Uri("https://0uzw9x3t5g.execute-api.us-west-2.amazonaws.com/");
-			httpClient.DefaultRequestHeaders.Accept.Add(
+			httpClientDev.DefaultRequestHeaders.Accept.Add(
 			   new MediaTypeWithQualityHeaderValue("application/json"));
+			httpClientProd.DefaultRequestHeaders.Accept.Add(
+			   new MediaTypeWithQualityHeaderValue("application/json"));
+
+			httpClientDev.BaseAddress = new Uri("https://0uzw9x3t5g.execute-api.us-west-2.amazonaws.com/");
+			httpClientProd.BaseAddress = new Uri("https://w0wkbj0dd9.execute-api.us-west-2.amazonaws.com/");
 		}
 
 		public void ShutdownExport()
@@ -564,17 +569,77 @@ namespace PoolCreator
 			ExportToJson();
 		}
 
-		private void UploadCompleteJudging_Click(object sender, RoutedEventArgs e)
+		private void UploadDevCompleteJudging_Click(object sender, RoutedEventArgs e)
 		{
 			string jsonStr = JsonConvert.SerializeObject(tournamentData);
 			byte[] buffer = System.Text.Encoding.UTF8.GetBytes(jsonStr);
 			ByteArrayContent byteContent = new ByteArrayContent(buffer);
 			byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
 
-
-			HttpResponseMessage response = httpClient.PostAsync("development/createTournament", byteContent).Result;
+			HttpResponseMessage response = httpClientDev.PostAsync("development/createTournament", byteContent).Result;
 
 			jsonStr = "";
+
+			ExportOutputTextBox = "";
+			InvokeAppendOutputLine("Uploaded to development at " + DateTime.Now.ToString());
+
+			OutputLinks(false);
+		}
+
+		private void UploadProdCompleteJudging_Click(object sender, RoutedEventArgs e)
+		{
+			string jsonStr = JsonConvert.SerializeObject(tournamentData);
+			byte[] buffer = System.Text.Encoding.UTF8.GetBytes(jsonStr);
+			ByteArrayContent byteContent = new ByteArrayContent(buffer);
+			byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+			HttpResponseMessage response = httpClientProd.PostAsync("production/createTournament", byteContent).Result;
+
+			jsonStr = "";
+
+			ExportOutputTextBox = "";
+			InvokeAppendOutputLine("Uploaded to PRODUCTION at " + DateTime.Now.ToString());
+
+			OutputLinks(true);
+		}
+
+		private void OutputLinks(bool isProd)
+		{
+			string endpointStr = isProd ? "d5rsjgoyn07f8" : "d27wqtus28jqqk";
+			InvokeAppendOutputLine("Tournament Info: https://" + endpointStr + ".cloudfront.net/index.html?startup=info&header=false&tournamentName=" + tournamentData.TournamentName);
+			InvokeAppendOutputLine("Head Judge: https://" + endpointStr + ".cloudfront.net/index.html?startup=head&header=false&tournamentName=" + tournamentData.TournamentName);
+
+			int maxExJudgeCount = 0;
+			int maxAiJudgeCount = 0;
+			int maxDiffJudgeCount = 0;
+			foreach (DivisionData dd in tournamentData.divisions)
+			{
+				foreach (RoundData rd in dd.rounds)
+				{
+					foreach (PoolData pd in rd.pools)
+					{
+						maxExJudgeCount = Math.Max(pd.judgesData.judgesEx.Count, maxExJudgeCount);
+						maxAiJudgeCount = Math.Max(pd.judgesData.judgesAi.Count, maxAiJudgeCount);
+						maxDiffJudgeCount = Math.Max(pd.judgesData.judgesDiff.Count, maxDiffJudgeCount);
+					}
+				}
+			}
+
+			for (int i = 0; i < maxExJudgeCount; ++i)
+			{
+				InvokeAppendOutputLine("Artistic Expression Judge: https://" + endpointStr +
+					".cloudfront.net/index.html?startup=exAiCombined&header=false&tournamentName="+ tournamentData.TournamentName + "&judgeIndex=" + i);
+			}
+			for (int i = 0; i < maxAiJudgeCount; ++i)
+			{
+				InvokeAppendOutputLine("Variety Judge: https://" + endpointStr +
+					".cloudfront.net/index.html?startup=variety&header=false&tournamentName=" + tournamentData.TournamentName + "&judgeIndex=" + (i + maxExJudgeCount));
+			}
+			for (int i = 0; i < maxDiffJudgeCount; ++i)
+			{
+				InvokeAppendOutputLine("Difficulty Judge: https://" + endpointStr +
+					".cloudfront.net/index.html?startup=diff&header=false&tournamentName=" + tournamentData.TournamentName + "&judgeIndex=" + (i + maxExJudgeCount + maxAiJudgeCount));
+			}
 		}
 
 		private void ExportToJson()
