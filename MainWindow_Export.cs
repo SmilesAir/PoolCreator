@@ -608,6 +608,7 @@ namespace PoolCreator
 			string endpointStr = isProd ? "d5rsjgoyn07f8" : "d27wqtus28jqqk";
 			InvokeAppendOutputLine("Tournament Info: https://" + endpointStr + ".cloudfront.net/index.html?startup=info&header=false&tournamentName=" + tournamentData.TournamentName);
 			InvokeAppendOutputLine("Head Judge: https://" + endpointStr + ".cloudfront.net/index.html?startup=head&header=false&tournamentName=" + tournamentData.TournamentName);
+			InvokeAppendOutputLine("Scoreboard: https://" + endpointStr + ".cloudfront.net/index.html?startup=scoreboard&alwaysUpdate=true&tournamentName=" + tournamentData.TournamentName);
 
 			int maxExJudgeCount = 0;
 			int maxAiJudgeCount = 0;

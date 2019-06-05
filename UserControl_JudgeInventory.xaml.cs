@@ -76,6 +76,30 @@ namespace PoolCreator
 				UpdateJudgeInventory();
 			}
 		}
+		bool isPreventSelfJudge = true;
+		public bool IsPreventSelfJudge
+		{
+			get { return isPreventSelfJudge; }
+			set
+			{
+				isPreventSelfJudge = value;
+				OnPropertyChanged("IsPreventSelfJudge");
+
+				UpdateJudgeInventory();
+			}
+		}
+		bool isPreventUnavailableFestivalJudge = true;
+		public bool IsPreventUnavailableFestivalJudge
+		{
+			get { return isPreventUnavailableFestivalJudge; }
+			set
+			{
+				isPreventUnavailableFestivalJudge = value;
+				OnPropertyChanged("IsPreventUnavailableFestivalJudge");
+
+				UpdateJudgeInventory();
+			}
+		}
 
 		public UserControl_JudgeInventory()
 		{
@@ -158,21 +182,21 @@ namespace PoolCreator
 
 				if (IsPlayingInPool(judge.PlayerName, 0))
 				{
-					judge.ButtonAEnabled = false;
+					judge.ButtonAEnabled = !IsPreventSelfJudge;
 
 					if (bFestivalJudging)
 					{
-						judge.ButtonBEnabled = false;
+						judge.ButtonBEnabled = !IsPreventUnavailableFestivalJudge;
 					}
 				}
 
 				if (IsPlayingInPool(judge.PlayerName, 1))
 				{
-					judge.ButtonBEnabled = false;
+					judge.ButtonBEnabled = !IsPreventSelfJudge;
 
 					if (bFestivalJudging)
 					{
-						judge.ButtonAEnabled = false;
+						judge.ButtonAEnabled = !IsPreventUnavailableFestivalJudge;
 					}
 				}
 

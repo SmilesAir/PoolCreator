@@ -30,6 +30,17 @@
             <TextBox Grid.Column="1" AcceptsReturn="False" Text="{Binding FilterText, UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
 
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="15"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <CheckBox IsChecked="{Binding IsPreventSelfJudge}">Prevent Self Judge</CheckBox>
+            <CheckBox Grid.Column="2" IsChecked="{Binding IsPreventUnavailableFestivalJudge}">Prevent Unavailable Festival Judge</CheckBox>
+        </Grid>
+
         <ScrollViewer Grid.Row="5" VerticalScrollBarVisibility="Auto">
             <Grid>
                 <Grid.RowDefinitions>
