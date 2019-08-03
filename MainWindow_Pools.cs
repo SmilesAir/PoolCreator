@@ -228,6 +228,10 @@ namespace PoolCreator
 			{
 				poolsAllTeamsForDivision = new ObservableCollection<TeamData>(poolsAllTeamsForDivision.OrderByDescending(td => td.TeamWomenRankingPoints));
 			}
+			else if (poolsDivision == EDivision.Mixed)
+			{
+				poolsAllTeamsForDivision = new ObservableCollection<TeamData>(poolsAllTeamsForDivision.OrderByDescending(td => td.TeamMixedRankingPoints));
+			}
 			else
 			{
 				poolsAllTeamsForDivision = new ObservableCollection<TeamData>(poolsAllTeamsForDivision.OrderByDescending(td => td.TeamRankingPoints));

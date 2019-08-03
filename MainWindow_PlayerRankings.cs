@@ -55,6 +55,7 @@ namespace PoolCreator
 					outPlayer.rank = originalPlayer.rank;
 					outPlayer.points = originalPlayer.points;
 					outPlayer.womenPoints = originalPlayer.womenPoints;
+					outPlayer.isMale = originalPlayer.isMale;
 
 					return;
 				}
@@ -107,6 +108,7 @@ namespace PoolCreator
 			BackgroundWorker getRankingsWorker = new BackgroundWorker();
 			string url = RankingsURL.Text;
 			string womenUrl = WomenRankingsURL.Text;
+			asyncRetrievedPlayerRankings.Clear();
 			getRankingsWorker.DoWork += delegate { GetRankingsWorker_DoWork(url, true); };
 			getRankingsWorker.DoWork += delegate { GetRankingsWorker_DoWork(womenUrl, false); };
 			getRankingsWorker.RunWorkerCompleted += delegate { GetRankingsWorker_RunWorkerCompleted(); };
@@ -143,6 +145,7 @@ namespace PoolCreator
 					string rankTag = "<td height=19 class=xl6330694 style='height:14.4pt'>";
 					string nameClass = "xl1530694";
 					string pointsClass = "xl6330694";
+					string maleTag = "<td class=xl669930>m</td>";
 					while ((line = textStream.ReadLine()) != null)
 					{
 						line = line.Trim();
@@ -191,7 +194,7 @@ namespace PoolCreator
 							if (bIsOpenRankings)
 							{
 								// Open rankings has extra line for gender
-								textStream.ReadLine();
+								newPlayer.isMale = textStream.ReadLine().Trim() == maleTag;
 							}
 							string pointsLine = textStream.ReadLine().Trim();
 							pointsLine = pointsLine.Replace("<td class=" + pointsClass + ">", "").Replace("</td>", "").Replace(",", ".");
@@ -281,6 +284,7 @@ namespace PoolCreator
 		public float points;
 		public float womenPoints;
 		public int rank;
+		public bool isMale = false;
 		private bool bIsRegistered = false;
 		public bool IsRegistered
 		{

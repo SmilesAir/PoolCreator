@@ -97,6 +97,7 @@ namespace PoolCreator
 		public float womenPoints { get; set; }
 		public int rank { get; set; }
 		public int totalJudgingCount { get; set; }
+		public bool isMale { get; set; }
 
 		public string FullName { get { return firstName + " " + lastName; } }
 		public string FullNameAndRank { get { return FullName + " #" + rank; } }
@@ -124,6 +125,7 @@ namespace PoolCreator
 			points = player.points;
 			womenPoints = player.womenPoints;
 			rank = player.rank;
+			isMale = player.isMale;
 		}
 	};
 
