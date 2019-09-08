@@ -24,3 +24,5 @@ Export/
 backup/
 Womens teams.xlsx
 
+*.lock
+*.ide
