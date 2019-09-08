@@ -287,10 +287,10 @@ namespace PoolCreator
 
 				InvokeAppendOutputLine("Exported: " + newFilename);
 			}
-			catch
+			catch (Exception e)
 			{
 				InvokeAppendOutputLine("Error exporting: " + poolKey.division.ToString() + " " + poolKey.round.ToString() +
-					" " + poolKey.pool.ToString());
+					" " + poolKey.pool.ToString() + "  (" + e.Message + ")");
 			}
 		}
 
