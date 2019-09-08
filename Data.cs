@@ -818,11 +818,24 @@ namespace PoolCreator
 				return ret;
 			}
 		}
+		public float TeamMixedRankingPoints
+		{
+			get
+			{
+				float ret = 0;
+				foreach (RegisteredPlayer rp in players)
+				{
+					ret += rp.isMale ? rp.points : rp.womenPoints;
+				}
+
+				return ret;
+			}
+		}
 		public string TeamBothRankingsPointsString
 		{
 			get
 			{
-				return TeamRankingPoints + "/" + TeamWomenRankingPoints;
+				return (int)TeamRankingPoints + "/" + (int)TeamWomenRankingPoints + "/" + (int)TeamMixedRankingPoints;
 			}
 		}
 		[XmlIgnore]

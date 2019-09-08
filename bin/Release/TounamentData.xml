@@ -866,9 +866,66 @@
               </teamList>
               <resultRank />
               <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
+                <judgesEx>
+                  <RegisteredPlayer>
+                    <firstName>Fabian</firstName>
+                    <lastName>Dinklage</lastName>
+                    <points>1167</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>17</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>true</isMale>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Emma</firstName>
+                    <lastName>Kahle</lastName>
+                    <points>283</points>
+                    <womenPoints>573.5</womenPoints>
+                    <rank>110</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                </judgesEx>
+                <judgesAi>
+                  <RegisteredPlayer>
+                    <firstName>Daniel</firstName>
+                    <lastName>O'Neill</lastName>
+                    <points>1361</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>10</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>true</isMale>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Joakim</firstName>
+                    <lastName>Arveskär</lastName>
+                    <points>401.4</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>79</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>true</isMale>
+                  </RegisteredPlayer>
+                </judgesAi>
+                <judgesDiff>
+                  <RegisteredPlayer>
+                    <firstName>Bianca</firstName>
+                    <lastName>Strunz</lastName>
+                    <points>644.4</points>
+                    <womenPoints>1042</womenPoints>
+                    <rank>47</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Andrea</firstName>
+                    <lastName>Rimatori</lastName>
+                    <points>1200</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>16</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>true</isMale>
+                  </RegisteredPlayer>
+                </judgesDiff>
               </judgesData>
             </PoolData>
             <PoolData>
@@ -1023,15 +1080,72 @@
               </teamList>
               <resultRank />
               <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
+                <judgesEx>
+                  <RegisteredPlayer>
+                    <firstName>Pablo</firstName>
+                    <lastName>Azul</lastName>
+                    <points>414.9</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>76</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>true</isMale>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Waldemar</firstName>
+                    <lastName>Wagner</lastName>
+                    <points>290</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>108</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>true</isMale>
+                  </RegisteredPlayer>
+                </judgesEx>
+                <judgesAi>
+                  <RegisteredPlayer>
+                    <firstName>Juliana</firstName>
+                    <lastName>Korver</lastName>
+                    <points>522</points>
+                    <womenPoints>1013</womenPoints>
+                    <rank>61</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Edoardo</firstName>
+                    <lastName>Turri</lastName>
+                    <points>1140</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>18</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>true</isMale>
+                  </RegisteredPlayer>
+                </judgesAi>
+                <judgesDiff>
+                  <RegisteredPlayer>
+                    <firstName>Kuba</firstName>
+                    <lastName>Radwanski</lastName>
+                    <points>851.75</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>29</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>true</isMale>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Ilka</firstName>
+                    <lastName>Simon</lastName>
+                    <points>563</points>
+                    <womenPoints>1138</womenPoints>
+                    <rank>53</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                </judgesDiff>
               </judgesData>
             </PoolData>
           </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
-          <shouldExport>false</shouldExport>
+          <scheduleTime>2019-09-11T08:55:15.519-07:00</scheduleTime>
+          <routineLength>3</routineLength>
+          <shouldExport>true</shouldExport>
           <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
@@ -1503,7 +1617,7 @@
       </rounds>
     </DivisionData>
   </divisions>
-  <TournamentName>WUG</TournamentName>
+  <TournamentName>TestWUG</TournamentName>
   <exportPath>C:\Users\Ryan\Desktop\PoolCreator\Export</exportPath>
-  <excelTemplatePath>C:\Users\Ryan\Desktop\PoolCreator\Export\Scoresheets_2.10.xlsm</excelTemplatePath>
+  <excelTemplatePath>C:\Users\Ryan\Desktop\PoolCreator\Export\DM2017-Scoresheets.xlsm</excelTemplatePath>
 </TournamentData>
