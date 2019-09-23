@@ -38,8 +38,7 @@ namespace PoolCreator
 
 		private void AddRegisteredPlayer(PlayerRanking player)
 		{
-			RegisteredPlayer newPlayer = new RegisteredPlayer(player.firstName, player.lastName, player.points, player.rank);
-			registeredPlayers.Add(newPlayer);
+			registeredPlayers.Add(new RegisteredPlayer(player));
 		}
 
 		private void AddRegisteredPlayer(PotentialPlayer player)
@@ -93,6 +92,7 @@ namespace PoolCreator
 	{
 		public string firstName { get; set; }
 		public string lastName { get; set; }
+		public string country { get; set; }
 		public float points { get; set; }
 		public float womenPoints { get; set; }
 		public int rank { get; set; }
@@ -122,6 +122,7 @@ namespace PoolCreator
 		{
 			firstName = player.firstName;
 			lastName = player.lastName;
+			country = player.country;
 			points = player.points;
 			womenPoints = player.womenPoints;
 			rank = player.rank;

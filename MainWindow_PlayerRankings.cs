@@ -144,6 +144,7 @@ namespace PoolCreator
 					bool bFoundFirstPlayer = false;
 					string rankTag = "<td height=19 class=xl6330694 style='height:14.4pt'>";
 					string nameClass = "xl1530694";
+					string countryClass = "xl6619937";
 					string pointsClass = "xl6330694";
 					string maleTag = "<td class=xl669930>m</td>";
 					while ((line = textStream.ReadLine()) != null)
@@ -162,6 +163,9 @@ namespace PoolCreator
 							nameClass = line.Substring(0, line.IndexOf(">"));
 
 							line = textStream.ReadLine();
+							line = line.Replace("<td class=", "").Trim();
+							countryClass = line.Substring(0, line.IndexOf(">"));
+
 							line = textStream.ReadLine();
 							line = textStream.ReadLine().Trim();
 							line = line.Replace("<td class=", "");
@@ -188,9 +192,11 @@ namespace PoolCreator
 							string firstName = nameLine.Substring(nameLineCommaIndex + 2, nameLine.IndexOf("</td>") - nameLineCommaIndex - 2);
 							newPlayer.firstName = firstName;
 							newPlayer.lastName = lastName;
+							
+							string countryLine = textStream.ReadLine().Trim().Replace("<td class=" + countryClass + ">", "").Replace("</td>", "");
+							newPlayer.country = countryLine;
 
-
-							textStream.ReadLine();
+							
 							if (bIsOpenRankings)
 							{
 								// Open rankings has extra line for gender
@@ -281,6 +287,7 @@ namespace PoolCreator
 	{
 		public string firstName;
 		public string lastName;
+		public string country;
 		public float points;
 		public float womenPoints;
 		public int rank;
