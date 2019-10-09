@@ -1200,7 +1200,7 @@
           </pools>
           <scheduleTime>2019-10-10T13:30:03.933-07:00</scheduleTime>
           <routineLength>3</routineLength>
-          <shouldExport>false</shouldExport>
+          <shouldExport>true</shouldExport>
           <maxTeams>8</maxTeams>
         </RoundData>
         <RoundData>
@@ -3239,6 +3239,6 @@ Ilka Simon</committee>
   </divisions>
   <TournamentName>FPAW2019</TournamentName>
   <TournamentSubtitle>Seattle, WA</TournamentSubtitle>
-  <exportPath>C:\Users\Ryan\Desktop\PoolCreator\Export</exportPath>
-  <excelTemplatePath>C:\Users\Ryan\Desktop\PoolCreator\Export\Scoresheets_2.10.xlsm</excelTemplatePath>
+  <exportPath>C:\Users\y98at\OneDrive\Desktop\PoolCreator\Export</exportPath>
+  <excelTemplatePath>C:\Users\y98at\OneDrive\Desktop\PoolCreator\Export\DM2017-Scoresheets.xlsm</excelTemplatePath>
 </TournamentData>
