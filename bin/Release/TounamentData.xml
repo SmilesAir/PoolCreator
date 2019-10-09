@@ -2,9 +2,26 @@
 <TournamentData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <registeredPlayers>
     <RegisteredPlayer>
+      <firstName>Andrea</firstName>
+      <lastName>Festi</lastName>
+      <points>903.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>26</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Juliana</firstName>
+      <lastName>Korver</lastName>
+      <points>484</points>
+      <womenPoints>1013</womenPoints>
+      <rank>62</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
       <firstName>Ryan</firstName>
       <lastName>Young</lastName>
-      <country>USA</country>
       <points>2020.5</points>
       <womenPoints>0</womenPoints>
       <rank>1</rank>
@@ -12,59 +29,71 @@
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
-      <firstName>James</firstName>
-      <lastName>Wiseman</lastName>
-      <country>USA</country>
-      <points>1878.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>2</rank>
+      <firstName>Char</firstName>
+      <lastName>Powell</lastName>
+      <points>248.7</points>
+      <womenPoints>824</womenPoints>
+      <rank>133</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
-      <firstName>Jakub</firstName>
-      <lastName>Kostel</lastName>
-      <country>CZE</country>
-      <points>1443.5</points>
-      <womenPoints>0</womenPoints>
-      <rank>3</rank>
+      <firstName>Emma</firstName>
+      <lastName>Kahle</lastName>
+      <points>244.5</points>
+      <womenPoints>621</womenPoints>
+      <rank>134</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
-      <firstName>Mehrdad</firstName>
-      <lastName>Hosseinian</lastName>
-      <country>GER</country>
-      <points>1436</points>
+      <firstName>Mattia</firstName>
+      <lastName>Colombari</lastName>
+      <points>925.5</points>
       <womenPoints>0</womenPoints>
-      <rank>4</rank>
+      <rank>25</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
-      <firstName>Tom</firstName>
-      <lastName>Leitner</lastName>
-      <country>ITA</country>
-      <points>1403.5</points>
+      <firstName>Tim</firstName>
+      <lastName>Mackey</lastName>
+      <points>0</points>
       <womenPoints>0</womenPoints>
-      <rank>5</rank>
+      <rank>0</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
-      <firstName>Freddy</firstName>
-      <lastName>Finner</lastName>
-      <country>GER</country>
-      <points>1390</points>
+      <firstName>Fabian</firstName>
+      <lastName>Dinklage</lastName>
+      <points>1167</points>
       <womenPoints>0</womenPoints>
-      <rank>6</rank>
+      <rank>15</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Lisa</firstName>
+      <lastName>Hunrichs</lastName>
+      <points>151</points>
+      <womenPoints>940</womenPoints>
+      <rank>208</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Rodney</firstName>
+      <lastName>Sanchez</lastName>
+      <points>83</points>
+      <womenPoints>0</womenPoints>
+      <rank>279</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Pavel</firstName>
       <lastName>Baranyk</lastName>
-      <country>CZE</country>
       <points>1376.5</points>
       <womenPoints>0</womenPoints>
       <rank>7</rank>
@@ -72,32 +101,335 @@
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
-      <firstName>Fabio</firstName>
-      <lastName>Nizzo</lastName>
-      <country>ITA</country>
-      <points>1365.5</points>
+      <firstName>Freddy</firstName>
+      <lastName>Finner</lastName>
+      <points>1404</points>
       <womenPoints>0</womenPoints>
-      <rank>8</rank>
+      <rank>5</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
-      <firstName>Christian</firstName>
-      <lastName>Lamred</lastName>
-      <country>GER</country>
-      <points>1346</points>
+      <firstName>John</firstName>
+      <lastName>Titcomb</lastName>
+      <points>307.9</points>
       <womenPoints>0</womenPoints>
-      <rank>10</rank>
+      <rank>101</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>James</firstName>
+      <lastName>Wiseman</lastName>
+      <points>1878.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>2</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Paul</firstName>
+      <lastName>Kenny</lastName>
+      <points>1249</points>
+      <womenPoints>0</womenPoints>
+      <rank>14</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Edoardo</firstName>
+      <lastName>Turri</lastName>
+      <points>1126</points>
+      <womenPoints>0</womenPoints>
+      <rank>16</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Maxine</firstName>
+      <lastName>Mittempergher</lastName>
+      <points>483</points>
+      <womenPoints>905</womenPoints>
+      <rank>63</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Francesco</firstName>
       <lastName>Santolin</lastName>
-      <country>ITA</country>
-      <points>883.75</points>
+      <points>948.5</points>
       <womenPoints>0</womenPoints>
-      <rank>27</rank>
+      <rank>24</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Thomas</firstName>
+      <lastName>Nötzel</lastName>
+      <points>758.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>34</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Randy</firstName>
+      <lastName>Silvey</lastName>
+      <points>1114.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>17</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Alice</firstName>
+      <lastName>Zenatti</lastName>
+      <points>63.5</points>
+      <womenPoints>163.5</womenPoints>
+      <rank>311</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Charles</firstName>
+      <lastName>Logan</lastName>
+      <points>205</points>
+      <womenPoints>0</womenPoints>
+      <rank>156</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Larry</firstName>
+      <lastName>Imperiale</lastName>
+      <points>702.55</points>
+      <womenPoints>0</womenPoints>
+      <rank>41</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Kim</firstName>
+      <lastName>Larkin</lastName>
+      <points>445.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>72</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Jason</firstName>
+      <lastName>Salkey</lastName>
+      <points>675.6</points>
+      <womenPoints>0</womenPoints>
+      <rank>44</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Ilka</firstName>
+      <lastName>Simon</lastName>
+      <points>540.65</points>
+      <womenPoints>1138</womenPoints>
+      <rank>56</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Bethany</firstName>
+      <lastName>Sanchez</lastName>
+      <points>83</points>
+      <womenPoints>346</womenPoints>
+      <rank>280</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Jan</firstName>
+      <lastName>Schreck</lastName>
+      <points>403</points>
+      <womenPoints>0</womenPoints>
+      <rank>79</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Mary</firstName>
+      <lastName>Lowry</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Brett</firstName>
+      <lastName>Schramek</lastName>
+      <points>395.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>81</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Lori</firstName>
+      <lastName>Daniels</lastName>
+      <points>412.4</points>
+      <womenPoints>1120</womenPoints>
+      <rank>77</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Brian</firstName>
+      <lastName>McElwain</lastName>
+      <points>290</points>
+      <womenPoints>0</womenPoints>
+      <rank>116</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Doug</firstName>
+      <lastName>Korns</lastName>
+      <points>134.3</points>
+      <womenPoints>0</womenPoints>
+      <rank>222</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Bailey</firstName>
+      <lastName>Bonaci</lastName>
+      <points>79.3</points>
+      <womenPoints>76.8</womenPoints>
+      <rank>289</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Xtehn</firstName>
+      <lastName>Titcomb</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Bill</firstName>
+      <lastName>Wright</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Daniel</firstName>
+      <lastName>O’Neill</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Mehrdad</firstName>
+      <lastName>Hosseinian</lastName>
+      <points>1436</points>
+      <womenPoints>0</womenPoints>
+      <rank>4</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Cindy</firstName>
+      <lastName>St. Mary</lastName>
+      <points>59</points>
+      <womenPoints>130</womenPoints>
+      <rank>321</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Tony</firstName>
+      <lastName>Pellicane</lastName>
+      <points>53</points>
+      <womenPoints>0</womenPoints>
+      <rank>328</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Mike</firstName>
+      <lastName>Galloupe</lastName>
+      <points>393</points>
+      <womenPoints>0</womenPoints>
+      <rank>82</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Riley</firstName>
+      <lastName>O'Neill</lastName>
+      <points>293.1</points>
+      <womenPoints>0</womenPoints>
+      <rank>114</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Dave</firstName>
+      <lastName>Schiller</lastName>
+      <points>787.75</points>
+      <womenPoints>0</womenPoints>
+      <rank>31</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Renae</firstName>
+      <lastName>Donaldson</lastName>
+      <points>0</points>
+      <womenPoints>0</womenPoints>
+      <rank>0</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Pablo</firstName>
+      <lastName>Andres Mosquer</lastName>
+      <points>223.3</points>
+      <womenPoints>0</womenPoints>
+      <rank>145</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Dan</firstName>
+      <lastName>Yarnell</lastName>
+      <points>459</points>
+      <womenPoints>0</womenPoints>
+      <rank>69</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Toddy</firstName>
+      <lastName>Brodeur</lastName>
+      <points>367</points>
+      <womenPoints>0</womenPoints>
+      <rank>87</rank>
+      <totalJudgingCount>0</totalJudgingCount>
+      <isMale>false</isMale>
+    </RegisteredPlayer>
+    <RegisteredPlayer>
+      <firstName>Emanuele</firstName>
+      <lastName>Faustini</lastName>
+      <points>532.5</points>
+      <womenPoints>0</womenPoints>
+      <rank>57</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
@@ -110,20 +442,380 @@
           <TeamData>
             <players>
               <RegisteredPlayer>
-                <firstName>Freddy</firstName>
-                <lastName>Finner</lastName>
-                <points>1390</points>
+                <firstName>Xtehn</firstName>
+                <lastName>Titcomb</lastName>
+                <points>0</points>
                 <womenPoints>0</womenPoints>
-                <rank>6</rank>
+                <rank>0</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
-                <firstName>Tom</firstName>
-                <lastName>Leitner</lastName>
-                <points>1403.5</points>
+                <firstName>John</firstName>
+                <lastName>Titcomb</lastName>
+                <points>307.9</points>
+                <womenPoints>0</womenPoints>
+                <rank>101</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Emma</firstName>
+                <lastName>Kahle</lastName>
+                <points>244.5</points>
+                <womenPoints>621</womenPoints>
+                <rank>134</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Bailey</firstName>
+                <lastName>Bonaci</lastName>
+                <points>79.3</points>
+                <womenPoints>76.8</womenPoints>
+                <rank>289</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Mike</firstName>
+                <lastName>Galloupe</lastName>
+                <points>393</points>
+                <womenPoints>0</womenPoints>
+                <rank>82</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Johnny</firstName>
+                <lastName>Trevino</lastName>
+                <points>228.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>143</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Brian</firstName>
+                <lastName>McElwain</lastName>
+                <points>290</points>
+                <womenPoints>0</womenPoints>
+                <rank>116</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Brett</firstName>
+                <lastName>Schramek</lastName>
+                <points>395.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>81</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Bill</firstName>
+                <lastName>Wright</lastName>
+                <points>0</points>
+                <womenPoints>0</womenPoints>
+                <rank>0</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Larry</firstName>
+                <lastName>Imperiale</lastName>
+                <points>702.55</points>
+                <womenPoints>0</womenPoints>
+                <rank>41</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Riley</firstName>
+                <lastName>O'Neill</lastName>
+                <points>293.1</points>
+                <womenPoints>0</womenPoints>
+                <rank>114</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Kim</firstName>
+                <lastName>Larkin</lastName>
+                <points>445.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>72</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Dan</firstName>
+                <lastName>Yarnell</lastName>
+                <points>459</points>
+                <womenPoints>0</womenPoints>
+                <rank>69</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Emanuele</firstName>
+                <lastName>Faustini</lastName>
+                <points>532.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>57</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Pablo</firstName>
+                <lastName>Andres Mosquer</lastName>
+                <points>223.3</points>
+                <womenPoints>0</womenPoints>
+                <rank>145</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Francesco</firstName>
+                <lastName>Santolin</lastName>
+                <points>948.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>24</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Ilka</firstName>
+                <lastName>Simon</lastName>
+                <points>540.65</points>
+                <womenPoints>1138</womenPoints>
+                <rank>56</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Jason</firstName>
+                <lastName>Salkey</lastName>
+                <points>675.6</points>
+                <womenPoints>0</womenPoints>
+                <rank>44</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Dave</firstName>
+                <lastName>Schiller</lastName>
+                <points>787.75</points>
+                <womenPoints>0</womenPoints>
+                <rank>31</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Thomas</firstName>
+                <lastName>Nötzel</lastName>
+                <points>758.75</points>
+                <womenPoints>0</womenPoints>
+                <rank>34</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Pavel</firstName>
+                <lastName>Baranyk</lastName>
+                <points>1376.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>7</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Jan</firstName>
+                <lastName>Schreck</lastName>
+                <points>403</points>
+                <womenPoints>0</womenPoints>
+                <rank>79</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Randy</firstName>
+                <lastName>Silvey</lastName>
+                <points>1114.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>17</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Andrea</firstName>
+                <lastName>Festi</lastName>
+                <points>903.75</points>
+                <womenPoints>0</womenPoints>
+                <rank>26</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Edoardo</firstName>
+                <lastName>Turri</lastName>
+                <points>1126</points>
+                <womenPoints>0</womenPoints>
+                <rank>16</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Mattia</firstName>
+                <lastName>Colombari</lastName>
+                <points>925.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>25</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Cindy</firstName>
+                <lastName>St. Mary</lastName>
+                <points>59</points>
+                <womenPoints>130</womenPoints>
+                <rank>321</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Ryan</firstName>
+                <lastName>Young</lastName>
+                <points>2020.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>1</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Freddy</firstName>
+                <lastName>Finner</lastName>
+                <points>1404</points>
                 <womenPoints>0</womenPoints>
                 <rank>5</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Fabian</firstName>
+                <lastName>Dinklage</lastName>
+                <points>1167</points>
+                <womenPoints>0</womenPoints>
+                <rank>15</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Daniel</firstName>
+                <lastName>O'Neill</lastName>
+                <points>1361</points>
+                <womenPoints>0</womenPoints>
+                <rank>8</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Paul</firstName>
+                <lastName>Kenny</lastName>
+                <points>1249</points>
+                <womenPoints>0</womenPoints>
+                <rank>14</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -143,11 +835,461 @@
                 <isMale>false</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
-                <firstName>Jakub</firstName>
-                <lastName>Kostel</lastName>
-                <points>1443.5</points>
+                <firstName>James</firstName>
+                <lastName>Wiseman</lastName>
+                <points>1878.5</points>
                 <womenPoints>0</womenPoints>
-                <rank>3</rank>
+                <rank>2</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+        </teams>
+      </teamList>
+      <rounds>
+        <RoundData>
+          <round>Finals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>2019-10-13T13:15:03.934-07:00</scheduleTime>
+          <routineLength>3</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Semifinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>2019-10-12T12:15:03.933-07:00</scheduleTime>
+          <routineLength>3</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Quarterfinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Emma</firstName>
+                        <lastName>Kahle</lastName>
+                        <points>244.5</points>
+                        <womenPoints>621</womenPoints>
+                        <rank>134</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Bailey</firstName>
+                        <lastName>Bonaci</lastName>
+                        <points>79.3</points>
+                        <womenPoints>76.8</womenPoints>
+                        <rank>289</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Mike</firstName>
+                        <lastName>Galloupe</lastName>
+                        <points>393</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>82</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Johnny</firstName>
+                        <lastName>Trevino</lastName>
+                        <points>228.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>143</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Riley</firstName>
+                        <lastName>O'Neill</lastName>
+                        <points>293.1</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>114</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Kim</firstName>
+                        <lastName>Larkin</lastName>
+                        <points>445.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>72</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Dan</firstName>
+                        <lastName>Yarnell</lastName>
+                        <points>459</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>69</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Emanuele</firstName>
+                        <lastName>Faustini</lastName>
+                        <points>532.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>57</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Dave</firstName>
+                        <lastName>Schiller</lastName>
+                        <points>787.75</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>31</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Thomas</firstName>
+                        <lastName>Nötzel</lastName>
+                        <points>758.75</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>34</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                </teams>
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Xtehn</firstName>
+                        <lastName>Titcomb</lastName>
+                        <points>0</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>0</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>John</firstName>
+                        <lastName>Titcomb</lastName>
+                        <points>307.9</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>101</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Brian</firstName>
+                        <lastName>McElwain</lastName>
+                        <points>290</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>116</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Brett</firstName>
+                        <lastName>Schramek</lastName>
+                        <points>395.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>81</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Bill</firstName>
+                        <lastName>Wright</lastName>
+                        <points>0</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>0</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Larry</firstName>
+                        <lastName>Imperiale</lastName>
+                        <points>702.55</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>41</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Pablo</firstName>
+                        <lastName>Andres Mosquer</lastName>
+                        <points>223.3</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>145</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Francesco</firstName>
+                        <lastName>Santolin</lastName>
+                        <points>948.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>24</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Ilka</firstName>
+                        <lastName>Simon</lastName>
+                        <points>540.65</points>
+                        <womenPoints>1138</womenPoints>
+                        <rank>56</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Jason</firstName>
+                        <lastName>Salkey</lastName>
+                        <points>675.6</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>44</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                </teams>
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>2019-10-10T13:30:03.933-07:00</scheduleTime>
+          <routineLength>3</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Prelims</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+      </rounds>
+      <headJudge>Thomas Notzel</headJudge>
+      <directors>Juliana Korver</directors>
+      <committee>Edo Turri
+Freddy Finner
+Juliana Korver
+Pavel Baranyk
+Ilka Simon</committee>
+    </DivisionData>
+    <DivisionData>
+      <division>Mixed</division>
+      <teamList>
+        <teams>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Cindy</firstName>
+                <lastName>St. Mary</lastName>
+                <points>59</points>
+                <womenPoints>130</womenPoints>
+                <rank>321</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Tony</firstName>
+                <lastName>Pellicane</lastName>
+                <points>53</points>
+                <womenPoints>0</womenPoints>
+                <rank>328</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -158,11 +1300,974 @@
           <TeamData>
             <players>
               <RegisteredPlayer>
+                <firstName>Bethany</firstName>
+                <lastName>Sanchez</lastName>
+                <points>83</points>
+                <womenPoints>346</womenPoints>
+                <rank>280</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Rodney</firstName>
+                <lastName>Sanchez</lastName>
+                <points>83</points>
+                <womenPoints>0</womenPoints>
+                <rank>279</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Pablo</firstName>
+                <lastName>Andres Mosquer</lastName>
+                <points>223.3</points>
+                <womenPoints>0</womenPoints>
+                <rank>145</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Renae</firstName>
+                <lastName>Donaldson</lastName>
+                <points>0</points>
+                <womenPoints>0</womenPoints>
+                <rank>0</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Daniel</firstName>
+                <lastName>O’Neill</lastName>
+                <points>0</points>
+                <womenPoints>0</womenPoints>
+                <rank>0</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Char</firstName>
+                <lastName>Powell</lastName>
+                <points>248.7</points>
+                <womenPoints>824</womenPoints>
+                <rank>133</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Alice</firstName>
+                <lastName>Zenatti</lastName>
+                <points>63.5</points>
+                <womenPoints>163.5</womenPoints>
+                <rank>311</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Mattia</firstName>
+                <lastName>Colombari</lastName>
+                <points>925.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>25</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Lori</firstName>
+                <lastName>Daniels</lastName>
+                <points>412.4</points>
+                <womenPoints>1120</womenPoints>
+                <rank>77</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Andrea</firstName>
+                <lastName>Festi</lastName>
+                <points>903.75</points>
+                <womenPoints>0</womenPoints>
+                <rank>26</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Lisa</firstName>
+                <lastName>Hunrichs</lastName>
+                <points>151</points>
+                <womenPoints>940</womenPoints>
+                <rank>208</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Freddy</firstName>
+                <lastName>Finner</lastName>
+                <points>1404</points>
+                <womenPoints>0</womenPoints>
+                <rank>5</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Maxine</firstName>
+                <lastName>Mittempergher</lastName>
+                <points>483</points>
+                <womenPoints>905</womenPoints>
+                <rank>63</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Edoardo</firstName>
+                <lastName>Turri</lastName>
+                <points>1126</points>
+                <womenPoints>0</womenPoints>
+                <rank>16</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Emma</firstName>
+                <lastName>Kahle</lastName>
+                <points>244.5</points>
+                <womenPoints>621</womenPoints>
+                <rank>134</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Pavel</firstName>
+                <lastName>Baranyk</lastName>
+                <points>1376.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>7</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Ilka</firstName>
+                <lastName>Simon</lastName>
+                <points>540.65</points>
+                <womenPoints>1138</womenPoints>
+                <rank>56</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Randy</firstName>
+                <lastName>Silvey</lastName>
+                <points>1114.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>17</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Juliana</firstName>
+                <lastName>Korver</lastName>
+                <points>484</points>
+                <womenPoints>1013</womenPoints>
+                <rank>62</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
                 <firstName>James</firstName>
                 <lastName>Wiseman</lastName>
                 <points>1878.5</points>
                 <womenPoints>0</womenPoints>
                 <rank>2</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+        </teams>
+      </teamList>
+      <rounds>
+        <RoundData>
+          <round>Finals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>3</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>6</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Semifinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Alice</firstName>
+                        <lastName>Zenatti</lastName>
+                        <points>63.5</points>
+                        <womenPoints>163.5</womenPoints>
+                        <rank>311</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Mattia</firstName>
+                        <lastName>Colombari</lastName>
+                        <points>925.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>25</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Bethany</firstName>
+                        <lastName>Sanchez</lastName>
+                        <points>83</points>
+                        <womenPoints>346</womenPoints>
+                        <rank>280</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Rodney</firstName>
+                        <lastName>Sanchez</lastName>
+                        <points>83</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>279</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Maxine</firstName>
+                        <lastName>Mittempergher</lastName>
+                        <points>483</points>
+                        <womenPoints>905</womenPoints>
+                        <rank>63</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Edoardo</firstName>
+                        <lastName>Turri</lastName>
+                        <points>1126</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>16</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Lisa</firstName>
+                        <lastName>Hunrichs</lastName>
+                        <points>151</points>
+                        <womenPoints>940</womenPoints>
+                        <rank>208</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Freddy</firstName>
+                        <lastName>Finner</lastName>
+                        <points>1404</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>5</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Ilka</firstName>
+                        <lastName>Simon</lastName>
+                        <points>540.65</points>
+                        <womenPoints>1138</womenPoints>
+                        <rank>56</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Randy</firstName>
+                        <lastName>Silvey</lastName>
+                        <points>1114.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>17</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                </teams>
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Pablo</firstName>
+                        <lastName>Andres Mosquer</lastName>
+                        <points>223.3</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>145</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Renae</firstName>
+                        <lastName>Donaldson</lastName>
+                        <points>0</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>0</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Cindy</firstName>
+                        <lastName>St. Mary</lastName>
+                        <points>59</points>
+                        <womenPoints>130</womenPoints>
+                        <rank>321</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Tony</firstName>
+                        <lastName>Pellicane</lastName>
+                        <points>53</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>328</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Emma</firstName>
+                        <lastName>Kahle</lastName>
+                        <points>244.5</points>
+                        <womenPoints>621</womenPoints>
+                        <rank>134</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Pavel</firstName>
+                        <lastName>Baranyk</lastName>
+                        <points>1376.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>7</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Daniel</firstName>
+                        <lastName>O’Neill</lastName>
+                        <points>0</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>0</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Char</firstName>
+                        <lastName>Powell</lastName>
+                        <points>248.7</points>
+                        <womenPoints>824</womenPoints>
+                        <rank>133</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Juliana</firstName>
+                        <lastName>Korver</lastName>
+                        <points>484</points>
+                        <womenPoints>1013</womenPoints>
+                        <rank>62</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>James</firstName>
+                        <lastName>Wiseman</lastName>
+                        <points>1878.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>2</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Lori</firstName>
+                        <lastName>Daniels</lastName>
+                        <points>412.4</points>
+                        <womenPoints>1120</womenPoints>
+                        <rank>77</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Andrea</firstName>
+                        <lastName>Festi</lastName>
+                        <points>903.75</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>26</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                </teams>
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>3</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Quarterfinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Prelims</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>C</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>D</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>0</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+      </rounds>
+      <headJudge>Thomas Notzel</headJudge>
+      <directors>Edo Turri</directors>
+      <committee>Edo Turri
+Freddy Finner
+Juliana Korver
+Pavel Baranyk
+Ilka Simon</committee>
+    </DivisionData>
+    <DivisionData>
+      <division>Coop</division>
+      <teamList>
+        <teams>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Kim</firstName>
+                <lastName>Larkin</lastName>
+                <points>445.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>72</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Tony</firstName>
+                <lastName>Pellicane</lastName>
+                <points>53</points>
+                <womenPoints>0</womenPoints>
+                <rank>328</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>John</firstName>
+                <lastName>Titcomb</lastName>
+                <points>307.9</points>
+                <womenPoints>0</womenPoints>
+                <rank>101</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Mike</firstName>
+                <lastName>Galloupe</lastName>
+                <points>393</points>
+                <womenPoints>0</womenPoints>
+                <rank>82</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Char</firstName>
+                <lastName>Powell</lastName>
+                <points>248.7</points>
+                <womenPoints>824</womenPoints>
+                <rank>133</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Johnny</firstName>
+                <lastName>Trevino</lastName>
+                <points>228.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>143</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Dan</firstName>
+                <lastName>Yarnell</lastName>
+                <points>459</points>
+                <womenPoints>0</womenPoints>
+                <rank>69</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Brian</firstName>
+                <lastName>McElwain</lastName>
+                <points>290</points>
+                <womenPoints>0</womenPoints>
+                <rank>116</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Brett</firstName>
+                <lastName>Schramek</lastName>
+                <points>395.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>81</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Toddy</firstName>
+                <lastName>Brodeur</lastName>
+                <points>367</points>
+                <womenPoints>0</womenPoints>
+                <rank>87</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Francesco</firstName>
+                <lastName>Santolin</lastName>
+                <points>948.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>24</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Larry</firstName>
+                <lastName>Imperiale</lastName>
+                <points>702.55</points>
+                <womenPoints>0</womenPoints>
+                <rank>41</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Thomas</firstName>
+                <lastName>Nötzel</lastName>
+                <points>758.75</points>
+                <womenPoints>0</womenPoints>
+                <rank>34</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Fabian</firstName>
+                <lastName>Dinklage</lastName>
+                <points>1167</points>
+                <womenPoints>0</womenPoints>
+                <rank>15</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Jan</firstName>
+                <lastName>Schreck</lastName>
+                <points>403</points>
+                <womenPoints>0</womenPoints>
+                <rank>79</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Mattia</firstName>
+                <lastName>Colombari</lastName>
+                <points>925.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>25</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Andrea</firstName>
+                <lastName>Festi</lastName>
+                <points>903.75</points>
+                <womenPoints>0</womenPoints>
+                <rank>26</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Randy</firstName>
+                <lastName>Silvey</lastName>
+                <points>1114.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>17</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Daniel</firstName>
+                <lastName>O’Neill</lastName>
+                <points>0</points>
+                <womenPoints>0</womenPoints>
+                <rank>0</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>James</firstName>
+                <lastName>Wiseman</lastName>
+                <points>1878.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>2</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Paul</firstName>
+                <lastName>Kenny</lastName>
+                <points>1249</points>
+                <womenPoints>0</womenPoints>
+                <rank>14</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Freddy</firstName>
+                <lastName>Finner</lastName>
+                <points>1404</points>
+                <womenPoints>0</womenPoints>
+                <rank>5</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Edoardo</firstName>
+                <lastName>Turri</lastName>
+                <points>1126</points>
+                <womenPoints>0</womenPoints>
+                <rank>16</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Mehrdad</firstName>
+                <lastName>Hosseinian</lastName>
+                <points>1436</points>
+                <womenPoints>0</womenPoints>
+                <rank>4</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Pavel</firstName>
+                <lastName>Baranyk</lastName>
+                <points>1376.5</points>
+                <womenPoints>0</womenPoints>
+                <rank>7</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Dave</firstName>
+                <lastName>Schiller</lastName>
+                <points>787.75</points>
+                <womenPoints>0</womenPoints>
+                <rank>31</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -188,48 +2293,54 @@
             <PoolData>
               <pool>A</pool>
               <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
+          <routineLength>4</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>6</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Semifinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
                 <teams>
                   <TeamData>
                     <players>
                       <RegisteredPlayer>
-                        <firstName>Freddy</firstName>
-                        <lastName>Finner</lastName>
-                        <points>1390</points>
+                        <firstName>Kim</firstName>
+                        <lastName>Larkin</lastName>
+                        <points>445.5</points>
                         <womenPoints>0</womenPoints>
-                        <rank>6</rank>
+                        <rank>72</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
-                        <firstName>Tom</firstName>
-                        <lastName>Leitner</lastName>
-                        <points>1403.5</points>
+                        <firstName>Tony</firstName>
+                        <lastName>Pellicane</lastName>
+                        <points>53</points>
                         <womenPoints>0</womenPoints>
-                        <rank>5</rank>
-                        <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
-                      </RegisteredPlayer>
-                    </players>
-                    <OverlayDragState>Normal</OverlayDragState>
-                    <WildCardIndex>-1</WildCardIndex>
-                  </TeamData>
-                  <TeamData>
-                    <players>
-                      <RegisteredPlayer>
-                        <firstName>Mehrdad</firstName>
-                        <lastName>Hosseinian</lastName>
-                        <points>1436</points>
-                        <womenPoints>0</womenPoints>
-                        <rank>4</rank>
+                        <rank>328</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
-                        <firstName>Jakub</firstName>
-                        <lastName>Kostel</lastName>
-                        <points>1443.5</points>
+                        <firstName>John</firstName>
+                        <lastName>Titcomb</lastName>
+                        <points>307.9</points>
                         <womenPoints>0</womenPoints>
-                        <rank>3</rank>
+                        <rank>101</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
@@ -240,11 +2351,119 @@
                   <TeamData>
                     <players>
                       <RegisteredPlayer>
-                        <firstName>James</firstName>
-                        <lastName>Wiseman</lastName>
-                        <points>1878.5</points>
+                        <firstName>Mike</firstName>
+                        <lastName>Galloupe</lastName>
+                        <points>393</points>
                         <womenPoints>0</womenPoints>
-                        <rank>2</rank>
+                        <rank>82</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Char</firstName>
+                        <lastName>Powell</lastName>
+                        <points>248.7</points>
+                        <womenPoints>824</womenPoints>
+                        <rank>133</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Johnny</firstName>
+                        <lastName>Trevino</lastName>
+                        <points>228.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>143</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Thomas</firstName>
+                        <lastName>Nötzel</lastName>
+                        <points>758.75</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>34</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Fabian</firstName>
+                        <lastName>Dinklage</lastName>
+                        <points>1167</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>15</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Jan</firstName>
+                        <lastName>Schreck</lastName>
+                        <points>403</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>79</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Mattia</firstName>
+                        <lastName>Colombari</lastName>
+                        <points>925.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>25</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Andrea</firstName>
+                        <lastName>Festi</lastName>
+                        <points>903.75</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>26</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Randy</firstName>
+                        <lastName>Silvey</lastName>
+                        <points>1114.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>17</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Pavel</firstName>
+                        <lastName>Baranyk</lastName>
+                        <points>1376.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>7</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Dave</firstName>
+                        <lastName>Schiller</lastName>
+                        <points>787.75</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>31</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
@@ -267,426 +2486,135 @@
               <judgesData>
                 <judgesEx />
                 <judgesAi />
-                <judgesDiff>
-                  <RegisteredPlayer>
-                    <firstName>Pavel</firstName>
-                    <lastName>Baranyk</lastName>
-                    <points>1376.5</points>
-                    <womenPoints>0</womenPoints>
-                    <rank>7</rank>
-                    <totalJudgingCount>0</totalJudgingCount>
-                    <isMale>false</isMale>
-                  </RegisteredPlayer>
-                </judgesDiff>
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>3</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
-        </RoundData>
-        <RoundData>
-          <round>Semifinals</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
                 <judgesDiff />
               </judgesData>
             </PoolData>
             <PoolData>
               <pool>B</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>3</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
-        </RoundData>
-        <RoundData>
-          <round>Quarterfinals</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>B</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>C</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>D</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>3</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
-        </RoundData>
-        <RoundData>
-          <round>Prelims</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>B</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>C</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>D</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>3</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
-        </RoundData>
-      </rounds>
-    </DivisionData>
-    <DivisionData>
-      <division>Mixed</division>
-      <teamList>
-        <teams />
-      </teamList>
-      <rounds>
-        <RoundData>
-          <round>Finals</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>6</maxTeams>
-        </RoundData>
-        <RoundData>
-          <round>Semifinals</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>B</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
-        </RoundData>
-        <RoundData>
-          <round>Quarterfinals</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>B</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>C</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>D</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
-        </RoundData>
-        <RoundData>
-          <round>Prelims</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>B</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>C</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>D</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
-        </RoundData>
-      </rounds>
-    </DivisionData>
-    <DivisionData>
-      <division>Coop</division>
-      <teamList>
-        <teams>
-          <TeamData>
-            <players>
-              <RegisteredPlayer>
-                <firstName>Francesco</firstName>
-                <lastName>Santolin</lastName>
-                <country>ITA</country>
-                <points>883.75</points>
-                <womenPoints>0</womenPoints>
-                <rank>27</rank>
-                <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
-              </RegisteredPlayer>
-              <RegisteredPlayer>
-                <firstName>Christian</firstName>
-                <lastName>Lamred</lastName>
-                <country>GER</country>
-                <points>1346</points>
-                <womenPoints>0</womenPoints>
-                <rank>10</rank>
-                <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
-              </RegisteredPlayer>
-              <RegisteredPlayer>
-                <firstName>Mehrdad</firstName>
-                <lastName>Hosseinian</lastName>
-                <country>GER</country>
-                <points>1436</points>
-                <womenPoints>0</womenPoints>
-                <rank>4</rank>
-                <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
-              </RegisteredPlayer>
-            </players>
-            <OverlayDragState>Normal</OverlayDragState>
-            <WildCardIndex>-1</WildCardIndex>
-          </TeamData>
-        </teams>
-      </teamList>
-      <rounds>
-        <RoundData>
-          <round>Finals</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
               <teamList>
                 <teams>
                   <TeamData>
                     <players>
                       <RegisteredPlayer>
-                        <firstName>Francesco</firstName>
-                        <lastName>Santolin</lastName>
-                        <country>ITA</country>
-                        <points>883.75</points>
+                        <firstName>Dan</firstName>
+                        <lastName>Yarnell</lastName>
+                        <points>459</points>
                         <womenPoints>0</womenPoints>
-                        <rank>27</rank>
+                        <rank>69</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
-                        <firstName>Christian</firstName>
-                        <lastName>Lamred</lastName>
-                        <country>GER</country>
-                        <points>1346</points>
+                        <firstName>Brian</firstName>
+                        <lastName>McElwain</lastName>
+                        <points>290</points>
                         <womenPoints>0</womenPoints>
-                        <rank>10</rank>
+                        <rank>116</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Brett</firstName>
+                        <lastName>Schramek</lastName>
+                        <points>395.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>81</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Toddy</firstName>
+                        <lastName>Brodeur</lastName>
+                        <points>367</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>87</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Francesco</firstName>
+                        <lastName>Santolin</lastName>
+                        <points>948.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>24</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Larry</firstName>
+                        <lastName>Imperiale</lastName>
+                        <points>702.55</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>41</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Daniel</firstName>
+                        <lastName>O’Neill</lastName>
+                        <points>0</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>0</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>James</firstName>
+                        <lastName>Wiseman</lastName>
+                        <points>1878.5</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>2</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Paul</firstName>
+                        <lastName>Kenny</lastName>
+                        <points>1249</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>14</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Freddy</firstName>
+                        <lastName>Finner</lastName>
+                        <points>1404</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>5</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Edoardo</firstName>
+                        <lastName>Turri</lastName>
+                        <points>1126</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>16</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
                         <firstName>Mehrdad</firstName>
                         <lastName>Hosseinian</lastName>
-                        <country>GER</country>
                         <points>1436</points>
                         <womenPoints>0</womenPoints>
                         <rank>4</rank>
@@ -708,40 +2636,7 @@
             </PoolData>
           </pools>
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>6</maxTeams>
-        </RoundData>
-        <RoundData>
-          <round>Semifinals</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>B</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
+          <routineLength>4</routineLength>
           <shouldExport>false</shouldExport>
           <maxTeams>8</maxTeams>
         </RoundData>
@@ -798,7 +2693,7 @@
             </PoolData>
           </pools>
           <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
+          <routineLength>4</routineLength>
           <shouldExport>false</shouldExport>
           <maxTeams>8</maxTeams>
         </RoundData>
@@ -860,11 +2755,163 @@
           <maxTeams>8</maxTeams>
         </RoundData>
       </rounds>
+      <headJudge>Thomas Notzel</headJudge>
+      <directors>Ilka Simon</directors>
+      <committee>Edo Turri
+Freddy Finner
+Juliana Korver
+Pavel Baranyk
+Ilka Simon</committee>
     </DivisionData>
     <DivisionData>
       <division>Women</division>
       <teamList>
-        <teams />
+        <teams>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Alice</firstName>
+                <lastName>Zenatti</lastName>
+                <points>63.5</points>
+                <womenPoints>163.5</womenPoints>
+                <rank>311</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Bailey</firstName>
+                <lastName>Bonaci</lastName>
+                <points>79.3</points>
+                <womenPoints>76.8</womenPoints>
+                <rank>289</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Cindy</firstName>
+                <lastName>St. Mary</lastName>
+                <points>59</points>
+                <womenPoints>130</womenPoints>
+                <rank>321</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Lisa</firstName>
+                <lastName>Hunrichs</lastName>
+                <points>151</points>
+                <womenPoints>940</womenPoints>
+                <rank>208</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Mary</firstName>
+                <lastName>Lowry</lastName>
+                <points>0</points>
+                <womenPoints>0</womenPoints>
+                <rank>0</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Emma</firstName>
+                <lastName>Kahle</lastName>
+                <points>244.5</points>
+                <womenPoints>621</womenPoints>
+                <rank>134</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Renae</firstName>
+                <lastName>Donaldson</lastName>
+                <points>0</points>
+                <womenPoints>0</womenPoints>
+                <rank>0</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Maxine</firstName>
+                <lastName>Mittempergher</lastName>
+                <points>483</points>
+                <womenPoints>905</womenPoints>
+                <rank>63</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Lori</firstName>
+                <lastName>Daniels</lastName>
+                <points>412.4</points>
+                <womenPoints>1120</womenPoints>
+                <rank>77</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Bethany</firstName>
+                <lastName>Sanchez</lastName>
+                <points>83</points>
+                <womenPoints>346</womenPoints>
+                <rank>280</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
+                <firstName>Ilka</firstName>
+                <lastName>Simon</lastName>
+                <points>540.65</points>
+                <womenPoints>1138</womenPoints>
+                <rank>56</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <firstName>Juliana</firstName>
+                <lastName>Korver</lastName>
+                <points>484</points>
+                <womenPoints>1013</womenPoints>
+                <rank>62</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>false</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+        </teams>
       </teamList>
       <rounds>
         <RoundData>
@@ -883,8 +2930,8 @@
               </judgesData>
             </PoolData>
           </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
+          <scheduleTime>2019-10-13T22:20:43.932-07:00</scheduleTime>
+          <routineLength>3</routineLength>
           <shouldExport>false</shouldExport>
           <maxTeams>6</maxTeams>
         </RoundData>
@@ -894,7 +2941,152 @@
             <PoolData>
               <pool>A</pool>
               <teamList>
-                <teams />
+                <teams>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Alice</firstName>
+                        <lastName>Zenatti</lastName>
+                        <points>63.5</points>
+                        <womenPoints>163.5</womenPoints>
+                        <rank>311</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Bailey</firstName>
+                        <lastName>Bonaci</lastName>
+                        <points>79.3</points>
+                        <womenPoints>76.8</womenPoints>
+                        <rank>289</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Mary</firstName>
+                        <lastName>Lowry</lastName>
+                        <points>0</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>0</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Emma</firstName>
+                        <lastName>Kahle</lastName>
+                        <points>244.5</points>
+                        <womenPoints>621</womenPoints>
+                        <rank>134</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Renae</firstName>
+                        <lastName>Donaldson</lastName>
+                        <points>0</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>0</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Maxine</firstName>
+                        <lastName>Mittempergher</lastName>
+                        <points>483</points>
+                        <womenPoints>905</womenPoints>
+                        <rank>63</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Lori</firstName>
+                        <lastName>Daniels</lastName>
+                        <points>412.4</points>
+                        <womenPoints>1120</womenPoints>
+                        <rank>77</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Bethany</firstName>
+                        <lastName>Sanchez</lastName>
+                        <points>83</points>
+                        <womenPoints>346</womenPoints>
+                        <rank>280</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Cindy</firstName>
+                        <lastName>St. Mary</lastName>
+                        <points>59</points>
+                        <womenPoints>130</womenPoints>
+                        <rank>321</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Lisa</firstName>
+                        <lastName>Hunrichs</lastName>
+                        <points>151</points>
+                        <womenPoints>940</womenPoints>
+                        <rank>208</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <firstName>Ilka</firstName>
+                        <lastName>Simon</lastName>
+                        <points>540.65</points>
+                        <womenPoints>1138</womenPoints>
+                        <rank>56</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <firstName>Juliana</firstName>
+                        <lastName>Korver</lastName>
+                        <points>484</points>
+                        <womenPoints>1013</womenPoints>
+                        <rank>62</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>false</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                </teams>
               </teamList>
               <resultRank />
               <judgesData>
@@ -916,8 +3108,8 @@
               </judgesData>
             </PoolData>
           </pools>
-          <scheduleTime>0001-01-01T00:00:00</scheduleTime>
-          <routineLength>0</routineLength>
+          <scheduleTime>2019-10-11T15:15:00.931-07:00</scheduleTime>
+          <routineLength>3</routineLength>
           <shouldExport>false</shouldExport>
           <maxTeams>8</maxTeams>
         </RoundData>
@@ -1036,9 +3228,17 @@
           <maxTeams>8</maxTeams>
         </RoundData>
       </rounds>
+      <headJudge>Thomas Notzel</headJudge>
+      <directors>Pavel Baranyk</directors>
+      <committee>Edo Turri
+Freddy Finner
+Juliana Korver
+Pavel Baranyk
+Ilka Simon</committee>
     </DivisionData>
   </divisions>
-  <TournamentName>TestFPAW2019</TournamentName>
+  <TournamentName>FPAW2019</TournamentName>
+  <TournamentSubtitle>Seattle, WA</TournamentSubtitle>
   <exportPath>C:\Users\Ryan\Desktop\PoolCreator\Export</exportPath>
   <excelTemplatePath>C:\Users\Ryan\Desktop\PoolCreator\Export\Scoresheets_2.10.xlsm</excelTemplatePath>
 </TournamentData>
