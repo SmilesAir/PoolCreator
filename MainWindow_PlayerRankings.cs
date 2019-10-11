@@ -146,7 +146,7 @@ namespace PoolCreator
 					string nameClass = "xl1530694";
 					string countryClass = "xl6619937";
 					string pointsClass = "xl6330694";
-					string maleTag = "<td class=xl669930>m</td>";
+					string maleTag = "<td class=xl6614882>m</td>";
 					while ((line = textStream.ReadLine()) != null)
 					{
 						line = line.Trim();
@@ -200,7 +200,8 @@ namespace PoolCreator
 							if (bIsOpenRankings)
 							{
 								// Open rankings has extra line for gender
-								newPlayer.isMale = textStream.ReadLine().Trim() == maleTag;
+								string genderStr = textStream.ReadLine().Trim();
+								newPlayer.isMale = genderStr == maleTag;
 							}
 							string pointsLine = textStream.ReadLine().Trim();
 							pointsLine = pointsLine.Replace("<td class=" + pointsClass + ">", "").Replace("</td>", "").Replace(",", ".");
