@@ -874,60 +874,6 @@
             <PoolData>
               <pool>A</pool>
               <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>2019-10-13T13:15:03.934-07:00</scheduleTime>
-          <routineLength>3</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
-        </RoundData>
-        <RoundData>
-          <round>Semifinals</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-            <PoolData>
-              <pool>B</pool>
-              <teamList>
-                <teams />
-              </teamList>
-              <resultRank />
-              <judgesData>
-                <judgesEx />
-                <judgesAi />
-                <judgesDiff />
-              </judgesData>
-            </PoolData>
-          </pools>
-          <scheduleTime>2019-10-12T12:15:03.933-07:00</scheduleTime>
-          <routineLength>3</routineLength>
-          <shouldExport>false</shouldExport>
-          <maxTeams>8</maxTeams>
-        </RoundData>
-        <RoundData>
-          <round>Quarterfinals</round>
-          <pools>
-            <PoolData>
-              <pool>A</pool>
-              <teamList>
                 <teams>
                   <TeamData>
                     <players>
@@ -1050,6 +996,117 @@
                     <WildCardIndex>-1</WildCardIndex>
                   </TeamData>
                 </teams>
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx>
+                  <RegisteredPlayer>
+                    <firstName>Pavel</firstName>
+                    <lastName>Baranyk</lastName>
+                    <points>1376.5</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>7</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Daniel</firstName>
+                    <lastName>O'Neill</lastName>
+                    <points>1361</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>8</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                </judgesEx>
+                <judgesAi>
+                  <RegisteredPlayer>
+                    <firstName>James</firstName>
+                    <lastName>Wiseman</lastName>
+                    <points>1878.5</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>2</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Freddy</firstName>
+                    <lastName>Finner</lastName>
+                    <points>1404</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>5</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                </judgesAi>
+                <judgesDiff>
+                  <RegisteredPlayer>
+                    <firstName>Ryan</firstName>
+                    <lastName>Young</lastName>
+                    <points>2020.5</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>1</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                  <RegisteredPlayer>
+                    <firstName>Mehrdad</firstName>
+                    <lastName>Hosseinian</lastName>
+                    <points>1436</points>
+                    <womenPoints>0</womenPoints>
+                    <rank>4</rank>
+                    <totalJudgingCount>0</totalJudgingCount>
+                    <isMale>false</isMale>
+                  </RegisteredPlayer>
+                </judgesDiff>
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>2019-10-13T13:15:03.934-07:00</scheduleTime>
+          <routineLength>3</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Semifinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+            <PoolData>
+              <pool>B</pool>
+              <teamList>
+                <teams />
+              </teamList>
+              <resultRank />
+              <judgesData>
+                <judgesEx />
+                <judgesAi />
+                <judgesDiff />
+              </judgesData>
+            </PoolData>
+          </pools>
+          <scheduleTime>2019-10-12T12:15:03.933-07:00</scheduleTime>
+          <routineLength>3</routineLength>
+          <shouldExport>false</shouldExport>
+          <maxTeams>8</maxTeams>
+        </RoundData>
+        <RoundData>
+          <round>Quarterfinals</round>
+          <pools>
+            <PoolData>
+              <pool>A</pool>
+              <teamList>
+                <teams />
               </teamList>
               <resultRank />
               <judgesData>
@@ -3943,7 +4000,7 @@ Pavel Baranyk
 Ilka Simon</committee>
     </DivisionData>
   </divisions>
-  <TournamentName>FPAW2019</TournamentName>
+  <TournamentName>ResultsTest</TournamentName>
   <TournamentSubtitle>Seattle, WA</TournamentSubtitle>
   <exportPath>C:\Users\y98at\OneDrive\Desktop\PoolCreator\Export</exportPath>
   <excelTemplatePath>C:\Users\y98at\OneDrive\Desktop\PoolCreator\Export\DM2017-Scoresheets.xlsm</excelTemplatePath>

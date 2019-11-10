@@ -6,43 +6,43 @@
       <lastName>Korver</lastName>
       <points>484</points>
       <womenPoints>1013</womenPoints>
-      <rank>65</rank>
+      <rank>62</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Emma</firstName>
       <lastName>Kahle</lastName>
-      <points>197.5</points>
-      <womenPoints>496</womenPoints>
-      <rank>162</rank>
+      <points>244.5</points>
+      <womenPoints>621</womenPoints>
+      <rank>135</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Bianca</firstName>
       <lastName>Strunz</lastName>
-      <points>654.9</points>
-      <womenPoints>917</womenPoints>
-      <rank>47</rank>
+      <points>399.4</points>
+      <womenPoints>801</womenPoints>
+      <rank>80</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Ilka</firstName>
       <lastName>Simon</lastName>
-      <points>547.9</points>
+      <points>540.65</points>
       <womenPoints>1138</womenPoints>
-      <rank>56</rank>
+      <rank>57</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Anna</firstName>
       <lastName>Bragagnolo</lastName>
-      <points>5</points>
-      <womenPoints>142.5</womenPoints>
-      <rank>454</rank>
+      <points>16.5</points>
+      <womenPoints>192.5</womenPoints>
+      <rank>456</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
@@ -50,8 +50,8 @@
       <firstName>Meirav</firstName>
       <lastName>Pinhas</lastName>
       <points>21.13</points>
-      <womenPoints>21.13</womenPoints>
-      <rank>419</rank>
+      <womenPoints>45.13</womenPoints>
+      <rank>442</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
@@ -60,16 +60,16 @@
       <lastName>Audet</lastName>
       <points>304</points>
       <womenPoints>618.5</womenPoints>
-      <rank>107</rank>
+      <rank>105</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Sophie</firstName>
       <lastName>Rickers</lastName>
-      <points>119.6</points>
-      <womenPoints>646.6</womenPoints>
-      <rank>227</rank>
+      <points>123.1</points>
+      <womenPoints>676.5</womenPoints>
+      <rank>239</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
@@ -80,16 +80,16 @@
       <womenPoints>0</womenPoints>
       <rank>1</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Daniel</firstName>
       <lastName>O'Neill</lastName>
       <points>1361</points>
       <womenPoints>0</womenPoints>
-      <rank>9</rank>
+      <rank>8</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Fabian</firstName>
@@ -98,77 +98,77 @@
       <womenPoints>0</womenPoints>
       <rank>15</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Waldemar</firstName>
       <lastName>Wagner</lastName>
-      <points>290</points>
+      <points>292</points>
       <womenPoints>0</womenPoints>
-      <rank>112</rank>
+      <rank>116</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Andrea</firstName>
       <lastName>Rimatori</lastName>
-      <points>1254</points>
+      <points>1270</points>
       <womenPoints>0</womenPoints>
       <rank>13</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Kuba</firstName>
       <lastName>Radwanski</lastName>
-      <points>883.25</points>
+      <points>856.75</points>
       <womenPoints>0</womenPoints>
       <rank>28</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Pablo</firstName>
       <lastName>Azul</lastName>
-      <points>414.9</points>
+      <points>467.65</points>
       <womenPoints>0</womenPoints>
-      <rank>76</rank>
+      <rank>66</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Brett</firstName>
       <lastName>Schramek</lastName>
-      <points>309</points>
+      <points>395.5</points>
       <womenPoints>0</womenPoints>
-      <rank>103</rank>
+      <rank>81</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Maxine</firstName>
       <lastName>Mittempergher</lastName>
-      <points>338</points>
-      <womenPoints>820</womenPoints>
-      <rank>96</rank>
+      <points>483</points>
+      <womenPoints>905</womenPoints>
+      <rank>63</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Marysia</firstName>
       <lastName>Ryszarda</lastName>
-      <points>0</points>
-      <womenPoints>0</womenPoints>
-      <rank>0</rank>
+      <points>10</points>
+      <womenPoints>60</womenPoints>
+      <rank>476</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Vendela</firstName>
       <lastName>Arveskär</lastName>
-      <points>84.25</points>
-      <womenPoints>133.25</womenPoints>
-      <rank>258</rank>
+      <points>86.75</points>
+      <womenPoints>165.75</womenPoints>
+      <rank>277</rank>
       <totalJudgingCount>0</totalJudgingCount>
       <isMale>false</isMale>
     </RegisteredPlayer>
@@ -179,34 +179,34 @@
       <womenPoints>0</womenPoints>
       <rank>16</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Yuval</firstName>
       <lastName>Reikoren</lastName>
-      <points>734.75</points>
+      <points>708.25</points>
       <womenPoints>0</womenPoints>
-      <rank>41</rank>
+      <rank>39</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Joakim</firstName>
       <lastName>Arveskär</lastName>
-      <points>401.4</points>
+      <points>403.9</points>
       <womenPoints>0</womenPoints>
-      <rank>82</rank>
+      <rank>78</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Gordy</firstName>
       <lastName>Brown</lastName>
-      <points>371.8</points>
+      <points>375.3</points>
       <womenPoints>0</womenPoints>
-      <rank>88</rank>
+      <rank>86</rank>
       <totalJudgingCount>0</totalJudgingCount>
-      <isMale>false</isMale>
+      <isMale>true</isMale>
     </RegisteredPlayer>
     <RegisteredPlayer>
       <firstName>Paola Andrea</firstName>
@@ -413,11 +413,11 @@
               <RegisteredPlayer>
                 <firstName>Pablo</firstName>
                 <lastName>Azul</lastName>
-                <points>414.9</points>
+                <points>467.65</points>
                 <womenPoints>0</womenPoints>
-                <rank>76</rank>
+                <rank>66</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
             </players>
             <OverlayDragState>Normal</OverlayDragState>
@@ -428,18 +428,18 @@
               <RegisteredPlayer>
                 <firstName>Joakim</firstName>
                 <lastName>Arveskär</lastName>
-                <points>401.4</points>
+                <points>403.9</points>
                 <womenPoints>0</womenPoints>
-                <rank>82</rank>
+                <rank>78</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
                 <firstName>Vendela</firstName>
                 <lastName>Arveskär</lastName>
-                <points>84.25</points>
-                <womenPoints>133.25</womenPoints>
-                <rank>258</rank>
+                <points>86.75</points>
+                <womenPoints>165.75</womenPoints>
+                <rank>277</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -452,18 +452,18 @@
               <RegisteredPlayer>
                 <firstName>Gordy</firstName>
                 <lastName>Brown</lastName>
-                <points>371.8</points>
+                <points>375.3</points>
                 <womenPoints>0</womenPoints>
-                <rank>88</rank>
+                <rank>86</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
                 <firstName>Sophie</firstName>
                 <lastName>Rickers</lastName>
-                <points>119.6</points>
-                <womenPoints>646.6</womenPoints>
-                <rank>227</rank>
+                <points>123.1</points>
+                <womenPoints>676.5</womenPoints>
+                <rank>239</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -478,18 +478,18 @@
                 <lastName>Audet</lastName>
                 <points>304</points>
                 <womenPoints>618.5</womenPoints>
-                <rank>107</rank>
+                <rank>105</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
                 <firstName>Brett</firstName>
                 <lastName>Schramek</lastName>
-                <points>309</points>
+                <points>395.5</points>
                 <womenPoints>0</womenPoints>
-                <rank>103</rank>
+                <rank>81</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
             </players>
             <OverlayDragState>Normal</OverlayDragState>
@@ -500,18 +500,18 @@
               <RegisteredPlayer>
                 <firstName>Yuval</firstName>
                 <lastName>Reikoren</lastName>
-                <points>734.75</points>
+                <points>708.25</points>
                 <womenPoints>0</womenPoints>
-                <rank>41</rank>
+                <rank>39</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
                 <firstName>Meirav</firstName>
                 <lastName>Pinhas</lastName>
                 <points>21.13</points>
-                <womenPoints>21.13</womenPoints>
-                <rank>419</rank>
+                <womenPoints>45.13</womenPoints>
+                <rank>442</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -524,20 +524,20 @@
               <RegisteredPlayer>
                 <firstName>Marysia</firstName>
                 <lastName>Ryszarda</lastName>
-                <points>0</points>
-                <womenPoints>0</womenPoints>
-                <rank>0</rank>
+                <points>10</points>
+                <womenPoints>60</womenPoints>
+                <rank>476</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
                 <firstName>Kuba</firstName>
                 <lastName>Radwanski</lastName>
-                <points>883.25</points>
+                <points>856.75</points>
                 <womenPoints>0</womenPoints>
                 <rank>28</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
             </players>
             <OverlayDragState>Normal</OverlayDragState>
@@ -548,20 +548,20 @@
               <RegisteredPlayer>
                 <firstName>Ilka</firstName>
                 <lastName>Simon</lastName>
-                <points>547.9</points>
+                <points>540.65</points>
                 <womenPoints>1138</womenPoints>
-                <rank>56</rank>
+                <rank>57</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
                 <firstName>Waldemar</firstName>
                 <lastName>Wagner</lastName>
-                <points>290</points>
+                <points>292</points>
                 <womenPoints>0</womenPoints>
-                <rank>112</rank>
+                <rank>116</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
             </players>
             <OverlayDragState>Normal</OverlayDragState>
@@ -572,20 +572,20 @@
               <RegisteredPlayer>
                 <firstName>Anna</firstName>
                 <lastName>Bragagnolo</lastName>
-                <points>5</points>
-                <womenPoints>142.5</womenPoints>
-                <rank>454</rank>
+                <points>16.5</points>
+                <womenPoints>192.5</womenPoints>
+                <rank>456</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
                 <firstName>Andrea</firstName>
                 <lastName>Rimatori</lastName>
-                <points>1254</points>
+                <points>1270</points>
                 <womenPoints>0</womenPoints>
                 <rank>13</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
             </players>
             <OverlayDragState>Normal</OverlayDragState>
@@ -600,14 +600,14 @@
                 <womenPoints>0</womenPoints>
                 <rank>16</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
               <RegisteredPlayer>
                 <firstName>Maxine</firstName>
                 <lastName>Mittempergher</lastName>
-                <points>338</points>
-                <womenPoints>820</womenPoints>
-                <rank>96</rank>
+                <points>483</points>
+                <womenPoints>905</womenPoints>
+                <rank>63</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -620,9 +620,9 @@
               <RegisteredPlayer>
                 <firstName>Emma</firstName>
                 <lastName>Kahle</lastName>
-                <points>197.5</points>
-                <womenPoints>496</womenPoints>
-                <rank>162</rank>
+                <points>244.5</points>
+                <womenPoints>621</womenPoints>
+                <rank>135</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -631,9 +631,9 @@
                 <lastName>O'Neill</lastName>
                 <points>1361</points>
                 <womenPoints>0</womenPoints>
-                <rank>9</rank>
+                <rank>8</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
             </players>
             <OverlayDragState>Normal</OverlayDragState>
@@ -644,9 +644,9 @@
               <RegisteredPlayer>
                 <firstName>Bianca</firstName>
                 <lastName>Strunz</lastName>
-                <points>654.9</points>
-                <womenPoints>917</womenPoints>
-                <rank>47</rank>
+                <points>399.4</points>
+                <womenPoints>801</womenPoints>
+                <rank>80</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -657,7 +657,7 @@
                 <womenPoints>0</womenPoints>
                 <rank>15</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
             </players>
             <OverlayDragState>Normal</OverlayDragState>
@@ -670,7 +670,7 @@
                 <lastName>Korver</lastName>
                 <points>484</points>
                 <womenPoints>1013</womenPoints>
-                <rank>65</rank>
+                <rank>62</rank>
                 <totalJudgingCount>0</totalJudgingCount>
                 <isMale>false</isMale>
               </RegisteredPlayer>
@@ -681,7 +681,7 @@
                 <womenPoints>0</womenPoints>
                 <rank>1</rank>
                 <totalJudgingCount>0</totalJudgingCount>
-                <isMale>false</isMale>
+                <isMale>true</isMale>
               </RegisteredPlayer>
             </players>
             <OverlayDragState>Normal</OverlayDragState>
@@ -732,11 +732,11 @@
                       <RegisteredPlayer>
                         <firstName>Pablo</firstName>
                         <lastName>Azul</lastName>
-                        <points>414.9</points>
+                        <points>467.65</points>
                         <womenPoints>0</womenPoints>
-                        <rank>76</rank>
+                        <rank>66</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                     </players>
                     <OverlayDragState>Normal</OverlayDragState>
@@ -747,20 +747,20 @@
                       <RegisteredPlayer>
                         <firstName>Marysia</firstName>
                         <lastName>Ryszarda</lastName>
-                        <points>0</points>
-                        <womenPoints>0</womenPoints>
-                        <rank>0</rank>
+                        <points>10</points>
+                        <womenPoints>60</womenPoints>
+                        <rank>476</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
                         <firstName>Kuba</firstName>
                         <lastName>Radwanski</lastName>
-                        <points>883.25</points>
+                        <points>856.75</points>
                         <womenPoints>0</womenPoints>
                         <rank>28</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                     </players>
                     <OverlayDragState>Normal</OverlayDragState>
@@ -773,18 +773,18 @@
                         <lastName>Audet</lastName>
                         <points>304</points>
                         <womenPoints>618.5</womenPoints>
-                        <rank>107</rank>
+                        <rank>105</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
                         <firstName>Brett</firstName>
                         <lastName>Schramek</lastName>
-                        <points>309</points>
+                        <points>395.5</points>
                         <womenPoints>0</womenPoints>
-                        <rank>103</rank>
+                        <rank>81</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                     </players>
                     <OverlayDragState>Normal</OverlayDragState>
@@ -795,20 +795,20 @@
                       <RegisteredPlayer>
                         <firstName>Ilka</firstName>
                         <lastName>Simon</lastName>
-                        <points>547.9</points>
+                        <points>540.65</points>
                         <womenPoints>1138</womenPoints>
-                        <rank>56</rank>
+                        <rank>57</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
                         <firstName>Waldemar</firstName>
                         <lastName>Wagner</lastName>
-                        <points>290</points>
+                        <points>292</points>
                         <womenPoints>0</womenPoints>
-                        <rank>112</rank>
+                        <rank>116</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                     </players>
                     <OverlayDragState>Normal</OverlayDragState>
@@ -823,14 +823,14 @@
                         <womenPoints>0</womenPoints>
                         <rank>16</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
                         <firstName>Maxine</firstName>
                         <lastName>Mittempergher</lastName>
-                        <points>338</points>
-                        <womenPoints>820</womenPoints>
-                        <rank>96</rank>
+                        <points>483</points>
+                        <womenPoints>905</womenPoints>
+                        <rank>63</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
@@ -845,7 +845,7 @@
                         <lastName>Korver</lastName>
                         <points>484</points>
                         <womenPoints>1013</womenPoints>
-                        <rank>65</rank>
+                        <rank>62</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
@@ -856,7 +856,7 @@
                         <womenPoints>0</womenPoints>
                         <rank>1</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                     </players>
                     <OverlayDragState>Normal</OverlayDragState>
@@ -880,18 +880,18 @@
                       <RegisteredPlayer>
                         <firstName>Joakim</firstName>
                         <lastName>Arveskär</lastName>
-                        <points>401.4</points>
+                        <points>403.9</points>
                         <womenPoints>0</womenPoints>
-                        <rank>82</rank>
+                        <rank>78</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
                         <firstName>Vendela</firstName>
                         <lastName>Arveskär</lastName>
-                        <points>84.25</points>
-                        <womenPoints>133.25</womenPoints>
-                        <rank>258</rank>
+                        <points>86.75</points>
+                        <womenPoints>165.75</womenPoints>
+                        <rank>277</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
@@ -904,18 +904,18 @@
                       <RegisteredPlayer>
                         <firstName>Yuval</firstName>
                         <lastName>Reikoren</lastName>
-                        <points>734.75</points>
+                        <points>708.25</points>
                         <womenPoints>0</womenPoints>
-                        <rank>41</rank>
+                        <rank>39</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
                         <firstName>Meirav</firstName>
                         <lastName>Pinhas</lastName>
                         <points>21.13</points>
-                        <womenPoints>21.13</womenPoints>
-                        <rank>419</rank>
+                        <womenPoints>45.13</womenPoints>
+                        <rank>442</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
@@ -928,18 +928,18 @@
                       <RegisteredPlayer>
                         <firstName>Gordy</firstName>
                         <lastName>Brown</lastName>
-                        <points>371.8</points>
+                        <points>375.3</points>
                         <womenPoints>0</womenPoints>
-                        <rank>88</rank>
+                        <rank>86</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
                         <firstName>Sophie</firstName>
                         <lastName>Rickers</lastName>
-                        <points>119.6</points>
-                        <womenPoints>646.6</womenPoints>
-                        <rank>227</rank>
+                        <points>123.1</points>
+                        <womenPoints>676.5</womenPoints>
+                        <rank>239</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
@@ -952,20 +952,20 @@
                       <RegisteredPlayer>
                         <firstName>Anna</firstName>
                         <lastName>Bragagnolo</lastName>
-                        <points>5</points>
-                        <womenPoints>142.5</womenPoints>
-                        <rank>454</rank>
+                        <points>16.5</points>
+                        <womenPoints>192.5</womenPoints>
+                        <rank>456</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
                       <RegisteredPlayer>
                         <firstName>Andrea</firstName>
                         <lastName>Rimatori</lastName>
-                        <points>1254</points>
+                        <points>1270</points>
                         <womenPoints>0</womenPoints>
                         <rank>13</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                     </players>
                     <OverlayDragState>Normal</OverlayDragState>
@@ -976,9 +976,9 @@
                       <RegisteredPlayer>
                         <firstName>Bianca</firstName>
                         <lastName>Strunz</lastName>
-                        <points>654.9</points>
-                        <womenPoints>917</womenPoints>
-                        <rank>47</rank>
+                        <points>399.4</points>
+                        <womenPoints>801</womenPoints>
+                        <rank>80</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
@@ -989,7 +989,7 @@
                         <womenPoints>0</womenPoints>
                         <rank>15</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                     </players>
                     <OverlayDragState>Normal</OverlayDragState>
@@ -1000,9 +1000,9 @@
                       <RegisteredPlayer>
                         <firstName>Emma</firstName>
                         <lastName>Kahle</lastName>
-                        <points>197.5</points>
-                        <womenPoints>496</womenPoints>
-                        <rank>162</rank>
+                        <points>244.5</points>
+                        <womenPoints>621</womenPoints>
+                        <rank>135</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>false</isMale>
                       </RegisteredPlayer>
@@ -1011,9 +1011,9 @@
                         <lastName>O'Neill</lastName>
                         <points>1361</points>
                         <womenPoints>0</womenPoints>
-                        <rank>9</rank>
+                        <rank>8</rank>
                         <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>false</isMale>
+                        <isMale>true</isMale>
                       </RegisteredPlayer>
                     </players>
                     <OverlayDragState>Normal</OverlayDragState>

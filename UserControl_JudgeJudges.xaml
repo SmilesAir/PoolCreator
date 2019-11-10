@@ -24,8 +24,8 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Label Content="Execution"/>
-            <ItemsControl Grid.Row="1" Name="JudgesExControl" ItemsSource="{Binding judgesEx}" HorizontalContentAlignment="Stretch">
+            <Label Content="Exe/Ai"/>
+            <ItemsControl Grid.Row="1" Name="JudgesExAiControl" ItemsSource="{Binding judgesEx}" HorizontalContentAlignment="Stretch">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Grid>
@@ -54,8 +54,8 @@
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
 
-            <Label Grid.Row="2" Content="Artistic Expression"/>
-            <ItemsControl Grid.Row="3" Name="JudgesAiControl" ItemsSource="{Binding judgesAi}" HorizontalContentAlignment="Stretch">
+            <Label Grid.Row="2" Content="Variety"/>
+            <ItemsControl Grid.Row="3" Name="JudgesVarietyControl" ItemsSource="{Binding judgesAi}" HorizontalContentAlignment="Stretch">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Grid>

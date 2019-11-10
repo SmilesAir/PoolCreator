@@ -45,8 +45,8 @@ namespace PoolCreator
 			parentWindow.OnJudgesPoolChange += OnJudgesPoolChange;
 			parentWindow.OnJudgeAdd += OnJudgeAdd;
 
-			JudgesExControl.ItemsSource = judgeData.judgesEx;
-			JudgesAiControl.ItemsSource = judgeData.judgesAi;
+			JudgesExAiControl.ItemsSource = judgeData.judgesExAi;
+			JudgesVarietyControl.ItemsSource = judgeData.judgesVariety;
 			JudgesDiffControl.ItemsSource = judgeData.judgesDiff;
 		}
 
@@ -108,8 +108,8 @@ namespace PoolCreator
 
 		public class JudgesDataDisplay
 		{
-			public ObservableCollection<JudgeInventoryItemData> judgesEx = new ObservableCollection<JudgeInventoryItemData>();
-			public ObservableCollection<JudgeInventoryItemData> judgesAi = new ObservableCollection<JudgeInventoryItemData>();
+			public ObservableCollection<JudgeInventoryItemData> judgesExAi = new ObservableCollection<JudgeInventoryItemData>();
+			public ObservableCollection<JudgeInventoryItemData> judgesVariety = new ObservableCollection<JudgeInventoryItemData>();
 			public ObservableCollection<JudgeInventoryItemData> judgesDiff = new ObservableCollection<JudgeInventoryItemData>();
 
 			public JudgesDataDisplay()
@@ -121,10 +121,10 @@ namespace PoolCreator
 				switch (category)
 				{
 					case EJudgeCategory.Execution:
-						judgesEx.Add(judge);
+						judgesExAi.Add(judge);
 						break;
 					case EJudgeCategory.ArtisticImpression:
-						judgesAi.Add(judge);
+						judgesVariety.Add(judge);
 						break;
 					case EJudgeCategory.Difficulty:
 						judgesDiff.Add(judge);
@@ -134,23 +134,23 @@ namespace PoolCreator
 
 			public void Remove(JudgeInventoryItemData judge)
 			{
-				judgesEx.Remove(judge);
-				judgesAi.Remove(judge);
+				judgesExAi.Remove(judge);
+				judgesVariety.Remove(judge);
 				judgesDiff.Remove(judge);
 			}
 
 			public void CopyFrom(JudgesData jd, MainWindow parentWindow)
 			{
-				judgesEx.Clear();
+				judgesExAi.Clear();
 				foreach (RegisteredPlayer rp in jd.judgesEx)
 				{
-					judgesEx.Add(parentWindow.CreateJudgeInventoryItemData(rp));
+					judgesExAi.Add(parentWindow.CreateJudgeInventoryItemData(rp));
 				}
 
-				judgesAi.Clear();
+				judgesVariety.Clear();
 				foreach (RegisteredPlayer rp in jd.judgesAi)
 				{
-					judgesAi.Add(parentWindow.CreateJudgeInventoryItemData(rp));
+					judgesVariety.Add(parentWindow.CreateJudgeInventoryItemData(rp));
 				}
 
 				judgesDiff.Clear();
