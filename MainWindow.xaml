@@ -705,181 +705,26 @@
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="*"/>
                         <RowDefinition Height="3*"/>
                     </Grid.RowDefinitions>
                     
-                    <Label Content="Step 1 - Export Path" HorizontalAlignment="Stretch" Background="LightSteelBlue" HorizontalContentAlignment="Center"/>
-                    
+                    <Label Content="Step 1 - Export To Complete Judging" HorizontalAlignment="Stretch" Background="LightSteelBlue" HorizontalContentAlignment="Center"/>
+
                     <Grid Grid.Row="1">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-
-                        <Label Content="Export Path:"/>
-                        <TextBox Grid.Column="1" Name="ExportPathText" Text="{Binding ExportPath}" VerticalContentAlignment="Center"/>
-                        <Button Content="Browse ..." Grid.Column="2" MinHeight="25" MinWidth="80" Click="BrowseExportPath_Click"/>
-                    </Grid>
-
-                    <Grid Grid.Row="2">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="10"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="10"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="10"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="Auto"/>
-                        </Grid.RowDefinitions>
-
-                        <Label Grid.ColumnSpan="15" Content="Step 2 - Rounds to Export" HorizontalAlignment="Stretch" Background="SkyBlue" HorizontalContentAlignment="Center"/>
-
-                        <Label Grid.Row="1" Content="Womens" Grid.ColumnSpan="2"/>
-                        <CheckBox Grid.Row="2" Content="Prelims" IsChecked="{Binding ShouldExportWomensPrelims}"/>
-                        <CheckBox Grid.Row="2" Grid.Column="1" Content="Quarters" IsChecked="{Binding ShouldExportWomensQuarters}"/>
-                        <CheckBox Grid.Row="3" Content="Semis" IsChecked="{Binding ShouldExportWomensSemis}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="1" Content="Finals" IsChecked="{Binding ShouldExportWomensFinals}"/>
-
-                        <Grid Grid.Row="1" Grid.RowSpan="3" Grid.Column="2" Background="gray" Margin="2"/>
-
-                        <Label Grid.Row="1" Grid.Column="3" Content="Open" Grid.ColumnSpan="2"/>
-                        <CheckBox Grid.Row="2" Grid.Column="3"  Content="Prelims" IsChecked="{Binding ShouldExportOpenPrelims}"/>
-                        <CheckBox Grid.Row="2" Grid.Column="4" Content="Quarters" IsChecked="{Binding ShouldExportOpenQuarters}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="3" Content="Semis" IsChecked="{Binding ShouldExportOpenSemis}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="4" Content="Finals" IsChecked="{Binding ShouldExportOpenFinals}"/>
-
-                        <Grid Grid.Row="1" Grid.RowSpan="3" Grid.Column="5" Background="gray" Margin="2"/>
-
-                        <Label Grid.Row="1" Grid.Column="6" Content="Mixed" Grid.ColumnSpan="2"/>
-                        <CheckBox Grid.Row="2" Grid.Column="6"  Content="Prelims" IsChecked="{Binding ShouldExportMixedPrelims}"/>
-                        <CheckBox Grid.Row="2" Grid.Column="7" Content="Quarters" IsChecked="{Binding ShouldExportMixedQuarters}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="6" Content="Semis" IsChecked="{Binding ShouldExportMixedSemis}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="7" Content="Finals" IsChecked="{Binding ShouldExportMixedFinals}"/>
-
-                        <Grid Grid.Row="1" Grid.RowSpan="3" Grid.Column="8" Background="gray" Margin="2"/>
-
-                        <Label Grid.Row="1" Grid.Column="9" Content="Coop" Grid.ColumnSpan="2"/>
-                        <CheckBox Grid.Row="2" Grid.Column="9"  Content="Prelims" IsChecked="{Binding ShouldExportCoopPrelims}"/>
-                        <CheckBox Grid.Row="2" Grid.Column="10" Content="Quarters" IsChecked="{Binding ShouldExportCoopQuarters}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="9" Content="Semis" IsChecked="{Binding ShouldExportCoopSemis}"/>
-                        <CheckBox Grid.Row="3" Grid.Column="10" Content="Finals" IsChecked="{Binding ShouldExportCoopFinals}"/>
-
-                    </Grid>
-
-                    <Grid Grid.Row="3">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
 
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="Auto"/>
-                            </Grid.ColumnDefinitions>
-
-                            <Label Content="Step 3a - Export to Florian Hess's Excel Doc" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" Background="PaleTurquoise" HorizontalContentAlignment="Center"/>
-
-                            <Label Grid.Row="1" Content="Original Excel Sheet:"/>
-                            <TextBox Grid.Row="1" Grid.Column="1" Name="ExcelTemplatePathText" Text="{Binding ExcelTemplatePath}" VerticalContentAlignment="Center"/>
-                            <Button Grid.Row="1" Content="Browse ..." Grid.Column="2" MinHeight="25" MinWidth="80" Click="BrowseExcelTemplate_Click"/>
-
-                            <Button Grid.Row="2" Grid.ColumnSpan="3" Content="Export" Click="ExportExcel_Click"/>
-                        </Grid>
-
-                        <GridSplitter Grid.Column="1" Grid.RowSpan="2" Width="5" HorizontalAlignment="Stretch" Background="Gainsboro"/>
-
-                        <Grid Grid.Column="2">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-
-                            <Label Content="Step 3b - Export to Ryan Young's Electronic Judging" HorizontalAlignment="Stretch" Background="PaleTurquoise" HorizontalContentAlignment="Center"/>
-
-                            <Button Grid.Row="1" Content="Export" Click="ExportToLisaHelper_Click"/>
-                        </Grid>
-
-                        <GridSplitter Grid.Column="3" Grid.RowSpan="2" Width="5" HorizontalAlignment="Stretch" Background="Gainsboro"/>
-
-                        <Grid Grid.Column="4">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-
-                            <Label Content="Step 3c - Export to Ryan Young's Potlatch Judging" HorizontalAlignment="Stretch" Background="PaleTurquoise" HorizontalContentAlignment="Center"/>
-
-                            <Button Grid.Row="1" Content="Export" Click="ExportToPotlatch_Click"/>
-                        </Grid>
-
-                        <Grid Grid.Row="1">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-
-                            <Label Content="Step 3d - Export to Dial Judger" HorizontalAlignment="Stretch" Background="PaleTurquoise" HorizontalContentAlignment="Center"/>
-
-                            <Button Grid.Row="2" Grid.ColumnSpan="3" Content="Generate" Click="ExportDialJudger_Click"/>
-                        </Grid>
-
-                        <Grid Grid.Row="1" Grid.Column="2">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-
-                            <Label Grid.ColumnSpan="2" Content="Step 3e - Export to Complete Judging" HorizontalAlignment="Stretch" Background="PaleTurquoise" HorizontalContentAlignment="Center"/>
-
-                            <Button Grid.Row="2" Content="Upload Dev" Click="UploadDevCompleteJudging_Click"/>
-                            <Button Grid.Row="2" Grid.Column="1" Content="Upload Prod" Click="UploadProdCompleteJudging_Click"/>
-                        </Grid>
-
-                        <Grid Grid.Row="1" Grid.Column="4">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-                        </Grid>
+                        <Button Content="Upload Dev" Click="UploadDevCompleteJudging_Click"/>
+                        <Button Grid.Column="1" Content="Upload Prod" Click="UploadProdCompleteJudging_Click"/>
                     </Grid>
 
-
-                    <ScrollViewer Grid.Row="4" VerticalScrollBarVisibility="Auto">
+                    <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
                         <TextBox AcceptsReturn="True" IsReadOnly="True" Text="{Binding ExportOutputTextBox, UpdateSourceTrigger=PropertyChanged}"/>
                     </ScrollViewer>
                 </Grid>
