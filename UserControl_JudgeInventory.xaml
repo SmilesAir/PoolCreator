@@ -92,11 +92,11 @@
                                         <Label Grid.Column="3" Content="{Binding TimeToNextCompete}" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"/>
                                         <Label Grid.Column="4" Content="{Binding CountryOfOrigin}" HorizontalContentAlignment="Center" HorizontalAlignment="Stretch"/>
 
-                                        <Button Grid.Column="5" Content="Ex" IsEnabled="{Binding ButtonAEnabled}" Tag="{Binding}" Click="AddJudgePool1_Click"/>
-                                        <Button Grid.Column="6" Content="Ai" IsEnabled="{Binding ButtonAEnabled}" Tag="{Binding}" Click="AddJudgePool1_Click"/>
+                                        <Button Grid.Column="5" Content="ExAi" IsEnabled="{Binding ButtonAEnabled}" Tag="{Binding}" Click="AddJudgePool1_Click"/>
+                                        <Button Grid.Column="6" Content="Variety" IsEnabled="{Binding ButtonAEnabled}" Tag="{Binding}" Click="AddJudgePool1_Click"/>
                                         <Button Grid.Column="7" Content="Diff" IsEnabled="{Binding ButtonAEnabled}" Tag="{Binding}" Margin="0,0,2,0" Click="AddJudgePool1_Click"/>
-                                        <Button Grid.Column="8" Content="Ex" IsEnabled="{Binding ButtonBEnabled}" Tag="{Binding}" Margin="2,0,0,0" Click="AddJudgePool2_Click"/>
-                                        <Button Grid.Column="9" Content="Ai" IsEnabled="{Binding ButtonBEnabled}" Tag="{Binding}" Click="AddJudgePool2_Click"/>
+                                        <Button Grid.Column="8" Content="ExAi" IsEnabled="{Binding ButtonBEnabled}" Tag="{Binding}" Margin="2,0,0,0" Click="AddJudgePool2_Click"/>
+                                        <Button Grid.Column="9" Content="Variety" IsEnabled="{Binding ButtonBEnabled}" Tag="{Binding}" Click="AddJudgePool2_Click"/>
                                         <Button Grid.Column="10" Content="Diff" IsEnabled="{Binding ButtonBEnabled}" Tag="{Binding}" Click="AddJudgePool2_Click"/>
                                     </Grid>
                                 </Border>

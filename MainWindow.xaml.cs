@@ -220,20 +220,20 @@ namespace PoolCreator
 
 		EJudgeCategory GetJudgeCategory(string str)
 		{
-			if (str.StartsWith("Ex"))
+			if (str.StartsWith("ExAi"))
 			{
-				return EJudgeCategory.Execution;
+				return EJudgeCategory.ExAi;
 			}
-			else if (str.StartsWith("AI"))
+			else if (str.StartsWith("Variety"))
 			{
-				return EJudgeCategory.ArtisticImpression;
+				return EJudgeCategory.Variety;
 			}
 			else if (str.StartsWith("Diff"))
 			{
 				return EJudgeCategory.Difficulty;
 			}
 
-			return EJudgeCategory.Execution;
+			return EJudgeCategory.ExAi;
 		}
 
 		void ImportJudges(TournamentData importedData, DivisionData divisionData, PoolData poolData, XmlNode node)

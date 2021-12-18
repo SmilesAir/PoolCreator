@@ -261,14 +261,14 @@ namespace PoolCreator
 
 		private void AddJudge(JudgeInventoryItemData judge, string buttonContent, int controlIndex)
 		{
-			EJudgeCategory category = EJudgeCategory.Execution;
+			EJudgeCategory category = EJudgeCategory.ExAi;
 			switch (buttonContent)
 			{
-				case "Ex":
-					category = EJudgeCategory.Execution;
+				case "ExAi":
+					category = EJudgeCategory.ExAi;
 					break;
-				case "Ai":
-					category = EJudgeCategory.ArtisticImpression;
+				case "Variety":
+					category = EJudgeCategory.Variety;
 					break;
 				case "Diff":
 					category = EJudgeCategory.Difficulty;

@@ -934,9 +934,9 @@ namespace PoolCreator
 		{
 			switch (category)
 			{
-				case EJudgeCategory.Execution:
+				case EJudgeCategory.ExAi:
 					return JudgeExists(judge, ref judgesEx);
-				case EJudgeCategory.ArtisticImpression:
+				case EJudgeCategory.Variety:
 					return JudgeExists(judge, ref judgesAi);
 				case EJudgeCategory.Difficulty:
 					return JudgeExists(judge, ref judgesDiff);
@@ -967,10 +967,10 @@ namespace PoolCreator
 
 			switch (category)
 			{
-				case EJudgeCategory.Execution:
+				case EJudgeCategory.ExAi:
 					judgesEx.Add(judge);
 					break;
-				case EJudgeCategory.ArtisticImpression:
+				case EJudgeCategory.Variety:
 					judgesAi.Add(judge);
 					break;
 				case EJudgeCategory.Difficulty:
@@ -1001,8 +1001,8 @@ namespace PoolCreator
 
 		public bool Contains(RegisteredPlayer judge)
 		{
-			return JudgeExists(judge, EJudgeCategory.Execution) ||
-				JudgeExists(judge, EJudgeCategory.ArtisticImpression) ||
+			return JudgeExists(judge, EJudgeCategory.ExAi) ||
+				JudgeExists(judge, EJudgeCategory.Variety) ||
 				JudgeExists(judge, EJudgeCategory.Difficulty);
 		}
 
@@ -1014,8 +1014,8 @@ namespace PoolCreator
 
 	public enum EJudgeCategory
 	{
-		Execution,
-		ArtisticImpression,
+		ExAi,
+		Variety,
 		Difficulty
 	}
 }

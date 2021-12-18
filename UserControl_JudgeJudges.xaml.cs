@@ -120,10 +120,10 @@ namespace PoolCreator
 			{
 				switch (category)
 				{
-					case EJudgeCategory.Execution:
+					case EJudgeCategory.ExAi:
 						judgesExAi.Add(judge);
 						break;
-					case EJudgeCategory.ArtisticImpression:
+					case EJudgeCategory.Variety:
 						judgesVariety.Add(judge);
 						break;
 					case EJudgeCategory.Difficulty:
