@@ -146,7 +146,7 @@ namespace PoolCreator
 					string nameClass = "xl1530694";
 					string countryClass = "xl6619937";
 					string pointsClass = "xl6330694";
-					string maleTag = "<td class=xl6614882>m</td>";
+					string maleTag = "<td class=xl669067>m</td>";
 					while ((line = textStream.ReadLine()) != null)
 					{
 						line = line.Trim();
