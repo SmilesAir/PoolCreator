@@ -75,6 +75,8 @@ namespace PoolCreator
 		{
 			if (IsLoaded)
 			{
+				tournamentData.SaveToDisk();
+
 				TabControl tabControl = sender as TabControl;
 				if (tabControl.SelectedIndex == 3)
 				{

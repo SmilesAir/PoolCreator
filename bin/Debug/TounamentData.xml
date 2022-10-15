@@ -676,6 +676,7 @@
           <maxTeams>8</maxTeams>
         </RoundData>
       </rounds>
+      <headJudge>asdf5</headJudge>
     </DivisionData>
     <DivisionData>
       <division>Mixed</division>

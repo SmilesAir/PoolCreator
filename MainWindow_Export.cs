@@ -206,6 +206,8 @@ namespace PoolCreator
 
 		private void UploadDevCompleteJudging_Click(object sender, RoutedEventArgs e)
 		{
+			tournamentData.SaveToDisk();
+
 			string jsonStr = JsonConvert.SerializeObject(tournamentData);
 			byte[] buffer = System.Text.Encoding.UTF8.GetBytes(jsonStr);
 			ByteArrayContent byteContent = new ByteArrayContent(buffer);
@@ -225,6 +227,8 @@ namespace PoolCreator
 
 		private void UploadProdCompleteJudging_Click(object sender, RoutedEventArgs e)
 		{
+			tournamentData.SaveToDisk();
+
 			string jsonStr = JsonConvert.SerializeObject(tournamentData);
 			byte[] buffer = System.Text.Encoding.UTF8.GetBytes(jsonStr);
 			ByteArrayContent byteContent = new ByteArrayContent(buffer);
