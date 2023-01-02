@@ -18,6 +18,7 @@ using System.Xml.Serialization;
 using System.Xml;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
+using Newtonsoft.Json;
 
 namespace PoolCreator
 {
@@ -29,6 +30,8 @@ namespace PoolCreator
 		string playerRankingSaveFilename = System.AppDomain.CurrentDomain.BaseDirectory + "\\PlayerRankings.xml";
 		PlayerRankingData playerRankingData = new PlayerRankingData();
 		List<PlayerRanking> asyncRetrievedPlayerRankings = new List<PlayerRanking>();
+		PlayerNamesData playerNamesData = new PlayerNamesData();
+		PointsData pointsData = new PointsData();
 
 		private void InitPlayerRankings()
 		{
@@ -105,11 +108,88 @@ namespace PoolCreator
 			LastUpdatedLabel.Content = "Querying internet for rankings.  May take up to 15 seconds.";
 			playerRankingData.playerRankings.Clear();
 
+			QueryMicroserviceRankings();
+		}
+
+		private void QueryMicroserviceRankings()
+		{
 			BackgroundWorker getRankingsWorker = new BackgroundWorker();
-			string url = RankingsURL.Text;
-			string womenUrl = WomenRankingsURL.Text;
+			string playersUrl = PlayersURL.Text;
+			string pointsUrl = PointsURL.Text;
 			asyncRetrievedPlayerRankings.Clear();
-			getRankingsWorker.DoWork += delegate { GetRankingsWorker_DoWork(url, true); };
+			getRankingsWorker.DoWork += delegate { QueryMicroserviceRankings_DoWork(playersUrl, pointsUrl); };
+			getRankingsWorker.RunWorkerCompleted += delegate { GetRankingsWorker_RunWorkerCompleted(); };
+			getRankingsWorker.RunWorkerAsync();
+		}
+
+		private void QueryMicroserviceRankings_DoWork(string playersUrl, string pointsUrl)
+		{
+			using (WebClient client = new WebClient())
+			{
+				string json = client.DownloadString(playersUrl);
+				using (StringReader textStream = new StringReader(json))
+				{
+					string jsonString = textStream.ReadToEnd();
+					playerNamesData = JsonConvert.DeserializeObject<PlayerNamesData>(jsonString);
+				}
+			}
+
+			using (WebClient client = new WebClient())
+			{
+				string json = client.DownloadString(pointsUrl);
+				using (StringReader textStream = new StringReader(json))
+				{
+					string jsonString = textStream.ReadToEnd();
+					pointsData = JsonConvert.DeserializeObject<PointsData>(jsonString);
+				}
+			}
+
+			int rank = 1;
+			foreach (PointsPlayerData player in pointsData.data["ranking-open"])
+			{
+				PlayerNameData playerNameData = playerNamesData.players[player.id];
+				PlayerRanking newPlayer = new PlayerRanking();
+				newPlayer.key = player.id;
+				newPlayer.firstName = playerNameData.firstName;
+				newPlayer.lastName = playerNameData.lastName;
+				newPlayer.country = playerNameData.country;
+				newPlayer.isMale = playerNameData.gender == "M" || playerNameData.gender == "X";
+				newPlayer.points = player.points;
+				newPlayer.rank = rank;
+				asyncRetrievedPlayerRankings.Add(newPlayer);
+				++rank;
+			}
+
+			foreach (PointsPlayerData player in pointsData.data["ranking-women"])
+			{
+				PlayerNameData playerNameData = playerNamesData.players[player.id];
+
+				PlayerRanking foundPlayer = asyncRetrievedPlayerRankings.Find(p => p.key == player.id);
+				if (foundPlayer != null)
+				{
+					foundPlayer.womenPoints = player.points;
+					foundPlayer.isMale = false;
+				}
+				else
+				{
+					PlayerRanking newPlayer = new PlayerRanking();
+					newPlayer.firstName = playerNameData.firstName;
+					newPlayer.lastName = playerNameData.lastName;
+					newPlayer.country = playerNameData.country;
+					newPlayer.isMale = false;
+					newPlayer.womenPoints = player.points;
+					asyncRetrievedPlayerRankings.Add(newPlayer);
+				}
+			}
+		}
+
+		private void QueryExcelRankings()
+		{
+			BackgroundWorker getRankingsWorker = new BackgroundWorker();
+			string openUrl = ""; // RankingsURL.Text;
+			string womenUrl = ""; // WomenRankingsURL.Text;
+			asyncRetrievedPlayerRankings.Clear();
+			getRankingsWorker.DoWork += delegate { GetRankingsWorker_DoWork(openUrl, true); };
 			getRankingsWorker.DoWork += delegate { GetRankingsWorker_DoWork(womenUrl, false); };
 			getRankingsWorker.RunWorkerCompleted += delegate { GetRankingsWorker_RunWorkerCompleted(); };
 			getRankingsWorker.RunWorkerAsync();
@@ -286,6 +366,7 @@ namespace PoolCreator
 
 	public class PlayerRanking : INotifyPropertyChanged
 	{
+		public string key;
 		public string firstName;
 		public string lastName;
 		public string country;
@@ -323,6 +404,42 @@ namespace PoolCreator
 				handler(this, new PropertyChangedEventArgs(name));
 			}
 		}
+	};
+
+	public class PlayerNameData
+	{
+		public string key;
+		public Int64 createdAt;
+		public Int64 lastActive;
+		public string firstName;
+		public string lastName;
+		public string gender;
+		public string membership;
+		public string country;
+	};
+
+	public class PlayerNamesData
+	{
+		public Dictionary<string, PlayerNameData> players = new Dictionary<string, PlayerNameData>();
+	};
+
+	public class PointsEventDetailsData
+	{
+		public float points;
+		public string resultsId;
+	}
+
+	public class PointsPlayerData
+	{
+		public string fullName;
+		public string id;
+		public float points;
+		public List<PointsEventDetailsData> pointsList;
+	};
+
+	public class PointsData
+	{
+		public Dictionary<string, List<PointsPlayerData>> data = new Dictionary<string, List<PointsPlayerData>>();
 	};
 }
 

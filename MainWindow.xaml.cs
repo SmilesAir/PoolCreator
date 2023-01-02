@@ -172,6 +172,9 @@ namespace PoolCreator
 				propNode = propNode.NextSibling;
 				newName.LastName = propNode.FirstChild.Value;
 
+				propNode = propNode.NextSibling;
+				newName.Key = propNode.FirstChild.Value;
+
 				TournamentData.importedNames.Add(newName);
 			}
 		}

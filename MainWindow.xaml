@@ -71,11 +71,11 @@
                                 <RowDefinition Height="Auto"/>
                             </Grid.RowDefinitions>
 
-                            <Label Content="Open Rankings URL:" Grid.Column="0"/>
-                            <TextBox Name="RankingsURL" Text="http://koljah.de/freestylediscrankings/currentopen.htm" Grid.Column="1" VerticalContentAlignment="Center" TextChanged="RankingsURL_TextChanged"/>
+                            <Label Content="Players URL:" Grid.Column="0"/>
+                            <TextBox Name="PlayersURL" Text="https://4wnda3jb78.execute-api.us-west-2.amazonaws.com/production/getAllPlayers" Grid.Column="1" VerticalContentAlignment="Center" TextChanged="RankingsURL_TextChanged"/>
 
-                            <Label Grid.Row="1" Content="Women Rankings URL:" Grid.Column="0"/>
-                            <TextBox Grid.Row="1" Name="WomenRankingsURL" Text="http://koljah.de/freestylediscrankings/currentwomen.htm" Grid.Column="1" VerticalContentAlignment="Center" TextChanged="RankingsURL_TextChanged"/>
+                            <Label Grid.Row="1" Content="Points URL:" Grid.Column="0"/>
+                            <TextBox Grid.Row="1" Name="PointsURL" Text="https://kvq5a3et4b.execute-api.us-west-2.amazonaws.com/production/downloadLatestPointsData" Grid.Column="1" VerticalContentAlignment="Center" TextChanged="RankingsURL_TextChanged"/>
                         </Grid>
 
                         <Grid Grid.Row="1">
@@ -706,10 +706,12 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="*"/>
-                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="5*"/>
                     </Grid.RowDefinitions>
                     
-                    <Label Content="Step 1 - Export To Complete Judging" HorizontalAlignment="Stretch" Background="LightSteelBlue" HorizontalContentAlignment="Center"/>
+                    <Label Content="Option 1 - Export To Complete Judging" HorizontalAlignment="Stretch" Background="LightSteelBlue" HorizontalContentAlignment="Center"/>
 
                     <Grid Grid.Row="1">
                         <Grid.RowDefinitions>
@@ -724,7 +726,22 @@
                         <Button Grid.Column="1" Content="Upload Prod" Click="UploadProdCompleteJudging_Click"/>
                     </Grid>
 
-                    <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+                    <Label Grid.Row="2" Content="Option 2 - Export To V3" HorizontalAlignment="Stretch" Background="LightSteelBlue" HorizontalContentAlignment="Center"/>
+
+                    <Grid Grid.Row="3">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Content="Upload Dev" Click="UploadDevV3_Click"/>
+                        <Button Grid.Column="1" Content="Upload Prod" Click="UploadProdV3_Click"/>
+                    </Grid>
+
+                    <ScrollViewer Grid.Row="4" VerticalScrollBarVisibility="Auto">
                         <TextBox AcceptsReturn="True" IsReadOnly="True" Text="{Binding ExportOutputTextBox, UpdateSourceTrigger=PropertyChanged}"/>
                     </ScrollViewer>
                 </Grid>

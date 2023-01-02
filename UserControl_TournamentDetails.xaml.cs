@@ -1,7 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,6 +24,8 @@ namespace PoolCreator
 	/// </summary>
 	public partial class UserControl_TournamentDetails : UserControl, INotifyPropertyChanged
 	{
+		public EventData eventData = new EventData();
+
 		public event PropertyChangedEventHandler PropertyChanged;
 		protected void OnPropertyChanged(string name)
 		{
@@ -38,6 +43,8 @@ namespace PoolCreator
 			set
 			{
 				parentWindow.tournamentData.TournamentName = value;
+				EventSummaryData eventSummaryData = eventData.allEventSummaryData.FirstOrDefault(x => x.Value.eventName == value).Value;
+				parentWindow.tournamentData.EventKey = eventSummaryData != null ? eventSummaryData.key : "";
 				OnPropertyChanged("TournamentName");
 			}
 		}
@@ -62,10 +69,48 @@ namespace PoolCreator
 
 			TournamentDetailsGrid.DataContext = this;
 
+			QueryEventData();
+
 			WomenDetails.Init(inParentWindow);
 			OpenDetails.Init(inParentWindow);
 			MixedDetails.Init(inParentWindow);
 			CoopDetails.Init(inParentWindow);
 		}
+
+		private void QueryEventData()
+		{
+			BackgroundWorker getRankingsWorker = new BackgroundWorker();
+			getRankingsWorker.DoWork += delegate { QueryMicroserviceRankings_DoWork(); };
+			getRankingsWorker.RunWorkerAsync();
+		}
+
+		private void QueryMicroserviceRankings_DoWork()
+		{
+			using (WebClient client = new WebClient())
+			{
+				string json = client.DownloadString("https://wyach4oti8.execute-api.us-west-2.amazonaws.com/production/getAllEvents");
+				using (StringReader textStream = new StringReader(json))
+				{
+					string jsonString = textStream.ReadToEnd();
+
+					eventData = JsonConvert.DeserializeObject<EventData>(jsonString);
+				}
+			}
+
+		}
 	}
+
+	public class EventSummaryData
+	{
+		public string key;
+		public Int64 createdAt;
+		public string eventName;
+		public string startDate;
+		public string endDate;
+	};
+
+	public class EventData
+	{
+		public Dictionary<string, EventSummaryData> allEventSummaryData = new Dictionary<string, EventSummaryData>();
+	};
 }

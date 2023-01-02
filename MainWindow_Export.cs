@@ -246,6 +246,45 @@ namespace PoolCreator
 			InvokeAppendOutputLine("Finished");
 		}
 
+		private void UploadDevV3_Click(object sender, RoutedEventArgs e)
+		{
+			tournamentData.SaveToDisk();
+
+			string jsonStr = JsonConvert.SerializeObject(tournamentData);
+			byte[] buffer = System.Text.Encoding.UTF8.GetBytes(jsonStr);
+			ByteArrayContent byteContent = new ByteArrayContent(buffer);
+			byteContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+			ExportOutputTextBox = "";
+
+			using (HttpClient httpClient = new HttpClient())
+			{
+				httpClient.DefaultRequestHeaders.Accept.Add(
+				   new MediaTypeWithQualityHeaderValue("application/json"));
+
+				httpClient.BaseAddress = new Uri("https://8er0vxrmr4.execute-api.us-west-2.amazonaws.com/development/");
+
+				HttpResponseMessage response = httpClient.PostAsync($"importEventFromPoolCreator/{tournamentData.EventKey}", byteContent).Result;
+
+				response.Content.ReadAsStringAsync().Wait();
+				InvokeAppendOutputLine(response.Content.ReadAsStringAsync().Result);
+			}
+
+			jsonStr = "";
+
+			
+			//InvokeAppendOutputLine("Uploaded to V3 Dev at " + DateTime.Now.ToString());
+
+			//OutputLinks(true);
+
+			InvokeAppendOutputLine("Finished");
+		}
+
+		private void UploadProdV3_Click(object sender, RoutedEventArgs e)
+		{
+
+		}
+
 		private void OutputLinks(bool isProd)
 		{
 			string endpointStr = isProd ? "d5rsjgoyn07f8" : "d27wqtus28jqqk";

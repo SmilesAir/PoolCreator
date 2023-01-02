@@ -144,6 +144,7 @@ namespace PoolCreator
 
 	public class PotentialPlayer
 	{
+		public string key { get; set; }
 		public string firstName { get; set; }
 		public string lastName { get; set; }
 		public float points { get; set; }
@@ -162,6 +163,7 @@ namespace PoolCreator
 		}
 		public PotentialPlayer(PlayerRanking pr, bool inbExactMatch)
 		{
+			key = pr.key;
 			firstName = pr.firstName;
 			lastName = pr.lastName;
 			points = pr.points;
@@ -171,6 +173,7 @@ namespace PoolCreator
 		}
 		public PotentialPlayer(RegisteredPlayer rp, bool inbExactMatch)
 		{
+			key = rp.key;
 			firstName = rp.firstName;
 			lastName = rp.lastName;
 			points = rp.points;

@@ -252,6 +252,7 @@ namespace PoolCreator
 
 	public class ImportedName
 	{
+		public string Key;
 		public int Id;
 		public string FirstName;
 		public string LastName;
@@ -260,8 +261,9 @@ namespace PoolCreator
         {
         }
 
-        public ImportedName(int inId, string inFirstName, string inLastName)
+        public ImportedName(int inId, string inFirstName, string inLastName, string key)
         {
+			Key = key;
             Id = inId;
             FirstName = inFirstName;
             LastName = inLastName;
@@ -283,6 +285,7 @@ namespace PoolCreator
 
 		public string TournamentName;
 		public string TournamentSubtitle;
+		public string EventKey;
 
 		public string exportPath = @"C:\Users\Ryan\Desktop\PoolCreator\Export";
 		public string excelTemplatePath = @"C:\Users\Ryan\Desktop\PoolCreator\Export\Scoresheets_2.10.xlsm";
@@ -540,7 +543,7 @@ namespace PoolCreator
 					}
 					else
 					{
-						outRegisteredPlayer = new RegisteredPlayer(name.FirstName, name.LastName, 0, 0);
+						outRegisteredPlayer = new RegisteredPlayer(name.FirstName, name.LastName, 0, 0, name.Key);
 						AddRegisteredPlayer(outRegisteredPlayer);
 
 						return true;

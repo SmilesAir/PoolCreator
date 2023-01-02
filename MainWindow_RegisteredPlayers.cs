@@ -90,6 +90,7 @@ namespace PoolCreator
 
 	public class RegisteredPlayer
 	{
+		public string key { get; set; }
 		public string firstName { get; set; }
 		public string lastName { get; set; }
 		public string country { get; set; }
@@ -103,7 +104,7 @@ namespace PoolCreator
 		public string FullNameAndRank { get { return FullName + " #" + rank; } }
 
 		public RegisteredPlayer() { }
-		public RegisteredPlayer(string inFirstName, string inLastName, float inPoints, int inRank)
+		public RegisteredPlayer(string inFirstName, string inLastName, float inPoints, int inRank, string key)
 		{
 			firstName = inFirstName;
 			lastName = inLastName;
@@ -120,6 +121,7 @@ namespace PoolCreator
 		}
 		public RegisteredPlayer(PlayerRanking player)
 		{
+			key = player.key;
 			firstName = player.firstName;
 			lastName = player.lastName;
 			country = player.country;
