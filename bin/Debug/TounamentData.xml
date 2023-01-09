@@ -274,6 +274,34 @@
           <TeamData>
             <players>
               <RegisteredPlayer>
+                <key>f3c2e960-a287-4f4e-b2f9-4600ad8a1dea</key>
+                <firstName>Andrea</firstName>
+                <lastName>Izzo</lastName>
+                <country>ITA</country>
+                <points>334</points>
+                <womenPoints>0</womenPoints>
+                <rank>24</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>true</isMale>
+              </RegisteredPlayer>
+              <RegisteredPlayer>
+                <key>17b48baf-7113-4bfe-b743-255681b35db4</key>
+                <firstName>Mattia</firstName>
+                <lastName>Lambertini</lastName>
+                <country>ITA</country>
+                <points>358</points>
+                <womenPoints>0</womenPoints>
+                <rank>23</rank>
+                <totalJudgingCount>0</totalJudgingCount>
+                <isMale>true</isMale>
+              </RegisteredPlayer>
+            </players>
+            <OverlayDragState>Normal</OverlayDragState>
+            <WildCardIndex>-1</WildCardIndex>
+          </TeamData>
+          <TeamData>
+            <players>
+              <RegisteredPlayer>
                 <key>8cebb3a1-73ed-4eb2-a160-f12069a5da58</key>
                 <firstName>Daniel</firstName>
                 <lastName>O'Neill</lastName>
@@ -340,34 +368,6 @@
                   <TeamData>
                     <players>
                       <RegisteredPlayer>
-                        <key>8cebb3a1-73ed-4eb2-a160-f12069a5da58</key>
-                        <firstName>Daniel</firstName>
-                        <lastName>O'Neill</lastName>
-                        <country>USA</country>
-                        <points>1113</points>
-                        <womenPoints>0</womenPoints>
-                        <rank>4</rank>
-                        <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>true</isMale>
-                      </RegisteredPlayer>
-                      <RegisteredPlayer>
-                        <key>1993e4e6-5215-4080-ac1d-932211fe35c0</key>
-                        <firstName>Mehrdad</firstName>
-                        <lastName>Hosseinian</lastName>
-                        <country>GER</country>
-                        <points>1636</points>
-                        <womenPoints>0</womenPoints>
-                        <rank>2</rank>
-                        <totalJudgingCount>0</totalJudgingCount>
-                        <isMale>true</isMale>
-                      </RegisteredPlayer>
-                    </players>
-                    <OverlayDragState>Normal</OverlayDragState>
-                    <WildCardIndex>-1</WildCardIndex>
-                  </TeamData>
-                  <TeamData>
-                    <players>
-                      <RegisteredPlayer>
                         <key>fbf9401b-08b2-425d-9201-240038699893</key>
                         <firstName>Ryan</firstName>
                         <lastName>Young</lastName>
@@ -386,6 +386,34 @@
                         <points>2114</points>
                         <womenPoints>0</womenPoints>
                         <rank>1</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>true</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <key>8cebb3a1-73ed-4eb2-a160-f12069a5da58</key>
+                        <firstName>Daniel</firstName>
+                        <lastName>O'Neill</lastName>
+                        <country>USA</country>
+                        <points>1113</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>4</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>true</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <key>1993e4e6-5215-4080-ac1d-932211fe35c0</key>
+                        <firstName>Mehrdad</firstName>
+                        <lastName>Hosseinian</lastName>
+                        <country>GER</country>
+                        <points>1636</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>2</rank>
                         <totalJudgingCount>0</totalJudgingCount>
                         <isMale>true</isMale>
                       </RegisteredPlayer>
@@ -483,7 +511,36 @@
             <PoolData>
               <pool>A</pool>
               <teamList>
-                <teams />
+                <teams>
+                  <TeamData>
+                    <players>
+                      <RegisteredPlayer>
+                        <key>f3c2e960-a287-4f4e-b2f9-4600ad8a1dea</key>
+                        <firstName>Andrea</firstName>
+                        <lastName>Izzo</lastName>
+                        <country>ITA</country>
+                        <points>334</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>24</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>true</isMale>
+                      </RegisteredPlayer>
+                      <RegisteredPlayer>
+                        <key>17b48baf-7113-4bfe-b743-255681b35db4</key>
+                        <firstName>Mattia</firstName>
+                        <lastName>Lambertini</lastName>
+                        <country>ITA</country>
+                        <points>358</points>
+                        <womenPoints>0</womenPoints>
+                        <rank>23</rank>
+                        <totalJudgingCount>0</totalJudgingCount>
+                        <isMale>true</isMale>
+                      </RegisteredPlayer>
+                    </players>
+                    <OverlayDragState>Normal</OverlayDragState>
+                    <WildCardIndex>-1</WildCardIndex>
+                  </TeamData>
+                </teams>
               </teamList>
               <resultRank />
               <judgesData>
